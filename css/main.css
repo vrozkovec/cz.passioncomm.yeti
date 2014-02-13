@@ -10,19 +10,20 @@
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 * {
-  font-size: x-large;
+  font-size: large;
 }
 .navbar-passion {
-  background: #e6e6e6;
+  background: white;
   font-family: 'Open Sans', sans-serif;
 }
 .navbar-passion .navbar-nav > li > a {
   text-align: center;
   color: #f7931e;
+  line-height: 25px;
 }
 .navbar-passion .navbar-nav > li > a .badge {
   vertical-align: middle;
-  padding: 5px 8px;
+  padding: 3px 5px;
   border: solid 1px white;
   background: black;
   color: white;
@@ -32,7 +33,7 @@
   -webkit-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
-  font-size: 17px;
+  font-size: 12px;
 }
 .navbar-passion .navbar-nav > li.active > a {
   color: black;
@@ -70,7 +71,7 @@
   color: #da7908;
 }
 .navbar-passion .navbar-header .navbar-toggle.collapsed {
-  margin-top: 18px;
+  margin-top: 15px;
   background-color: white;
   padding: inherit;
   -webkit-border-top-right-radius: 0;
@@ -96,30 +97,33 @@
 .navbar-passion .navbar-header .navbar-toggle.collapsed i {
   display: none;
 }
-.navbar-passion .navbar-header .langswitcher {
-  margin-left: 12px;
-  display: inline-block;
-  float: left;
+.navbar-passion .navbar-header .nav {
+  margin: 0 0 0 12px;
 }
-.navbar-passion .navbar-header .langswitcher .language {
-  margin-top: 3px;
+.navbar-passion .navbar-header .nav a {
+  margin-top: 0;
   display: inline-block;
   float: left;
+  height: auto;
   font-size: 18px;
-  line-height: 20px;
   padding: 15px 0;
   color: black;
 }
-.navbar-passion .navbar-header .langswitcher .language.active,
-.navbar-passion .navbar-header .langswitcher .language:hover,
-.navbar-passion .navbar-header .langswitcher .language:focus {
+.navbar-passion .navbar-header .nav a.active,
+.navbar-passion .navbar-header .nav a:hover,
+.navbar-passion .navbar-header .nav a:focus {
   text-decoration: none;
   font-weight: bold;
   border-bottom: solid 2px #e6e6e6;
 }
-.navbar-passion .navbar-header .langswitcher .language span {
+.navbar-passion .navbar-header .nav a span {
   padding: 0 15px;
 }
-.navbar-passion .navbar-header .langswitcher .language.cz span {
+.navbar-passion .navbar-header .nav a.cz span {
   border-right: solid 1px #e6e6e6;
+}
+@media (max-width: 767px) {
+  .navbar-passion {
+    background: #e6e6e6;
+  }
 }

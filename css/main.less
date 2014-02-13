@@ -8,26 +8,27 @@
 @passionOranzova: #f7931e;
 @pozadiMenu: #e6e6e6;
 * {
-	font-size: x-large;
+	font-size: large;
 }
 
 .navbar-passion {
-	background: @pozadiMenu;
+	background: white;
 	font-family: 'Open Sans', sans-serif;
 	.navbar-nav {
 		& > li {
 			& > a {
 				text-align: center;
 				color: @passionOranzova;
+				line-height: 25px;
 				.badge {
 					vertical-align: middle;
-					padding: 5px 8px;
+					padding: 3px 5px;
 					border: solid 1px white;
 					background: black;
 					color: white;
 					.rounded (15px);
 					.drop-shadow (2px , 2px , 1px , 0.2);
-					font-size: 17px;
+					font-size: 12px;
 				}
 			}
 
@@ -60,7 +61,7 @@
 		}
 
 		.navbar-toggle.collapsed {
-			margin-top: 18px;
+			margin-top: 15px;
 			background-color: white;
 			padding: inherit;
 			.border-radius ();
@@ -74,16 +75,14 @@
 			}
 		}
 
-		.langswitcher {
-			margin-left: 12px;
-			display: inline-block;
-			float: left;
-			.language {
-				margin-top: 3px;
+		.nav {
+			margin: 0 0 0 12px;
+			a {
+				margin-top: 0;
 				display: inline-block;
 				float: left;
+				height: auto;
 				font-size: 18px;
-				line-height: 20px;
 				padding: 15px 0;
 				color: black;
 				&.active , &:hover , &:focus {
@@ -110,5 +109,8 @@
 }
 
 @media (max-width: 767px) {
+	.navbar-passion {
+		background: @pozadiMenu;
+	}
 }
 
