@@ -1,0 +1,39 @@
+/*
+  Icon Font: passioncomm
+*/
+
+@font-face {
+  font-family: "passioncomm";
+  src: url("../fonts/passioncomm_a028d46478295ae956bdbbbf5b78f71b.eot");
+  src: url("../fonts/passioncomm_a028d46478295ae956bdbbbf5b78f71b.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/passioncomm_a028d46478295ae956bdbbbf5b78f71b.woff") format("woff"),
+       url("../fonts/passioncomm_a028d46478295ae956bdbbbf5b78f71b.ttf") format("truetype"),
+       url("../fonts/passioncomm_a028d46478295ae956bdbbbf5b78f71b.svg#passioncomm") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "passioncomm";
+    src: url("../fonts/passioncomm_a028d46478295ae956bdbbbf5b78f71b.svg#passioncomm") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-menuicon:before {
+  display: inline-block;
+  font-family: "passioncomm";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-menuicon:before { content: "\f100"; }

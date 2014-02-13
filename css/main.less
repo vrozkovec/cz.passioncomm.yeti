@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300&subset=latin,latin-ext);
+@import "elements.less";
+@import "../font-passioncomm/stylesheets/passioncomm.css";
+@passionOranzova: #f7931e;
+@pozadiMenu: #e6e6e6;
+* {
+	font-size: x-large;
+}
+
+.navbar-passion {
+	background: @pozadiMenu;
+	font-family: 'Open Sans', sans-serif;
+	.navbar-nav {
+		& > li {
+			& > a {
+				text-align: center;
+				color: @passionOranzova;
+				.badge {
+					vertical-align: middle;
+					padding: 5px 8px;
+					border: solid 1px white;
+					background: black;
+					color: white;
+					.rounded (15px);
+					.drop-shadow (2px , 2px , 1px , 0.2);
+					font-size: 17px;
+				}
+			}
+
+			&.active > a {
+				color: black;
+			}
+		}
+	}
+
+	.navbar-header {
+		background: white;
+		.navbar-toggle {
+			margin-top: -6px;
+			padding: 15px 9px 3px 9px;
+			background-color: @pozadiMenu;
+			.border-radius (0 , 10px , 0 , 0);
+			.icon-bar {
+				display: none;
+			}
+
+			i {
+				color: @passionOranzova;
+			}
+
+			&:hover {
+				i {
+					color: darken(@passionOranzova, 10%);
+				}
+			}
+		}
+
+		.navbar-toggle.collapsed {
+			margin-top: 18px;
+			background-color: white;
+			padding: inherit;
+			.border-radius ();
+			.icon-bar {
+				background-color: black;
+				display: block;
+			}
+
+			i {
+				display: none;
+			}
+		}
+
+		.langswitcher {
+			margin-left: 12px;
+			display: inline-block;
+			float: left;
+			.language {
+				margin-top: 3px;
+				display: inline-block;
+				float: left;
+				font-size: 18px;
+				line-height: 20px;
+				padding: 15px 0;
+				color: black;
+				&.active , &:hover , &:focus {
+					text-decoration: none;
+					font-weight: bold;
+					border-bottom: solid 2px @pozadiMenu;
+				}
+
+				span {
+					padding: 0 15px;
+				}
+
+				&.cz {
+					span {
+						border-right: solid 1px @pozadiMenu;
+					}
+				}
+			}
+
+			.navbar-brand {
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+}
+
