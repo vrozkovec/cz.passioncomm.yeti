@@ -13,15 +13,18 @@
   font-size: large;
 }
 .navbar-passion {
+  border: 0;
   background: white;
   font-family: 'Open Sans', sans-serif;
 }
-.navbar-passion .navbar-nav > li > a {
+.navbar-passion .main-menu .navbar-nav > li > a {
+  padding-left: 35px;
+  padding-right: 35px;
   text-align: center;
   color: #f7931e;
   line-height: 25px;
 }
-.navbar-passion .navbar-nav > li > a .badge {
+.navbar-passion .main-menu .navbar-nav > li > a .badge {
   vertical-align: middle;
   padding: 3px 5px;
   border: solid 1px white;
@@ -35,8 +38,12 @@
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
   font-size: 12px;
 }
-.navbar-passion .navbar-nav > li.active > a {
-  color: black;
+.navbar-passion .main-menu .navbar-nav > li:hover,
+.navbar-passion .main-menu .navbar-nav > li:focus {
+  border-bottom: solid 2px #e6e6e6;
+}
+.navbar-passion .main-menu .navbar-nav > li.active {
+  border-bottom: solid 2px black;
 }
 .navbar-passion .navbar-header {
   background: white;
@@ -97,33 +104,56 @@
 .navbar-passion .navbar-header .navbar-toggle.collapsed i {
   display: none;
 }
-.navbar-passion .navbar-header .nav {
+.navbar-passion .navbar-header .languages {
   margin: 0 0 0 12px;
 }
-.navbar-passion .navbar-header .nav a {
+.navbar-passion .navbar-header .languages > li.active > a {
+  color: black;
+}
+.navbar-passion .navbar-header .languages a {
   margin-top: 0;
   display: inline-block;
+  line-height: 25px;
   float: left;
   height: auto;
   font-size: 18px;
   padding: 15px 0;
   color: black;
 }
-.navbar-passion .navbar-header .nav a.active,
-.navbar-passion .navbar-header .nav a:hover,
-.navbar-passion .navbar-header .nav a:focus {
+.navbar-passion .navbar-header .languages a.active,
+.navbar-passion .navbar-header .languages a:hover,
+.navbar-passion .navbar-header .languages a:focus {
   text-decoration: none;
   font-weight: bold;
   border-bottom: solid 2px #e6e6e6;
 }
-.navbar-passion .navbar-header .nav a span {
+.navbar-passion .navbar-header .languages a span {
   padding: 0 15px;
 }
-.navbar-passion .navbar-header .nav a.cz span {
+.navbar-passion .navbar-header .languages a.cz span {
   border-right: solid 1px #e6e6e6;
+}
+@media (max-width: 992px) {
+  .navbar-passion .main-menu .navbar-nav > li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media (max-width: 767px) {
   .navbar-passion {
     background: #e6e6e6;
+  }
+  .navbar-passion .main-menu .navbar-nav > li {
+    border-bottom: none;
+  }
+  .navbar-passion .main-menu .navbar-nav > li.active,
+  .navbar-passion .main-menu .navbar-nav > li:hover,
+  .navbar-passion .main-menu .navbar-nav > li:focus {
+    border-bottom: none;
+  }
+  .navbar-passion .main-menu .navbar-nav > li.active a,
+  .navbar-passion .main-menu .navbar-nav > li:hover a,
+  .navbar-passion .main-menu .navbar-nav > li:focus a {
+    color: black;
   }
 }

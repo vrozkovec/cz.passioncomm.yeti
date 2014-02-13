@@ -5,58 +5,72 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300&subset=latin,latin-ext);
 @import "elements.less";
 @import "../font-passioncomm/stylesheets/passioncomm.css";
+
 @passionOranzova: #f7931e;
 @pozadiMenu: #e6e6e6;
+
+
+
+
 * {
 	font-size: large;
 }
 
 .navbar-passion {
+	
+	@linkLineHeight: 25px;
+	
+	border: 0;
 	background: white;
 	font-family: 'Open Sans', sans-serif;
-	.navbar-nav {
-		& > li {
-			& > a {
-				text-align: center;
-				color: @passionOranzova;
-				line-height: 25px;
-				.badge {
-					vertical-align: middle;
-					padding: 3px 5px;
-					border: solid 1px white;
-					background: black;
-					color: white;
-					.rounded (15px);
-					.drop-shadow (2px , 2px , 1px , 0.2);
-					font-size: 12px;
+	.main-menu {
+		.navbar-nav {
+			& > li {
+				& > a {
+					@menuLinkPadding: 35px;
+					padding-left: @menuLinkPadding;
+					padding-right: @menuLinkPadding;
+					text-align: center;
+					color: @passionOranzova;
+					line-height: @linkLineHeight;
+					
+					.badge {
+						vertical-align: middle;
+						padding: 3px 5px;
+						border: solid 1px white;
+						background: black;
+						color: white;
+						.rounded (15px);
+						.drop-shadow (2px , 2px , 1px , 0.2);
+						font-size: 12px;
+					}
 				}
-			}
-
-			&.active > a {
-				color: black;
+	
+				&:hover, &:focus {
+					border-bottom: solid 2px @pozadiMenu;
+				}
+				
+				&.active {
+					border-bottom: solid 2px black;
+				}
 			}
 		}
 	}
 
 	.navbar-header {
 		background: white;
+		
 		.navbar-toggle {
 			margin-top: -6px;
 			padding: 15px 9px 3px 9px;
 			background-color: @pozadiMenu;
 			.border-radius (0 , 10px , 0 , 0);
-			.icon-bar {
-				display: none;
-			}
+			.icon-bar { display: none; }
 
-			i {
-				color: @passionOranzova;
-			}
+			i { color: @passionOranzova;}
 
 			&:hover {
-				i {
-					color: darken(@passionOranzova, 10%);
-				}
+				i { color: darken(@passionOranzova, 10%); }
 			}
 		}
 
@@ -70,16 +84,19 @@
 				display: block;
 			}
 
-			i {
-				display: none;
-			}
+			i { display: none; }
 		}
 
-		.nav {
+		//styl jazyku
+		.languages {
+			& > li.active > a {
+				color: black;
+			}			
 			margin: 0 0 0 12px;
 			a {
 				margin-top: 0;
 				display: inline-block;
+				line-height: @linkLineHeight;
 				float: left;
 				height: auto;
 				font-size: 18px;
@@ -91,14 +108,10 @@
 					border-bottom: solid 2px @pozadiMenu;
 				}
 
-				span {
-					padding: 0 15px;
-				}
+				span { padding: 0 15px; }
 
 				&.cz {
-					span {
-						border-right: solid 1px @pozadiMenu;
-					}
+					span { border-right: solid 1px @pozadiMenu; }
 				}
 			}
 
@@ -108,9 +121,39 @@
 	}
 }
 
+@media (max-width: 992px) {
+	@menuLinkPadding: 20px;
+	.navbar-passion {
+			.main-menu {
+				.navbar-nav {
+					& > li {
+						& > a {
+							padding-left: @menuLinkPadding;
+							padding-right: @menuLinkPadding;
+						}
+					}
+				}
+			}
+		}
+}
+
 @media (max-width: 767px) {
 	.navbar-passion {
 		background: @pozadiMenu;
+		.main-menu {
+			.navbar-nav {
+				& > li {
+					border-bottom: none;
+					&.active, &:hover, &:focus {
+						border-bottom: none;
+						a {
+							color: black;
+						}
+					}
+				}
+			}
+		}
 	}
+	
 }
 
