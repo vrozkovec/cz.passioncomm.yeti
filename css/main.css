@@ -1573,10 +1573,13 @@
   background-color: #f17124;
   background-image: -webkit-radial-gradient(circle, #f6a06c, #f17124);
   background-image: radial-gradient(circle, #f6a06c, #f17124);
-  background-repeat: no-repeat;
   background-image: url("img/orangebck.png");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  /* The url is relative to the document, not to the css file! */
+  /* Prefer absolute urls to avoid confusion. */
+  -ms-behavior: url(/backgroundsize.min.htc);
   color: white;
   padding: 15px 20px 20px 20px;
   font-family: 'Open Sans', sans-serif;

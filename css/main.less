@@ -64,7 +64,11 @@
 			#gradient > .radial (lighten(@gradientColor, 15%); @gradientColor);
 			.retinaimg("orangebck", 205px, 205px);
 			background-position: center;
+			background-repeat: no-repeat;
 			background-size: cover;
+		    /* The url is relative to the document, not to the css file! */
+		    /* Prefer absolute urls to avoid confusion. */
+		    -ms-behavior: url(/backgroundsize.min.htc);			
 			color: white;
 			padding: 15px 20px 20px 20px;
 			font-family: 'Open Sans', sans-serif;
