@@ -2,19 +2,173 @@
    Author's custom styles
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic,300,400italic,600italic,700,700italic&subset=latin,latin-ext);
 @import "elements.less";
 @import "../font-passioncomm/stylesheets/passioncomm.css";
+@import "../font-awesome/less/font-awesome.less";
+@import "bootstrap/less/mixins.less";
 
 @passionOranzova: #f7931e;
 @pozadiMenu: #e6e6e6;
 
+.fa() {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.passion-rounded-border() {
+	.border-radius(0, 15px, 0, 15px);
+}
 
+.retinaimg(@image, @width, @height) {
+	
+	@imageDir: "img";
+	@retinaImageDir: "@{imageDir}/retina";
+	
+	@normalImage: "@{imageDir}/@{image}";
+	@retinaImage: "@{retinaImageDir}/@{image}";
+	
+	.img-retina(@normalImage, @retinaImage, @width, @height);
+}
 
 * {
 	font-size: large;
 }
+
+
+.tophead {
+	.retinaimg("tophead.png", 100%, 160px);
+	background-repeat: no-repeat;
+	background-position: top center;
+	.container {
+
+		@topHeight: 160px; 
+		height: @topHeight;
+
+		.logo {
+			@imgHeight: 100px;
+			.retinaimg("logo.png", 220px, @imgHeight);
+			height: @imgHeight;
+			margin-top: (@topHeight - @imgHeight) / 2;
+			background-repeat: no-repeat;
+			background-position: left center;
+		}
+		.slogan {
+			font-family: 'Open Sans', sans-serif;
+			color: white;
+			font-size: 25px;
+			font-weight: 300;
+			@lineHeight: 40px;
+			line-height: @lineHeight;
+			margin-top: (@topHeight - 2 * @lineHeight) / 2;
+		}
+	}
+}
+
+@infoblockHeight: 350px; 
+@infoblockBottomMargin: 20px; 
+@infoblockDoubleHeight: @infoblockHeight + @infoblockBottomMargin + @infoblockHeight; 
+
+.info-block {
+	
+	.orange-leaf {
+		.content {
+			@gradientColor: #F78D1E;
+			
+			#gradient > .radial(lighten(@gradientColor, 12%); @gradientColor);
+			
+			color: white;
+			
+			padding: 40px 25px 60px 20px;
+			
+			font-family: 'Open Sans', sans-serif;
+			
+			.passion-rounded-border();
+			
+			.quote {
+				font-style: italic;
+				font-weight: 300;
+				line-height: 45px;
+				margin-bottom: 30px;
+				font-size: 30px;
+			}
+	
+			p {
+				font-size: 14px;
+				text-align: right;
+				.quote-author {
+					&:before { content: "— "; }
+					font-weight: 600;
+					display: block;
+				}
+			}
+		}
+		
+		.shadow {
+			@imgHeight: 31px;
+			height: @imgHeight;
+			.retinaimg("shadow.png", 228px, @imgHeight);
+			background-repeat: no-repeat;
+			background-position: right top;
+		}
+	}
+	
+	&.full-orange-leaf {
+		.orange-leaf {
+			.content {
+				height: @infoblockHeight;
+			}
+		}
+	}
+
+		
+	&.text-leaf {
+		position: relative;
+	 	text-align: center;
+		height: @infoblockHeight;
+		overflow: hidden;
+		
+		.passion-rounded-border();
+		
+		img {
+			 .center-block();
+			.img-responsive();
+//			position: absolute;
+//			top: 0;
+		}
+		
+		.orange-leaf {
+			
+			
+			
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 10px;
+			.content {
+				h2 { margin: 0; font-size: 25px; }
+				.author { font-size: 20px; margin-bottom: 15px; }
+				a { 
+					color: white; text-decoration: underline;
+					i { margin-left: 20px; }
+				}
+				text-align: left;
+				padding: 10px 20px;				
+			}
+		}
+	}
+	
+	&.double-height {
+		height: @infoblockDoubleHeight;
+	}
+
+}
+
 
 .navbar-passion {
 	
@@ -138,6 +292,41 @@
 }
 
 @media (max-width: 767px) {
+	.container.info-blocks {
+		padding: 0;	
+		overflow: hidden;
+		
+		.info-block {
+			.center-block();
+			max-width: 420px;
+			
+			.content {
+				h2 { margin: 0; font-size: 25px; }
+				.author { font-size: 20px; margin-bottom: 15px; }
+				a { 
+					color: white; text-decoration: underline;
+					i { margin-left: 20px; }
+				}
+				text-align: left;
+				padding: 10px 20px;
+			}
+			.shadow { display: none; }
+			
+			&.full-orange-leaf {
+				.content {
+					//reset rounded borders
+					.border-radius();
+					text-align: center;
+					
+					p {
+						text-align: center;
+					}
+					min-height: 100px;
+				}
+			}			
+		}
+	}
+	
 	.navbar-passion {
 		background: @pozadiMenu;
 		.main-menu {
