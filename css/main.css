@@ -1571,14 +1571,9 @@
 .info-block .orange-leaf .content {
   text-align: left;
   background-color: #f17124;
-  background-image: -webkit-radial-gradient(circle, #f6a06c, #f17124);
-  background-image: radial-gradient(circle, #f6a06c, #f17124);
-  background-image: url("img/orangebck.png");
-  background-position: center;
+  background-image: -webkit-radial-gradient(circle, #f78d1e, #f17124);
+  background-image: radial-gradient(circle, #f78d1e, #f17124);
   background-repeat: no-repeat;
-  background-size: cover;
-  /* The url is relative to the document, not to the css file! */
-  /* Prefer absolute urls to avoid confusion. */
   color: white;
   padding: 15px 20px 20px 20px;
   font-family: 'Open Sans', sans-serif;
@@ -1597,7 +1592,6 @@
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -ms-behavior: url(/border-radius.htc);
 }
 .info-block .orange-leaf .content.active {
   color: #f17124;
@@ -1615,12 +1609,6 @@
 }
 .info-block .orange-leaf .content.standout .author {
   font-size: 22px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .info-block .orange-leaf .content {
-    background-image: url("img/orangebck@2x.png");
-    background-size: 205px 205px;
-  }
 }
 .info-block .orange-leaf .content h2 {
   margin: 0;
@@ -1707,7 +1695,6 @@
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -ms-behavior: url(/border-radius.htc);
 }
 .info-block.text-leaf img {
   margin-left: auto;
