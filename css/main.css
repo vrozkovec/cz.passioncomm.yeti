@@ -1592,6 +1592,7 @@
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  behavior: url(border-radius.htc);
 }
 .info-block .orange-leaf .content.active {
   color: #f78d1e;
@@ -1695,6 +1696,7 @@
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  behavior: url(border-radius.htc);
 }
 .info-block.text-leaf img {
   margin-left: auto;
