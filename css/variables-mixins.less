@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "elements.less";
+@import "bootstrap/less/mixins.less";
+
+@passionOranzova: #f7931e;
+@pozadiMenu: #e6e6e6;
+
+.fa() {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.passion-rounded-border() {
+	.border-radius(0, 15px, 0, 15px);
+}
+
+.retinaimg(@imageName, @width, @height, @imageSuffix: "png") {
+	
+	@normalImage: "img/@{imageName}.@{imageSuffix}";
+	@retinaImage: "img/@{imageName}@2x.@{imageSuffix}";
+	
+	.img-retina(@normalImage, @retinaImage, @width, @height);
+}
+
+@rowSpacing: 40px;

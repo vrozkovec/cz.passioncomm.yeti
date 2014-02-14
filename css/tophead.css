@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.tophead {
+  background-image: url("img/tophead.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 40px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .tophead {
+    background-image: url("img/tophead@2x.png");
+    background-size: auto 160px;
+  }
+}
+.tophead .container {
+  height: 160px;
+}
+.tophead .container .logo {
+  background-image: url("img/logo.png");
+  height: 100px;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .tophead .container .logo {
+    background-image: url("img/logo@2x.png");
+    background-size: 220px 100px;
+  }
+}
+.tophead .container .slogan {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-top: 40px;
+}
+.tophead .container .arrow a {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  display: block;
+  height: 160px;
+  line-height: 160px;
+}
+.tophead .container .arrow a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+@media (max-width: 767px) {
+  .tophead .container .logo {
+    background-position: center;
+  }
+}

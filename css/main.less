@@ -3,122 +3,134 @@
    ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic,300,400italic,600italic,700,700italic&subset=latin,latin-ext);
-@import "elements.less";
 @import "../font-passioncomm/stylesheets/passioncomm.css";
 @import "../font-awesome/less/font-awesome.less";
+
 @import "bootstrap/less/mixins.less";
+@import "elements.less";
 
-@passionOranzova: #f7931e;
-@pozadiMenu: #e6e6e6;
+@import "variables-mixins.less";
+@import "tophead.less";
+@import "menu.less";
 
-.fa() {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.passion-rounded-border() {
-	.border-radius(0, 15px, 0, 15px);
-}
-
-.retinaimg(@image, @width, @height) {
-	
-	@imageDir: "img";
-	@retinaImageDir: "@{imageDir}/retina";
-	
-	@normalImage: "@{imageDir}/@{image}";
-	@retinaImage: "@{retinaImageDir}/@{image}";
-	
-	.img-retina(@normalImage, @retinaImage, @width, @height);
+.container {
+	max-width: 921px;
 }
 
 * {
 	font-size: large;
 }
 
-
-.tophead {
-	.retinaimg("tophead.png", 100%, 160px);
-	background-repeat: no-repeat;
-	background-position: top center;
-	.container {
-
-		@topHeight: 160px; 
-		height: @topHeight;
-
-		.logo {
-			@imgHeight: 100px;
-			.retinaimg("logo.png", 220px, @imgHeight);
-			height: @imgHeight;
-			margin-top: (@topHeight - @imgHeight) / 2;
-			background-repeat: no-repeat;
-			background-position: left center;
-		}
-		.slogan {
-			font-family: 'Open Sans', sans-serif;
-			color: white;
-			font-size: 25px;
-			font-weight: 300;
-			@lineHeight: 40px;
-			line-height: @lineHeight;
-			margin-top: (@topHeight - 2 * @lineHeight) / 2;
-		}
-	}
+.row-margin {
+	margin-bottom: @rowSpacing;
 }
 
 @shadowHeight: 31px;
-@infoblockHeight: 350px; 
-@infoblockBottomMargin: 0; 
-@infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight; 
+@infoblockHeight: 272px;
+@infoblockBottomMargin: 0;
+@infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight;
+
 
 .info-block {
 	
 	.orange-leaf {
+		
 		.content {
+			&.active {
+				color: @gradientColor;
+				background: white;
+				a {
+					color: @gradientColor !important;
+					background: white;
+					
+				}
+			}
+			
+			&.standout {
+				padding: 25px 20px 20px 25px;
+				h2 {
+					font-size: 28px;
+				}
+				.author {
+					font-size: 22px;
+				}
+				
+			}
+			
+			text-align: left;
 			@gradientColor: #F78D1E;
-			
-			#gradient > .radial(lighten(@gradientColor, 12%); @gradientColor);
-			
+			#gradient > .radial (lighten(@gradientColor, 12%); @gradientColor);
 			color: white;
-			
-			padding: 40px 25px 60px 20px;
-			
+			padding: 15px 20px 20px 20px;
 			font-family: 'Open Sans', sans-serif;
-			
-			.passion-rounded-border();
+			.passion-rounded-border ();
+		
+			h2 {
+				margin: 0;
+				font-weight: 600;
+				font-size: 18px;
+				&.standout {
+					font-size: 24px;
+				}
+			}
+
+			.author {
+				margin-bottom: 3px;
+				em {
+					font-size: 14px;
+				}
+			}
+
+			a {
+				color: white;
+				text-decoration: underline;
+				font-size: 14px;
+				i {
+					margin-left: 5px;
+					font-size: 12px;
+				}
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
 			
 			.quote {
 				font-style: italic;
 				font-weight: 300;
 				line-height: 45px;
 				margin-bottom: 30px;
-				font-size: 30px;
+				font-size: 24px;
+				&.large {
+					font-size: 18px;
+					line-height: 22px;
+				}
 			}
-	
+
 			p {
-				font-size: 14px;
+				font-size: 11px;
 				text-align: right;
 				.quote-author {
-					&:before { content: "— "; }
+					&:before {
+						content: "— ";
+					}
+
 					font-weight: 600;
 					display: block;
+					font-size: 13px;
 				}
 			}
 		}
-		
+
 		.shadow {
 			@shadowHeight: 31px;
 			height: @shadowHeight;
-			.retinaimg("shadow.png", 228px, @shadowHeight);
+			.retinaimg ("shadow" , 228px , @shadowHeight);
 			background-repeat: no-repeat;
 			background-position: right top;
 		}
 	}
-	
+
 	&.full-orange-leaf {
 		.orange-leaf {
 			.content {
@@ -127,223 +139,173 @@
 		}
 	}
 
-		
 	&.text-leaf {
 		position: relative;
-	 	text-align: center;
+		text-align: center;
 		height: @infoblockHeight;
 		overflow: hidden;
-		
-		.passion-rounded-border();
-		
+		.passion-rounded-border ();
 		img {
-			 .center-block();
-			.img-responsive();
-//			position: absolute;
-//			top: 0;
+			.center-block ();
+			.img-responsive ();
 		}
-		
+
 		.orange-leaf {
-			
-			
-			
 			position: absolute;
 			bottom: 0;
 			left: 0;
 			right: 10px;
-			.content {
-				h2 { margin: 0; font-size: 25px; }
-				.author { font-size: 20px; margin-bottom: 15px; }
-				a { 
-					color: white; text-decoration: underline;
-					i { margin-left: 20px; }
-				}
-				text-align: left;
-				padding: 10px 20px;				
-			}
 		}
 	}
-	
+
 	&.double-height {
 		height: @infoblockDoubleHeight;
 	}
-
 }
 
+.loader {
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+}
 
-.navbar-passion {
-	
-	@linkLineHeight: 25px;
-	
-	border: 0;
-	background: white;
+footer {
+	margin-top: 50px;
+	height: 70px;
+	background-color: #e6e6e6;
+	text-align: center;
+	line-height: 70px;
 	font-family: 'Open Sans', sans-serif;
-	.main-menu {
-		.navbar-nav {
-			& > li {
-				& > a {
-					@menuLinkPadding: 35px;
-					padding-left: @menuLinkPadding;
-					padding-right: @menuLinkPadding;
-					text-align: center;
-					color: @passionOranzova;
-					line-height: @linkLineHeight;
-					
-					.badge {
-						vertical-align: middle;
-						padding: 3px 5px;
-						border: solid 1px white;
-						background: black;
-						color: white;
-						.rounded (15px);
-						.drop-shadow (2px , 2px , 1px , 0.2);
-						font-size: 12px;
-					}
-				}
-	
-				&:hover, &:focus {
-					border-bottom: solid 2px @pozadiMenu;
-				}
-				
-				&.active {
-					border-bottom: solid 2px black;
-				}
-			}
-		}
-	}
-
-	.navbar-header {
-		background: white;
-		
-		.navbar-toggle {
-			margin-top: -6px;
-			padding: 15px 9px 3px 9px;
-			background-color: @pozadiMenu;
-			.border-radius (0 , 10px , 0 , 0);
-			.icon-bar { display: none; }
-
-			i { color: @passionOranzova;}
-
-			&:hover {
-				i { color: darken(@passionOranzova, 10%); }
-			}
-		}
-
-		.navbar-toggle.collapsed {
-			margin-top: 15px;
-			background-color: white;
-			padding: inherit;
-			.border-radius ();
-			.icon-bar {
-				background-color: black;
-				display: block;
-			}
-
-			i { display: none; }
-		}
-
-		//styl jazyku
-		.languages {
-			& > li.active > a {
-				color: black;
-			}			
-			margin: 0 0 0 12px;
-			a {
-				margin-top: 0;
-				display: inline-block;
-				line-height: @linkLineHeight;
-				float: left;
-				height: auto;
-				font-size: 18px;
-				padding: 15px 0;
-				color: black;
-				&.active , &:hover , &:focus {
-					text-decoration: none;
-					font-weight: bold;
-					border-bottom: solid 2px @pozadiMenu;
-				}
-
-				span { padding: 0 15px; }
-
-				&.cz {
-					span { border-right: solid 1px @pozadiMenu; }
-				}
-			}
-
-			.navbar-brand {
-			}
-		}
+	a {
+		color: @passionOranzova;
 	}
 }
 
 @media (max-width: 992px) {
-	@menuLinkPadding: 20px;
-	.navbar-passion {
-			.main-menu {
-				.navbar-nav {
-					& > li {
-						& > a {
-							padding-left: @menuLinkPadding;
-							padding-right: @menuLinkPadding;
+	@shadowHeight: 31px;
+	@infoblockHeight: 214px;
+	@infoblockBottomMargin: 0;
+	@infoblockDoubleHeight: 460px;
+	.container.info-blocks {
+		.info-block {
+			margin-bottom: @infoblockBottomMargin;
+			.orange-leaf {
+				.content {
+					h2 {
+						margin: 0;
+						font-size: 16px;
+					}
+
+					.author {
+						font-size: 14px;
+						margin-bottom: 3px;
+					}
+
+					a {
+						color: white;
+						text-decoration: underline;
+						font-size: 12px;
+						i {
+							margin-left: 5px;
+							font-size: 10px;
 						}
+
+						&:hover {
+							text-decoration: none;
+						}
+					}
+
+					text-align: left;
+					padding: 10px 20px;
+				}
+			}
+
+			&.full-orange-leaf {
+				.orange-leaf {
+					.content {
+						height: @infoblockHeight;
 					}
 				}
 			}
+
+			&.text-leaf {
+				height: @infoblockHeight;
+			}
+
+			&.double-height {
+				height: @infoblockDoubleHeight;
+			}
 		}
+	}
 }
 
 @media (max-width: 767px) {
+	@shadowHeight: 31px;
+	@infoblockHeight: 350px;
+	@infoblockBottomMargin: 30px;
+	@infoblockDoubleHeight: 490px;
+	
 	.container.info-blocks {
-		padding: 0;	
+		padding: 0;
 		overflow: hidden;
 		
 		.info-block {
-			.center-block();
+			.center-block ();
 			max-width: 420px;
-			
+			margin-bottom: @infoblockBottomMargin;
 			.content {
-				h2 { margin: 0; font-size: 25px; }
-				.author { font-size: 20px; margin-bottom: 15px; }
-				a { 
-					color: white; text-decoration: underline;
-					i { margin-left: 20px; }
+				h2 {
+					margin: 0;
+					font-size: 25px;
 				}
+
+				.author {
+					font-size: 20px;
+					margin-bottom: 15px;
+				}
+
+				a {
+					color: white;
+					text-decoration: underline;
+					i {
+						margin-left: 20px;
+					}
+				}
+
 				text-align: left;
 				padding: 10px 20px;
 			}
-			.shadow { display: none; }
-			
+
+			.shadow {
+				display: none;
+			}
+
 			&.full-orange-leaf {
 				.content {
-					//reset rounded borders
-					.border-radius();
+					.border-radius ();
 					text-align: center;
-					
 					p {
 						text-align: center;
 					}
+
 					min-height: 100px;
 				}
-			}			
-		}
-	}
-	
-	.navbar-passion {
-		background: @pozadiMenu;
-		.main-menu {
-			.navbar-nav {
-				& > li {
-					border-bottom: none;
-					&.active, &:hover, &:focus {
-						border-bottom: none;
-						a {
-							color: black;
-						}
-					}
+			}
+
+			&.text-leaf {
+				.orange-leaf {
+					position: absolute;
+					@spacing: 20px;
+					bottom: @spacing;
+					left: @spacing;
+					right: @spacing;
 				}
+			}
+
+			&.double-height {
+				height: @infoblockDoubleHeight;
 			}
 		}
 	}
-	
 }
 
