@@ -1579,7 +1579,6 @@
   background-size: cover;
   /* The url is relative to the document, not to the css file! */
   /* Prefer absolute urls to avoid confusion. */
-  -ms-behavior: url(/backgroundsize.min.htc);
   color: white;
   padding: 15px 20px 20px 20px;
   font-family: 'Open Sans', sans-serif;
