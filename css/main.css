@@ -1570,10 +1570,13 @@
 }
 .info-block .orange-leaf .content {
   text-align: left;
-  background-color: #f78d1e;
-  background-image: -webkit-radial-gradient(circle, #fab268, #f78d1e);
-  background-image: radial-gradient(circle, #fab268, #f78d1e);
+  background-color: #f17124;
+  background-image: -webkit-radial-gradient(circle, #f6a06c, #f17124);
+  background-image: radial-gradient(circle, #f6a06c, #f17124);
   background-repeat: no-repeat;
+  background-image: url("img/orangebck.png");
+  background-position: center;
+  background-size: cover;
   color: white;
   padding: 15px 20px 20px 20px;
   font-family: 'Open Sans', sans-serif;
@@ -1595,11 +1598,11 @@
   behavior: url(border-radius.htc);
 }
 .info-block .orange-leaf .content.active {
-  color: #f78d1e;
+  color: #f17124;
   background: white;
 }
 .info-block .orange-leaf .content.active a {
-  color: #f78d1e !important;
+  color: #f17124 !important;
   background: white;
 }
 .info-block .orange-leaf .content.standout {
@@ -1610,6 +1613,12 @@
 }
 .info-block .orange-leaf .content.standout .author {
   font-size: 22px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .info-block .orange-leaf .content {
+    background-image: url("img/orangebck@2x.png");
+    background-size: 205px 205px;
+  }
 }
 .info-block .orange-leaf .content h2 {
   margin: 0;
