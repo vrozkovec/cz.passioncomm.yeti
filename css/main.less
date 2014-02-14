@@ -59,7 +59,7 @@
 			
 			text-align: left;
 			@gradientColor: #F78D1E;
-			#gradient > .radial (lighten(@gradientColor, 12%); @gradientColor);
+			#gradient > .radial (lighten(@gradientColor, 15%); @gradientColor);
 			color: white;
 			padding: 15px 20px 20px 20px;
 			font-family: 'Open Sans', sans-serif;
@@ -94,32 +94,6 @@
 					text-decoration: none;
 				}
 			}
-			
-			.quote {
-				font-style: italic;
-				font-weight: 300;
-				line-height: 45px;
-				margin-bottom: 30px;
-				font-size: 24px;
-				&.large {
-					font-size: 18px;
-					line-height: 22px;
-				}
-			}
-
-			p {
-				font-size: 11px;
-				text-align: right;
-				.quote-author {
-					&:before {
-						content: "— ";
-					}
-
-					font-weight: 600;
-					display: block;
-					font-size: 13px;
-				}
-			}
 		}
 
 		.shadow {
@@ -135,6 +109,33 @@
 		.orange-leaf {
 			.content {
 				height: @infoblockHeight;
+				padding: 35px 20px 0 20px;
+				
+				.quote {
+					font-style: italic;
+					font-weight: 300;
+					line-height: 40px;
+					margin-bottom: 30px;
+					font-size: 24px;
+					&.large {
+						font-size: 18px;
+						line-height: 22px;
+					}
+				}
+	
+				p {
+					font-size: 11px;
+					text-align: right;
+					.quote-author {
+						&:before {
+							content: "— ";
+						}
+	
+						font-weight: 600;
+						display: block;
+						font-size: 13px;
+					}
+				}				
 			}
 		}
 	}
@@ -181,11 +182,12 @@ footer {
 	}
 }
 
-@media (max-width: 992px) {
+@media (min-width:768px) and (max-width: 991px) {
 	@shadowHeight: 31px;
 	@infoblockHeight: 214px;
 	@infoblockBottomMargin: 0;
 	@infoblockDoubleHeight: 460px;
+	
 	.container.info-blocks {
 		.info-block {
 			margin-bottom: @infoblockBottomMargin;
@@ -193,12 +195,15 @@ footer {
 				.content {
 					h2 {
 						margin: 0;
-						font-size: 16px;
+						font-size: 13px;
 					}
 
 					.author {
-						font-size: 14px;
+						font-size: 12px;
 						margin-bottom: 3px;
+						em {
+							font-size: 10px;
+						}
 					}
 
 					a {
@@ -224,6 +229,31 @@ footer {
 				.orange-leaf {
 					.content {
 						height: @infoblockHeight;
+						padding-top: 20px;
+						.quote {
+							line-height: 25px;
+							margin-bottom: 20px;
+							font-size: 18px;
+							&.large {
+								font-size: 14px;
+								line-height: 22px;
+							}
+						}
+			
+						p {
+							font-size: 11px;
+							text-align: right;
+							.quote-author {
+								&:before {
+									content: "— ";
+								}
+			
+								font-weight: 600;
+								display: block;
+								font-size: 10px;
+							}
+						}				
+						
 					}
 				}
 			}
@@ -254,26 +284,6 @@ footer {
 			max-width: 420px;
 			margin-bottom: @infoblockBottomMargin;
 			.content {
-				h2 {
-					margin: 0;
-					font-size: 25px;
-				}
-
-				.author {
-					font-size: 20px;
-					margin-bottom: 15px;
-				}
-
-				a {
-					color: white;
-					text-decoration: underline;
-					i {
-						margin-left: 20px;
-					}
-				}
-
-				text-align: left;
-				padding: 10px 20px;
 			}
 
 			.shadow {
@@ -282,17 +292,18 @@ footer {
 
 			&.full-orange-leaf {
 				.content {
+					height: 240px;
 					.border-radius ();
 					text-align: center;
 					p {
 						text-align: center;
 					}
-
-					min-height: 100px;
 				}
 			}
 
 			&.text-leaf {
+				height: @infoblockHeight;
+				.border-radius ();
 				.orange-leaf {
 					position: absolute;
 					@spacing: 20px;
@@ -306,6 +317,14 @@ footer {
 				height: @infoblockDoubleHeight;
 			}
 		}
+		
+		.col-lg-6 .info-block {
+			height: 240px;
+		}
 	}
+		
+	footer {
+		height: 140px;
+	}	
 }
 

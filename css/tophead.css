@@ -46,6 +46,12 @@
   line-height: 40px;
   margin-top: 40px;
 }
+.tophead .container .col-xs-1 {
+  padding: 0;
+}
+.tophead .container .arrow {
+  display: block;
+}
 .tophead .container .arrow a {
   text-align: center;
   font-size: 25px;
