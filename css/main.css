@@ -1570,6 +1570,7 @@
 }
 .info-block .orange-leaf .content {
   text-align: left;
+  background-color: #f78d1e;
   background-image: -webkit-radial-gradient(circle, #fab268, #f78d1e);
   background-image: radial-gradient(circle, #fab268, #f78d1e);
   background-repeat: no-repeat;

@@ -59,6 +59,8 @@
 			
 			text-align: left;
 			@gradientColor: #F78D1E;
+			//IE fallback
+			background-color: @gradientColor;
 			#gradient > .radial (lighten(@gradientColor, 15%); @gradientColor);
 			color: white;
 			padding: 15px 20px 20px 20px;
