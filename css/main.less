@@ -70,9 +70,10 @@
 	}
 }
 
+@shadowHeight: 31px;
 @infoblockHeight: 350px; 
-@infoblockBottomMargin: 20px; 
-@infoblockDoubleHeight: @infoblockHeight + @infoblockBottomMargin + @infoblockHeight; 
+@infoblockBottomMargin: 0; 
+@infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight; 
 
 .info-block {
 	
@@ -110,9 +111,9 @@
 		}
 		
 		.shadow {
-			@imgHeight: 31px;
-			height: @imgHeight;
-			.retinaimg("shadow.png", 228px, @imgHeight);
+			@shadowHeight: 31px;
+			height: @shadowHeight;
+			.retinaimg("shadow.png", 228px, @shadowHeight);
 			background-repeat: no-repeat;
 			background-position: right top;
 		}
