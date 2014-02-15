@@ -1795,12 +1795,6 @@ footer a {
   .container.info-blocks {
     padding: 0;
   }
-  .container.info-blocks .row > div {
-    padding-right: 0;
-  }
-  .container.info-blocks .row {
-    margin-right: 0;
-  }
   .container.info-blocks .info-block {
     display: block;
     margin-left: auto;
