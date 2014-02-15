@@ -1794,7 +1794,6 @@ footer a {
 @media (max-width: 767px) {
   .container.info-blocks {
     padding: 0;
-    overflow: hidden;
   }
   .container.info-blocks .info-block {
     display: block;
