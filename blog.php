@@ -164,22 +164,6 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="info-block full-orange-leaf">
-							<div class="orange-leaf">
-								<div class="content">
-									<h2 class="quote large">“Great creative ideas that help us aachieving our international development goals with Staropramen!”</h2>
-									<p>
-										<span class="quote-author">Frederic Landtmeters</span>
-										CMO Starbev
-									</p>
-								</div>
-								<div class="shadow"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12">
 						<div class="info-block text-leaf">
 							<div class="orange-leaf">
 								<div class="content active">

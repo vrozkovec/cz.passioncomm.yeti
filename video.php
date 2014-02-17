@@ -79,17 +79,16 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<div class="info-block full-orange-leaf">
+					<div class="info-block text-leaf">
 						<div class="orange-leaf">
 							<div class="content">
-								<h2 class="quote large">“Great creative ideas that help us aachieving our international development goals with Staropramen!”</h2>
-								<p>
-									<span class="quote-author">Frederic Landtmeters</span>
-									CMO Starbev
-								</p>
+								<h2>Staropramen  Alhemicar</h2>
+								<div class="author">Staropramen a. s.</div>
+								<a href="#">Watch the Video <i class="fa fa-angle-double-right"></i></a>
 							</div>
 							<div class="shadow"></div>
 						</div>
+						<img src="images/block2@2x.png" />
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3">
