@@ -19,6 +19,7 @@
 
 * {
 	font-size: large;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .row-margin {
@@ -30,11 +31,165 @@
 @infoblockBottomMargin: 0;
 @infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight;
 
+.container.with-header {
+	padding-left: 0;
+	position: relative;
+	left: -5px;
+	
+	.text-content {
+		padding-right: 250px;
+		h1 {
+			font-size: 22px;
+			font-weight: 600;
+		}
+	}
+	
+	.gallery-row {
+		img { 
+			.img-responsive();
+			.passion-rounded-border(); 
+		}
+	}
+}
+
+
+.breadcrumb {
+	.back {
+		display: inline-block;
+		margin-right: 20px;
+		a {
+			padding-left: 5px;
+			color: black;
+			font-size: 24px;
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	} 
+	.path {
+		display: inline-block;
+		color: lighten(black, 30%);
+		a {
+			margin: 0 5px;
+			display: inline-block;
+			color: lighten(black, 30%);
+			font-size: 20px;
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	} 
+}
+
+.explore-more {
+	background: #f2f2f2;
+	padding: 30px 0;
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 50px;
+	}
+}
+
+.in-content-leaf {
+	.orange-leaf {
+		.content {
+			&.active {
+				color: @gradientColor;
+				background: white;
+				a {
+					color: @gradientColor !important;
+					background: white;
+					
+				}
+			}
+			
+			text-align: center;
+			@gradientColor: #f17124;
+			background-color: @gradientColor;
+			#gradient > .radial (#F78D1E; @gradientColor);
+			color: white;
+			padding: 15px 20px 20px 20px;
+			font-family: 'Open Sans', sans-serif;
+	
+			.passion-rounded-border ();
+		
+			font-size: 26px;
+			a {
+				color: white;
+				text-decoration: none;
+				font-size: 26px;
+				&:hover {
+					text-decoration: underline;
+				}
+				
+				i {
+					margin-left: 10px;
+				}
+			}
+		}
+	
+		.shadow {
+			@shadowHeight: 31px;
+			height: @shadowHeight;
+			.retinaimg ("shadow" , 228px , @shadowHeight);
+			background-repeat: no-repeat;
+			background-position: right top;
+			margin-right: 12px;
+		}
+	}
+}
 
 .info-block {
+	position: relative;
+	
+	.play-button {
+		position: absolute;
+		top: 40px;
+		left: 0;
+		right: 0;
+		
+		a { 
+			outline: 0;
+			color: white;
+			&.invert { color: black; }
+			 
+			i { font-size: 72px; }
+			&:hover {
+				color: darken(white, 30%); 
+			}
+		}
+	}
+	
+	&.text-leaf.header {
+		height: 531px;
+	}
+	
+	.orange-leaf-topshadow {
+		@shadowHeight: 10px;
+		.retinaimg ("shadow-top" , 19px , @shadowHeight);
+		background-position: top left;
+		background-repeat: no-repeat;
+		padding-top: @shadowHeight;
+		
+		position: absolute;
+		bottom: 30px;
+		left: -19px;
+		
+		.orange-leaf {
+			.wrapper {
+				margin: 0 60px;
+			}
+			position: relative !important;
+			text-align: left;
+			.content {
+				display: inline-block;
+				.passion-rounded-border-on-header();
+			}
+			.shadow {
+			}
+		}
+	}
 	
 	.orange-leaf {
-		
 		.content {
 			&.active {
 				color: @gradientColor;
@@ -71,7 +226,7 @@
 			h2 {
 				margin: 0;
 				font-weight: 600;
-				font-size: 18px;
+				font-size: 17px;
 				&.standout {
 					font-size: 24px;
 				}
@@ -79,6 +234,7 @@
 
 			.author {
 				margin-bottom: 3px;
+				font-size: 16px;
 				em {
 					font-size: 14px;
 				}
@@ -105,6 +261,7 @@
 			.retinaimg ("shadow" , 228px , @shadowHeight);
 			background-repeat: no-repeat;
 			background-position: right top;
+			margin-right: 12px;
 		}
 	}
 
@@ -122,7 +279,7 @@
 					font-size: 24px;
 					&.large {
 						font-size: 18px;
-						line-height: 22px;
+						line-height: 20px;
 					}
 				}
 	
@@ -161,6 +318,10 @@
 			right: 10px;
 		}
 	}
+	
+	&.header {
+		overflow: visible;
+	}
 
 	&.double-height {
 		height: @infoblockDoubleHeight;
@@ -188,12 +349,29 @@ footer {
 @media (min-width:768px) and (max-width: 991px) {
 	@shadowHeight: 31px;
 	@infoblockHeight: 214px;
+	@infoblockHeaderHeight: 423px;
 	@infoblockBottomMargin: 0;
 	@infoblockDoubleHeight: 460px;
 	
+	
+	
 	.container.info-blocks {
+		
+		&.with-header {
+			left: 0;
+		}
+		
 		.info-block {
 			margin-bottom: @infoblockBottomMargin;
+			
+			.play-button {
+				top: 30px;
+				a { 
+					i { font-size: 48px; }
+				}				
+			}
+			
+			
 			.orange-leaf {
 				.content {
 					h2 {
@@ -214,7 +392,7 @@ footer {
 						text-decoration: underline;
 						font-size: 12px;
 						i {
-							margin-left: 5px;
+							margin-left: 2px;
 							font-size: 10px;
 						}
 
@@ -239,7 +417,7 @@ footer {
 							font-size: 18px;
 							&.large {
 								font-size: 14px;
-								line-height: 22px;
+								line-height: 18px;
 							}
 						}
 			
@@ -264,10 +442,20 @@ footer {
 			&.text-leaf {
 				height: @infoblockHeight;
 			}
-
+			
+			&.text-leaf.header {
+				height: @infoblockHeaderHeight;
+			}
+			
 			&.double-height {
 				height: @infoblockDoubleHeight;
 			}
+			
+			.col-lg-6 .info-block {
+				.play-button {
+					top: 30px;
+				}
+			}			
 		}
 	}
 }
@@ -275,20 +463,122 @@ footer {
 @media (max-width: 767px) {
 	@shadowHeight: 31px;
 	@infoblockHeight: 350px;
+	@infoblockHeaderHeight: 250px;
 	@infoblockBottomMargin: 30px;
 	@infoblockDoubleHeight: 490px;
 	
+	@content-padding: 30px;
+	
+	@leafSpacing: 20px;
+	
+	.gallery-row {
+		.col-sm-3 {
+			text-align: center;
+			a { display: inline-block; }
+			margin-bottom: 10px;
+		}
+		img { 
+			.img-responsive();
+			.passion-rounded-border(); 
+		}
+		
+		&.row-margin { margin: 0; }
+	}
+
+	.leaf-position() {
+		position: absolute;
+		@spacing: 20px;
+		bottom: @spacing;
+		left: @spacing;
+		right: @spacing;
+	}
+		
+	.explore-more { 
+		h2 { padding-left: 15px; }	
+	}
+	
+	
+	.breadcrumb {
+		padding: 0 @content-padding; 
+		.path {
+			display: block;
+			margin: 10px 0 0 15px;
+		} 
+	}
+	
+	@inContentLeafLineHeight: 30px;
+	
+	.loader-row {
+		height: @inContentLeafLineHeight * 2 + 20px;
+	}
+	
+	.in-content-leaf {
+		height: @inContentLeafLineHeight + 20px;
+		
+		.loader-row & {
+			height: @inContentLeafLineHeight * 2 + 30px;
+		}
+		
+		.orange-leaf {
+			margin-left: @leafSpacing;
+			margin-right: @leafSpacing;
+		}
+	}
+
+
 	.container.info-blocks {
 		padding: 0;
-		overflow: hidden;
+		
+		&.with-header {
+			
+			left: 0;
+			
+			& > .padding20-left {
+				padding: 0;
+			}
+			
+			.text-content {
+				padding: 0 @content-padding;
+			}
+		}
 		
 		.info-block {
 			.center-block ();
 			max-width: 420px;
-			min-width: 400px;
 			margin-bottom: @infoblockBottomMargin;
-			.content {
+			
+			.play-button {
+				top: 80px;
 			}
+			
+			&.text-leaf {
+				height: @infoblockHeight;
+				.border-radius ();
+				.orange-leaf {
+					position: absolute;
+					bottom: @leafSpacing;
+					left: @leafSpacing;
+					right: @leafSpacing;
+				}
+			}
+			
+			.orange-leaf-topshadow {
+
+				padding-top: 0;
+				.leaf-position();
+				background: none;
+				.orange-leaf {
+					position: relative !important;
+					top:0; right: 0; bottom: 0; left: 0;
+					.content {
+						display: block;
+					}
+					.wrapper {
+						margin: 0;
+					}
+				}
+			}			
+			
 
 			.shadow {
 				display: none;
@@ -305,16 +595,11 @@ footer {
 				}
 			}
 
-			&.text-leaf {
-				height: @infoblockHeight;
-				.border-radius ();
-				.orange-leaf {
-					position: absolute;
-					@spacing: 20px;
-					bottom: @spacing;
-					left: @spacing;
-					right: @spacing;
-				}
+			
+
+			&.header{
+				height: @infoblockHeaderHeight;
+				margin-bottom: 0;
 			}
 
 			&.double-height {
@@ -324,11 +609,22 @@ footer {
 		
 		.col-lg-6 .info-block {
 			height: 240px;
+			.play-button {
+				top: 30px;
+			}
 		}
 	}
 		
 	footer {
-		height: 140px;
+		@height: 140px;
+		@line-height: 35px;
+		height: @height;
+		line-height: @line-height;
+		.container {
+			.visible-xs { display: inline !important; }
+			padding-top: (@height - 2  * @line-height) / 2;
+		}
+			
 	}	
 }
 
