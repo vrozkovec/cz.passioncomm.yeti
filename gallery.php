@@ -27,7 +27,7 @@
 				<div class="col-xs-12 breadcrumb">
 					<span class="back"><i class="fa fa-angle-double-left"></i> <a
 						href="index.php">Back</a></span> <span class="path"><a href="#">Home</a>
-						/ <a href="#">Yetti Campaign Gallery</a></span>
+						/ <a href="#">Yetti Campaign</a></span>
 				</div>
 			</div>
 

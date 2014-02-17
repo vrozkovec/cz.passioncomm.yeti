@@ -18,19 +18,62 @@
 }
 
 * {
-	font-size: large;
+//	font-size: large;
 	font-family: 'Open Sans', sans-serif;
+}
+
+@pageBackground: lighten(@passionOranzova, 35%); 
+
+body {
+	background-color: @pageBackground;
 }
 
 .row-margin {
 	margin-bottom: @rowSpacing;
 }
 
+
+
 @shadowHeight: 31px;
 @infoblockHeight: 272px;
 @infoblockBottomMargin: 0;
 @infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight;
 
+.blog {
+	.content-wrapper {
+		padding-right: 100px;
+	}
+	
+	.socialicons {
+		text-align: left;
+		
+		&.outside {
+			position: absolute;
+			top: 120px;
+			left: 5px;
+			.social {
+				display: block;
+			}
+		}
+		
+		
+		
+		.social {
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			margin: 0 5px 5px 5px ;
+			span {
+				display: none;
+			}
+			&.facebook { .retinaimg("social/facebook", 32px, 32px); }
+			&.google { .retinaimg("social/google", 32px, 32px); }
+			&.twitter { .retinaimg("social/twitter", 32px, 32px); }
+			&.email { .retinaimg("social/email", 32px, 32px); }
+			&.addthis { .retinaimg("social/addthis", 32px, 32px); }
+		}
+	}
+}
 .container.with-header {
 	padding-left: 0;
 	position: relative;
@@ -38,6 +81,46 @@
 	
 	.text-content {
 		padding-right: 250px;
+		.blog & { 
+			padding-right: 0;
+			
+			p {
+				&.lead { font-size: 20px; }
+				font-size: 15px;
+				a { 
+					color: @passionOranzova; 
+					&.inactive {
+						color: #4d4d4d;
+						text-decoration: underline; 
+					}
+				}
+			}
+						
+			h2 { font-size: 20px; }
+			h3 { font-size: 16px; }
+			
+			blockquote {
+				border-left-color: @passionOranzova;
+				font-style: italic;
+				padding: 0 20px;	
+			}
+			
+			.table {
+				border-collapse: collapse;
+				
+				tr {
+					border-spacing: 5px;
+					border-bottom: 5px solid @pageBackground;
+				}
+				
+				th {
+					background-color: @passionOranzova;
+				}
+				td {
+					background-color: white;
+				}
+			}
+		}
 		h1 {
 			font-size: 22px;
 			font-weight: 600;
@@ -81,12 +164,43 @@
 
 .explore-more {
 	background: #f2f2f2;
-	padding: 30px 0;
+	padding: 30px 20px;
 	h2 {
 		font-size: 22px;
 		font-weight: 600;
 		margin-bottom: 50px;
 	}
+}
+
+.explore-more-column {
+	background: lighten(gray, 30%);
+	padding: 10px 30px;
+	text-align: center;
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+	.info-block.text-leaf {
+		margin-bottom: 30px;
+	}
+}
+
+.image-leaf {
+	.content {
+		img {
+			.passion-rounded-border();
+		}
+	}
+	.shadow {
+		@shadowHeight: 31px;
+		height: @shadowHeight;
+		.retinaimg ("shadow" , 228px , @shadowHeight);
+		background-repeat: no-repeat;
+		background-position: right top;
+		margin-right: 12px;
+	}		
 }
 
 .in-content-leaf {
@@ -103,6 +217,10 @@
 			}
 			
 			text-align: center;
+			&.text-left {
+				text-align: left;
+				
+			}
 			@gradientColor: #f17124;
 			background-color: @gradientColor;
 			#gradient > .radial (#F78D1E; @gradientColor);
@@ -124,6 +242,11 @@
 				i {
 					margin-left: 10px;
 				}
+			}
+			
+			h1 { font-size: 28px; }
+			.author {
+				font-size: 20px;
 			}
 		}
 	
@@ -363,6 +486,10 @@ footer {
 		
 		.info-block {
 			margin-bottom: @infoblockBottomMargin;
+		
+			.blog &.text-leaf {
+				margin-bottom: 30px;	
+			}	
 			
 			.play-button {
 				top: 30px;
@@ -471,6 +598,29 @@ footer {
 	
 	@leafSpacing: 20px;
 	
+	
+	.blog { 
+		.content-wrapper {
+			padding-right: 0;
+		}
+		.socialicons {
+			padding-left: 20px;
+		}
+	}
+	
+	.container {
+		&.with-header {
+			.text-content {
+				.blog & { 
+					padding-right: 0;
+					.wrapper {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}
+		
 	.gallery-row {
 		.col-sm-3 {
 			text-align: center;
@@ -487,10 +637,9 @@ footer {
 
 	.leaf-position() {
 		position: absolute;
-		@spacing: 20px;
-		bottom: @spacing;
-		left: @spacing;
-		right: @spacing;
+		bottom: @leafSpacing;
+		left: @leafSpacing;
+		right: @leafSpacing;
 	}
 		
 	.explore-more { 
@@ -513,7 +662,7 @@ footer {
 	}
 	
 	.in-content-leaf {
-		height: @inContentLeafLineHeight + 20px;
+		min-height: @inContentLeafLineHeight + 20px;
 		
 		.loader-row & {
 			height: @inContentLeafLineHeight * 2 + 30px;

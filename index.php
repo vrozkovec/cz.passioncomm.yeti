@@ -149,7 +149,7 @@
 						<div class="content active">
 							<h2>Welcome Julia our new designer</h2>
 							<div class="author"><em>by</em> PassionComm</div>
-							<a href="blog.php">Read More <i class="fa fa-angle-double-right"></i></a>
+							<a href="gallery.php">View gallery <i class="fa fa-angle-double-right"></i></a>
 						</div>
 						<div class="shadow"></div>
 					</div>
