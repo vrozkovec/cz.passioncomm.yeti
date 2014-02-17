@@ -7,16 +7,16 @@
 <!--<![endif]-->
 
 <?php
-	require "inc-head.php";
+require "inc-head.php";
 ?>
 
-<body>
+<body class="gallery">
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
 <?php
-	require "inc-menu.php";
+require "inc-menu.php";
 ?>
 
 	<div class="container info-blocks with-header">
@@ -100,7 +100,44 @@
 					</a>
 				</div>
 			</div>
+		</div>
+	</div>
 
+	<div class="top-shadow">
+		<div class="container">
+			<div class="row gallery-detail-arrow arrow-top">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3 active"></div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gallery-detail">
+		<div class="container">
+			<div class="row gallery-detail-arrow arrow-top">
+				<div class="col-sm-12">
+					<img src="images/gallery/img1-detail.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="bottom-shadow">
+		<div class="container">
+			<div class="row row-margin gallery-detail-arrow arrow-bottom">
+				<div class="col-sm-3 active"></div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container info-blocks with-header">
+		<div class="padding20-left">
 			<div class="row row-margin gallery-row hidden-xs">
 				<div class="col-sm-3">
 					<a href="#"> <img src="images/gallery/img1.png" />
@@ -126,7 +163,8 @@
 
 						<div class="orange-leaf">
 							<div class="content">
-								<a href="gallery.php">View Gallery<i class="fa fa-angle-double-right"></i></a>
+								<a href="gallery.php">View Gallery<i
+									class="fa fa-angle-double-right"></i></a>
 							</div>
 							<div class="shadow"></div>
 						</div>
@@ -139,7 +177,8 @@
 					<div class="in-content-leaf">
 						<div class="orange-leaf">
 							<div class="content">
-								<a href="video.php">Watch the video<i class="fa fa-angle-double-right"></i></a>
+								<a href="video.php">Watch the video<i
+									class="fa fa-angle-double-right"></i></a>
 							</div>
 							<div class="shadow"></div>
 						</div>
@@ -286,7 +325,7 @@
 	</div>
 	
 <?php
-	require "inc-footer.php";
+require "inc-footer.php";
 ?>
 
 </body>

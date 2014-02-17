@@ -1813,7 +1813,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background-color: #fde6ca;
+  background-color: #ffffff;
 }
 body a {
   color: #f7931e;
@@ -1956,7 +1956,7 @@ body a {
 }
 .blog .container.with-header .text-content .table tr {
   border-spacing: 5px;
-  border-bottom: 5px solid #fde6ca;
+  border-bottom: 5px solid #ffffff;
 }
 .blog .container.with-header .text-content .table th {
   background-color: #f7931e;
@@ -1968,7 +1968,11 @@ body a {
   font-size: 22px;
   font-weight: 600;
 }
-.container.with-header .gallery-row img {
+.container.with-header .gallery-detail-arrow {
+  text-align: center;
+}
+.container.with-header .gallery-row img,
+.container.with-header .gallery-detail img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -1987,6 +1991,59 @@ body a {
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.gallery .gallery-detail {
+  background-color: #cccccc;
+  padding: 20px 0;
+}
+.gallery .top-shadow,
+.gallery .bottom-shadow {
+  background-repeat: repeat-x;
+  height: 32px;
+}
+.gallery .top-shadow .active,
+.gallery .bottom-shadow .active {
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gallery .bottom-shadow {
+  margin-bottom: 15px;
+  background-image: url("img/gallery-shadow-bottom.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gallery .bottom-shadow {
+    background-image: url("img/gallery-shadow-bottom@2x.png");
+    background-size: 32px 32px;
+  }
+}
+.gallery .bottom-shadow .active {
+  background-image: url("img/gallery-shadow-bottom-arrow.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gallery .bottom-shadow .active {
+    background-image: url("img/gallery-shadow-bottom-arrow@2x.png");
+    background-size: 32px 32px;
+  }
+}
+.gallery .top-shadow {
+  margin-top: 15px;
+  background-image: url("img/gallery-shadow-top.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gallery .top-shadow {
+    background-image: url("img/gallery-shadow-top@2x.png");
+    background-size: 32px 32px;
+  }
+}
+.gallery .top-shadow .active {
+  background-image: url("img/gallery-shadow-top-arrow.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gallery .top-shadow .active {
+    background-image: url("img/gallery-shadow-top-arrow@2x.png");
+    background-size: 32px 32px;
+  }
 }
 .breadcrumb .back {
   display: inline-block;

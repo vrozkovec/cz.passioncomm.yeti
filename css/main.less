@@ -22,7 +22,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-@pageBackground: lighten(@passionOranzova, 35%); 
+@pageBackground: white; 
 
 body {
 	background-color: @pageBackground;
@@ -143,10 +143,47 @@ body {
 		}
 	}
 	
-	.gallery-row {
+	.gallery-detail-arrow {
+		text-align: center;		
+	}
+	.gallery-row, .gallery-detail {
 		img { 
 			.img-responsive();
 			.passion-rounded-border(); 
+		}
+	}
+}
+
+.gallery {
+
+	.gallery-detail {
+		background-color: #cccccc;
+		padding: 20px 0;
+	}
+	
+	.top-shadow,
+	.bottom-shadow {
+		background-repeat: repeat-x;
+		height: 32px;
+		.active {
+			height: 32px;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+	
+	.bottom-shadow {
+		margin-bottom: 15px;
+		.retinaimg("gallery-shadow-bottom", 32px, 32px);
+		.active {
+			.retinaimg("gallery-shadow-bottom-arrow", 32px, 32px);
+		}
+	}
+	.top-shadow {
+		margin-top: 15px;
+		.retinaimg("gallery-shadow-top", 32px, 32px);
+		.active {
+			.retinaimg("gallery-shadow-top-arrow", 32px, 32px);
 		}
 	}
 }
