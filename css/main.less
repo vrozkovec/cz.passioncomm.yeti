@@ -26,6 +26,8 @@
 
 body {
 	background-color: @pageBackground;
+	
+	a { color: @passionOranzova; }
 }
 
 .row-margin {
@@ -44,9 +46,19 @@ body {
 		padding-right: 100px;
 	}
 	
+	address {
+		display: block;
+		text-align: center;
+		padding: 20px 0;
+		background: white;
+	}
+	
 	.socialicons {
 		text-align: left;
-		
+		 h2 {
+		 	//contact
+			text-align: center;
+		 }
 		&.outside {
 			position: absolute;
 			top: 120px;
@@ -62,12 +74,16 @@ body {
 			display: inline-block;
 			width: 32px;
 			height: 32px;
+			padding: 5px;
+			.passion-rounded-border();
 			margin: 0 5px 5px 5px ;
+			background-position: center;
+			background-repeat: no-repeat;
 			span {
 				display: none;
 			}
 			&.facebook { .retinaimg("social/facebook", 32px, 32px); }
-			&.google { .retinaimg("social/google", 32px, 32px); }
+			&.google { .retinaimg("social/google", 32px, 32px);  }
 			&.twitter { .retinaimg("social/twitter", 32px, 32px); }
 			&.email { .retinaimg("social/email", 32px, 32px); }
 			&.addthis { .retinaimg("social/addthis", 32px, 32px); }

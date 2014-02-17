@@ -1815,14 +1815,26 @@
 body {
   background-color: #fde6ca;
 }
+body a {
+  color: #f7931e;
+}
 .row-margin {
   margin-bottom: 40px;
 }
 .blog .content-wrapper {
   padding-right: 100px;
 }
+.blog address {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  background: white;
+}
 .blog .socialicons {
   text-align: left;
+}
+.blog .socialicons h2 {
+  text-align: center;
 }
 .blog .socialicons.outside {
   position: absolute;
@@ -1836,7 +1848,25 @@ body {
   display: inline-block;
   width: 32px;
   height: 32px;
+  padding: 5px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 15px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   margin: 0 5px 5px 5px ;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .blog .socialicons .social span {
   display: none;
