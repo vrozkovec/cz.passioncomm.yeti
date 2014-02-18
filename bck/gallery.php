@@ -10,7 +10,7 @@
 require "inc-head.php";
 ?>
 
-<body class="video">
+<body class="gallery">
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -24,28 +24,28 @@ require "inc-menu.php";
 
 
 			<div class="row">
-				<div class="col-xs-12 breadcrumb hidden-xs">
+				<div class="col-xs-12 breadcrumb">
 					<span class="back"><i class="fa fa-angle-double-left"></i> <a
 						href="index.php">Back</a></span> <span class="path"><a href="#">Home</a>
-						/ <a href="#">Staropramen Alhemicar</a></span>
+						/ <a href="#">Yetti Campaign</a></span>
 				</div>
 			</div>
+
 			<div class="row row-margin">
 				<div class="col-xs-12">
-					<div class="info-block text-leaf header"
-						style="background: url('images/video@2x.png'); background-size: cover; background-position: top center;">
+					<div class="info-block text-leaf header">
 						<div class="orange-leaf-topshadow">
 							<div class="orange-leaf">
 								<div class="content standout">
 									<div class="wrapper">
-										<h2>Staropramen Alhemicar</h2>
-										<div class="author">Staropramen a. s.</div>
+										<h2>Yetti Campaign</h2>
+										<div class="author">Benzina a. s.</div>
 									</div>
 								</div>
 								<div class="shadow"></div>
 							</div>
 						</div>
-						<!-- 						<img src="images/video@2x.png" /> -->
+						<img src="images/yeti@2x.png" />
 					</div>
 				</div>
 			</div>
@@ -66,7 +66,6 @@ require "inc-menu.php";
 						Suspendisse auctor at sapien vel malesuada? Curabitur a aliquam
 						neque, in vestibulum nibh. Maecenas sit amet semper tortor, ut
 						condimentum neque.</p>
-
 					<p>Vivamus cursus arcu felis, vel viverra nibh scelerisque non.
 						Vestibulum luctus ligula sit amet laoreet luctus. Suspendisse
 						dignissim, libero vitae vestibulum porttitor, neque sem rutrum
@@ -83,7 +82,111 @@ require "inc-menu.php";
 				</div>
 			</div>
 
-			<div class="row loader-row visible-xs">
+			<div class="row row-margin gallery-row hidden-xs">
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img1.png" />
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img2.png" />
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img3.png" />
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img4.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="top-shadow">
+		<div class="container">
+			<div class="row gallery-detail-arrow arrow-top">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3 active"></div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gallery-detail">
+		<div class="container">
+			<div class="row gallery-detail-arrow arrow-top">
+				<div class="col-sm-12">
+					<img src="images/gallery/img1-detail.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="bottom-shadow">
+		<div class="container">
+			<div class="row row-margin gallery-detail-arrow arrow-bottom">
+				<div class="col-sm-3 active"></div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container info-blocks with-header">
+		<div class="padding20-left">
+			<div class="row row-margin gallery-row hidden-xs">
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img1.png" />
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img2.png" />
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img3.png" />
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#"> <img src="images/gallery/img4.png" />
+					</a>
+				</div>
+			</div>
+
+			<div class="row row-margin visible-xs">
+				<div class="col-xs-12">
+					<div class="in-content-leaf">
+
+						<div class="orange-leaf">
+							<div class="content">
+								<a href="gallery.php">View Gallery<i
+									class="fa fa-angle-double-right"></i></a>
+							</div>
+							<div class="shadow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row row-margin visible-xs">
+				<div class="col-xs-12">
+					<div class="in-content-leaf">
+						<div class="orange-leaf">
+							<div class="content">
+								<a href="video.php">Watch the video<i
+									class="fa fa-angle-double-right"></i></a>
+							</div>
+							<div class="shadow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row row-margin loader-row visible-xs">
 				<div class="col-xs-12">
 					<div class="in-content-leaf">
 						<div class="orange-leaf">
@@ -99,30 +202,24 @@ require "inc-menu.php";
 				</div>
 			</div>
 
-			<div class="explore-more hidden-xs">
+			<div class="explore-more">
 				<h2>Explore more work</h2>
-
 				<div class="row row-margin">
 					<div class="col-lg-3 col-md-3 col-sm-3">
 						<div class="info-block text-leaf">
-							<div class="orange-leaf">
-								<div class="content">
-									<h2>Staropramen Alhemicar</h2>
-									<div class="author">Staropramen a. s.</div>
-									<a href="#">Watch the Video <i class="fa fa-angle-double-right"></i></a>
+
+							<div class="play-button">
+								<div class="text-center">
+									<a href="#"><i class="fa fa-play-circle-o"></i></a>
 								</div>
-								<div class="shadow"></div>
 							</div>
-							<img src="images/block2@2x.png" />
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<div class="info-block text-leaf">
+
 							<div class="orange-leaf">
 								<div class="content">
 									<h2>Staropramen Alhemicar</h2>
 									<div class="author">Staropramen a. s.</div>
-									<a href="#">Watch the Video <i class="fa fa-angle-double-right"></i></a>
+									<a href="video.php">Watch the Video <i
+										class="fa fa-angle-double-right"></i></a>
 								</div>
 								<div class="shadow"></div>
 							</div>
@@ -137,7 +234,8 @@ require "inc-menu.php";
 									<div class="author">
 										<em>by</em> PassionComm
 									</div>
-									<a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
+									<a href="blog.php">Read More <i
+										class="fa fa-angle-double-right"></i></a>
 								</div>
 								<div class="shadow"></div>
 							</div>
@@ -147,10 +245,34 @@ require "inc-menu.php";
 					<div class="col-lg-3 col-md-3 col-sm-3">
 						<div class="info-block text-leaf">
 							<div class="orange-leaf">
+								<div class="content active">
+									<h2>Welcome Julia our new designer</h2>
+									<div class="author">
+										<em>by</em> PassionComm
+									</div>
+									<a href="blog.php">Read More <i
+										class="fa fa-angle-double-right"></i></a>
+								</div>
+								<div class="shadow"></div>
+							</div>
+							<img src="images/block2@2x.png" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="info-block text-leaf">
+
+							<div class="play-button">
+								<div class="text-center">
+									<a href="#"><i class="fa fa-play-circle-o"></i></a>
+								</div>
+							</div>
+
+							<div class="orange-leaf">
 								<div class="content">
 									<h2>Staropramen Alhemicar</h2>
 									<div class="author">Staropramen a. s.</div>
-									<a href="#">Watch the Video <i class="fa fa-angle-double-right"></i></a>
+									<a href="video.php">Watch the Video <i
+										class="fa fa-angle-double-right"></i></a>
 								</div>
 								<div class="shadow"></div>
 							</div>
@@ -162,11 +284,19 @@ require "inc-menu.php";
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="info-block text-leaf">
+
+							<div class="play-button">
+								<div class="text-center">
+									<a href="#"><i class="fa fa-play-circle-o"></i></a>
+								</div>
+							</div>
+
 							<div class="orange-leaf">
 								<div class="content">
 									<h2>The Art of Hard Rock event gallery</h2>
 									<div class="author">Hard Rock café</div>
-									<a href="#">Watch the Video <i class="fa fa-angle-double-right"></i></a>
+									<a href="video.php">Watch the Video <i
+										class="fa fa-angle-double-right"></i></a>
 								</div>
 								<div class="shadow"></div>
 							</div>
@@ -181,7 +311,8 @@ require "inc-menu.php";
 									<div class="author">
 										<em>by</em> James Cook
 									</div>
-									<a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
+									<a href="blog.php">Read More <i
+										class="fa fa-angle-double-right"></i></a>
 								</div>
 								<div class="shadow"></div>
 							</div>
@@ -190,12 +321,11 @@ require "inc-menu.php";
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 	
 <?php
-	require "inc-footer.php";
+require "inc-footer.php";
 ?>
 
 </body>

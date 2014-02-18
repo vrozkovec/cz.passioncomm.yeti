@@ -63,7 +63,7 @@
 		}
 
 		.navbar-toggle.collapsed {
-			margin-top: 12px;
+			margin-top: 15px;
 			background-color: white;
 			padding: inherit;
 			.border-radius ();
@@ -125,23 +125,13 @@
 		}
 }
 
-
 @media (max-width: 767px) {
-	body {
-		padding-top: 42px !important;
-	}
-	
 	.navbar-passion {
 		background: @pozadiMenu;
-		min-height: 42px;
 		.main-menu {
 			.navbar-nav {
 				& > li {
 					border-bottom: none;
-					& > a {
-						padding-top: 5px;
-						padding-bottom: 5px;
-					}
 					&.active, &:hover, &:focus {
 						border-bottom: none;
 						a {
@@ -151,21 +141,6 @@
 				}
 			}
 		}
-		
-		.navbar-header {
-			.languages {
-				margin: 0 0 0 11px;
-				a { 
-					padding: 9px 0 5px 0;
-					font-size: 15px; 
-
-					span {
-						padding: 0 7px; 
-					}
-				}
-			}
-		}
-		
 	}
 }
 

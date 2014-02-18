@@ -13,188 +13,310 @@
    Author's custom styles
    ========================================================================== */
 /********* margin *********/
+/* line 42, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000342}}
 .margin0 {
   margin: 0px;
 }
+/* line 43, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000343}}
 .margin0-bottom {
   margin-bottom: 0px;
 }
+/* line 44, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000344}}
 .margin0-left {
   margin-left: 0px;
 }
+/* line 45, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000345}}
 .margin0-right {
   margin-right: 0px;
 }
+/* line 46, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000346}}
 .margin0-top {
   margin-top: 0px;
 }
+/* line 48, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000348}}
 .margin5 {
   margin: 5px;
 }
+/* line 49, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000349}}
 .margin5-bottom {
   margin-bottom: 5px;
 }
+/* line 50, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000350}}
 .margin5-left {
   margin-left: 5px;
 }
+/* line 51, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000351}}
 .margin5-right {
   margin-right: 5px;
 }
+/* line 52, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000352}}
 .margin5-top {
   margin-top: 5px;
 }
+/* line 54, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000354}}
 .margin10 {
   margin: 10px;
 }
+/* line 55, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000355}}
 .margin10-bottom {
   margin-bottom: 10px;
 }
+/* line 56, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000356}}
 .margin10-left {
   margin-left: 10px;
 }
+/* line 57, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000357}}
 .margin10-right {
   margin-right: 10px;
 }
+/* line 58, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000358}}
 .margin10-top {
   margin-top: 10px;
 }
+/* line 60, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000360}}
 .margin15 {
   margin: 15px;
 }
+/* line 61, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000361}}
 .margin15-bottom {
   margin-bottom: 15px;
 }
+/* line 62, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000362}}
 .margin15-left {
   margin-left: 15px;
 }
+/* line 63, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000363}}
 .margin15-right {
   margin-right: 15px;
 }
+/* line 64, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000364}}
 .margin15-top {
   margin-top: 15px;
 }
+/* line 66, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000366}}
 .margin20 {
   margin: 20px;
 }
+/* line 67, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000367}}
 .margin20-bottom {
   margin-bottom: 20px;
 }
+/* line 68, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000368}}
 .margin20-left {
   margin-left: 20px;
 }
+/* line 69, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000369}}
 .margin20-right {
   margin-right: 20px;
 }
+/* line 70, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000370}}
 .margin20-top {
   margin-top: 20px;
 }
+/* line 72, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000372}}
 .margin30 {
   margin: 30px;
 }
+/* line 73, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000373}}
 .margin30-bottom {
   margin-bottom: 30px;
 }
+/* line 74, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000374}}
 .margin30-left {
   margin-left: 30px;
 }
+/* line 75, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000375}}
 .margin30-right {
   margin-right: 30px;
 }
+/* line 76, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000376}}
 .margin30-top {
   margin-top: 30px;
 }
 /********* padding *********/
+/* line 81, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000381}}
 .padding5 {
   padding: 5px;
 }
+/* line 82, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000382}}
 .padding5-bottom {
   padding-bottom: 5px;
 }
+/* line 83, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000383}}
 .padding5-left {
   padding-left: 5px;
 }
+/* line 84, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000384}}
 .padding5-right {
   padding-right: 5px;
 }
+/* line 85, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000385}}
 .padding5-top {
   padding-top: 5px;
 }
+/* line 87, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000387}}
 .padding10 {
   padding: 10px;
 }
+/* line 88, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000388}}
 .padding10-bottom {
   padding-bottom: 10px;
 }
+/* line 89, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000389}}
 .padding10-left {
   padding-left: 10px;
 }
+/* line 90, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000390}}
 .padding10-right {
   padding-right: 10px;
 }
+/* line 91, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000391}}
 .padding10-top {
   padding-top: 10px;
 }
+/* line 93, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000393}}
 .padding15 {
   padding: 15px;
 }
+/* line 94, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000394}}
 .padding15-bottom {
   padding-bottom: 15px;
 }
+/* line 95, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000395}}
 .padding15-left {
   padding-left: 15px;
 }
+/* line 96, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000396}}
 .padding15-right {
   padding-right: 15px;
 }
+/* line 97, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000397}}
 .padding15-top {
   padding-top: 15px;
 }
+/* line 99, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000399}}
 .padding20 {
   padding: 20px;
 }
+/* line 100, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003100}}
 .padding20-bottom {
   padding-bottom: 20px;
 }
+/* line 101, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003101}}
 .padding20-left {
   padding-left: 20px;
 }
+/* line 102, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003102}}
 .padding20-right {
   padding-right: 20px;
 }
+/* line 103, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003103}}
 .padding20-top {
   padding-top: 20px;
 }
+/* line 105, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003105}}
 .padding30 {
   padding: 30px;
 }
+/* line 106, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003106}}
 .padding30-bottom {
   padding-bottom: 30px;
 }
+/* line 107, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003107}}
 .padding30-left {
   padding-left: 30px;
 }
+/* line 108, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003108}}
 .padding30-right {
   padding-right: 30px;
 }
+/* line 109, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003109}}
 .padding30-top {
   padding-top: 30px;
 }
+/* line 111, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003111}}
 .padding35 {
   padding: 35px;
 }
+/* line 112, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003112}}
 .padding35-bottom {
   padding-bottom: 35px;
 }
+/* line 113, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003113}}
 .padding35-left {
   padding-left: 35px;
 }
+/* line 114, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003114}}
 .padding35-right {
   padding-right: 35px;
 }
+/* line 115, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003115}}
 .padding35-top {
   padding-top: 35px;
 }
 /********* border *********/
+/* line 119, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003119}}
 .border1,
 .border1-left,
 .border1-right,
@@ -214,69 +336,107 @@
   border-style: solid;
   border-width: 0;
 }
+/* line 128, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003128}}
 .border1 {
   border-width: 1px;
 }
+/* line 129, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003129}}
 .border1-left {
   border-left-width: 1px;
 }
+/* line 130, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003130}}
 .border1-right {
   border-right-width: 1px;
 }
+/* line 131, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003131}}
 .border1-top {
   border-top-width: 1px;
 }
+/* line 132, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003132}}
 .border1-bottom {
   border-bottom-width: 1px;
 }
+/* line 134, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003134}}
 .border2 {
   border-width: 2px;
 }
+/* line 135, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003135}}
 .border2-left {
   border-left-width: 2px;
 }
+/* line 136, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003136}}
 .border2-right {
   border-right-width: 2px;
 }
+/* line 137, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003137}}
 .border2-top {
   border-top-width: 2px;
 }
+/* line 138, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003138}}
 .border2-bottom {
   border-bottom-width: 2px;
 }
+/* line 140, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003140}}
 .border3 {
   border-width: 3px;
 }
+/* line 141, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003141}}
 .border3-left {
   border-left-width: 3px;
 }
+/* line 142, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003142}}
 .border3-right {
   border-right-width: 3px;
 }
+/* line 143, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003143}}
 .border3-top {
   border-top-width: 3px;
 }
+/* line 144, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003144}}
 .border3-bottom {
   border-bottom-width: 3px;
 }
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* line 6, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\000036}}
 .tophead {
   background-image: url("img/tophead.png");
   background-repeat: no-repeat;
   background-position: top center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
   .tophead {
     background-image: url("img/tophead@2x.png");
     background-size: auto 160px;
   }
 }
+/* line 13, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000313}}
 .tophead .container {
   height: 160px;
 }
+/* line 18, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000318}}
 .tophead .container .logo {
   background-image: url("img/logo.png");
   height: 100px;
@@ -285,11 +445,15 @@
   background-position: left center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
   .tophead .container .logo {
     background-image: url("img/logo@2x.png");
     background-size: 220px 100px;
   }
 }
+/* line 26, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000326}}
 .tophead .container .slogan {
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -298,12 +462,18 @@
   line-height: 40px;
   margin-top: 40px;
 }
+/* line 35, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000335}}
 .tophead .container .col-xs-1 {
   padding: 0;
 }
+/* line 36, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000336}}
 .tophead .container .arrow {
   display: block;
 }
+/* line 38, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000338}}
 .tophead .container .arrow a {
   text-align: center;
   font-size: 25px;
@@ -312,10 +482,14 @@
   height: 160px;
   line-height: 160px;
 }
+/* line 45, /data/www/cz.passioncomm.yeti/css/tophead.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000345}}
 .tophead .container .arrow a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 @media (max-width: 767px) {
+  /* line 57, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000357}}
   .tophead .container .logo {
     background-position: center;
   }
@@ -323,11 +497,15 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* line 7, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\000037}}
 .navbar-passion {
   border: 0;
   background: white;
   font-family: 'Open Sans', sans-serif;
 }
+/* line 17, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000317}}
 .navbar-passion .main-menu .navbar-nav > li > a {
   padding-left: 35px;
   padding-right: 35px;
@@ -335,6 +513,8 @@
   color: #f7931e;
   line-height: 25px;
 }
+/* line 25, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000325}}
 .navbar-passion .main-menu .navbar-nav > li > a .badge {
   vertical-align: middle;
   padding: 3px 5px;
@@ -349,16 +529,24 @@
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
   font-size: 12px;
 }
+/* line 37, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000337}}
 .navbar-passion .main-menu .navbar-nav > li:hover,
 .navbar-passion .main-menu .navbar-nav > li:focus {
   border-bottom: solid 2px #e6e6e6;
 }
+/* line 41, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000341}}
 .navbar-passion .main-menu .navbar-nav > li.active {
   border-bottom: solid 2px black;
 }
+/* line 48, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000348}}
 .navbar-passion .navbar-header {
   background: white;
 }
+/* line 51, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000351}}
 .navbar-passion .navbar-header .navbar-toggle {
   margin-top: -6px;
   padding: 15px 9px 3px 9px;
@@ -379,17 +567,25 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+/* line 56, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000356}}
 .navbar-passion .navbar-header .navbar-toggle .icon-bar {
   display: none;
 }
+/* line 58, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000358}}
 .navbar-passion .navbar-header .navbar-toggle i {
   color: #f7931e;
 }
+/* line 61, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000361}}
 .navbar-passion .navbar-header .navbar-toggle:hover i {
   color: #da7908;
 }
+/* line 65, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000365}}
 .navbar-passion .navbar-header .navbar-toggle.collapsed {
-  margin-top: 15px;
+  margin-top: 12px;
   background-color: white;
   padding: inherit;
   -webkit-border-top-right-radius: 0;
@@ -408,19 +604,29 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+/* line 70, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000370}}
 .navbar-passion .navbar-header .navbar-toggle.collapsed .icon-bar {
   background-color: black;
   display: block;
 }
+/* line 75, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000375}}
 .navbar-passion .navbar-header .navbar-toggle.collapsed i {
   display: none;
 }
+/* line 79, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000379}}
 .navbar-passion .navbar-header .languages {
   margin: 0 0 0 12px;
 }
+/* line 80, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000380}}
 .navbar-passion .navbar-header .languages > li.active > a {
   color: black;
 }
+/* line 84, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000384}}
 .navbar-passion .navbar-header .languages a {
   margin-top: 0;
   display: inline-block;
@@ -431,6 +637,8 @@
   padding: 15px 0;
   color: black;
 }
+/* line 93, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000393}}
 .navbar-passion .navbar-header .languages a.active,
 .navbar-passion .navbar-header .languages a:hover,
 .navbar-passion .navbar-header .languages a:focus {
@@ -438,753 +646,164 @@
   font-weight: bold;
   border-bottom: solid 2px #e6e6e6;
 }
+/* line 99, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000399}}
 .navbar-passion .navbar-header .languages a span {
   padding: 0 15px;
 }
+/* line 102, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003102}}
 .navbar-passion .navbar-header .languages a.cz span {
   border-right: solid 1px #e6e6e6;
 }
 @media (max-width: 992px) {
+  /* line 118, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003118}}
   .navbar-passion .main-menu .navbar-nav > li > a {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 767px) {
+  /* line 130, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003130}}
+  body {
+    padding-top: 42px !important;
+  }
+  /* line 134, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003134}}
   .navbar-passion {
     background: #e6e6e6;
+    min-height: 42px;
   }
+  /* line 139, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003139}}
   .navbar-passion .main-menu .navbar-nav > li {
     border-bottom: none;
   }
+  /* line 141, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003141}}
+  .navbar-passion .main-menu .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  /* line 145, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003145}}
   .navbar-passion .main-menu .navbar-nav > li.active,
   .navbar-passion .main-menu .navbar-nav > li:hover,
   .navbar-passion .main-menu .navbar-nav > li:focus {
     border-bottom: none;
   }
+  /* line 147, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003147}}
   .navbar-passion .main-menu .navbar-nav > li.active a,
   .navbar-passion .main-menu .navbar-nav > li:hover a,
   .navbar-passion .main-menu .navbar-nav > li:focus a {
     color: black;
   }
+  /* line 156, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003156}}
+  .navbar-passion .navbar-header .languages {
+    margin: 0 0 0 11px;
+  }
+  /* line 158, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003158}}
+  .navbar-passion .navbar-header .languages a {
+    padding: 9px 0 5px 0;
+    font-size: 15px;
+  }
+  /* line 162, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003162}}
+  .navbar-passion .navbar-header .languages a span {
+    padding: 0 7px;
+  }
 }
+/* line 13, /data/www/cz.passioncomm.yeti/css/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000313}}
 .container {
   max-width: 921px;
 }
+/* line 18, /data/www/cz.passioncomm.yeti/css/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000318}}
 * {
   font-family: 'Open Sans', sans-serif;
 }
+/* line 24, /data/www/cz.passioncomm.yeti/css/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000324}}
 body {
+  padding-top: 50px;
   background-color: #ffffff;
 }
+/* line 27, /data/www/cz.passioncomm.yeti/css/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000327}}
 body a {
   color: #f7931e;
 }
-.row-margin {
-  margin-bottom: 40px;
-}
-.blog .content-wrapper {
-  padding-right: 100px;
-}
-.blog address {
-  display: block;
-  text-align: center;
-  padding: 20px 0;
-  background: white;
-}
-.blog .socialicons {
-  text-align: left;
-}
-.blog .socialicons h2 {
-  text-align: center;
-}
-.blog .socialicons.outside {
-  position: absolute;
-  top: 120px;
-  left: 5px;
-}
-.blog .socialicons.outside .social {
-  display: block;
-}
-.blog .socialicons .social {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  padding: 5px;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 15px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  margin: 0 5px 5px 5px ;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.blog .socialicons .social span {
-  display: none;
-}
-.blog .socialicons .social.facebook {
-  background-image: url("img/social/facebook.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .blog .socialicons .social.facebook {
-    background-image: url("img/social/facebook@2x.png");
-    background-size: 32px 32px;
+@media (max-width: 767px) {
+  /* line 35, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000335}}
+  .container.info-blocks {
+    padding: 0;
   }
-}
-.blog .socialicons .social.google {
-  background-image: url("img/social/google.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .blog .socialicons .social.google {
-    background-image: url("img/social/google@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.blog .socialicons .social.twitter {
-  background-image: url("img/social/twitter.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .blog .socialicons .social.twitter {
-    background-image: url("img/social/twitter@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.blog .socialicons .social.email {
-  background-image: url("img/social/email.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .blog .socialicons .social.email {
-    background-image: url("img/social/email@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.blog .socialicons .social.addthis {
-  background-image: url("img/social/addthis.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .blog .socialicons .social.addthis {
-    background-image: url("img/social/addthis@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.container.with-header {
-  padding-left: 0;
-  position: relative;
-  left: -5px;
-}
-.container.with-header .text-content {
-  padding-right: 250px;
-}
-.blog .container.with-header .text-content {
-  padding-right: 0;
-}
-.blog .container.with-header .text-content p {
-  font-size: 15px;
-}
-.blog .container.with-header .text-content p.lead {
-  font-size: 20px;
-}
-.blog .container.with-header .text-content p a {
-  color: #f7931e;
-}
-.blog .container.with-header .text-content p a.inactive {
-  color: #4d4d4d;
-  text-decoration: underline;
-}
-.blog .container.with-header .text-content h2 {
-  font-size: 20px;
-}
-.blog .container.with-header .text-content h3 {
-  font-size: 16px;
-}
-.blog .container.with-header .text-content blockquote {
-  border-left-color: #f7931e;
-  font-style: italic;
-  padding: 0 20px;
-}
-.blog .container.with-header .text-content .table {
-  border-collapse: collapse;
-}
-.blog .container.with-header .text-content .table tr {
-  border-spacing: 5px;
-  border-bottom: 5px solid #ffffff;
-}
-.blog .container.with-header .text-content .table th {
-  background-color: #f7931e;
-}
-.blog .container.with-header .text-content .table td {
-  background-color: white;
-}
-.container.with-header .text-content h1 {
-  font-size: 22px;
-  font-weight: 600;
-}
-.container.with-header .gallery-detail-arrow {
-  text-align: center;
-}
-.container.with-header .gallery-row img,
-.container.with-header .gallery-detail img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 15px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.gallery .gallery-detail {
-  background-color: #cccccc;
-  padding: 20px 0;
-}
-.gallery .top-shadow,
-.gallery .bottom-shadow {
-  background-repeat: repeat-x;
-  height: 32px;
-}
-.gallery .top-shadow .active,
-.gallery .bottom-shadow .active {
-  height: 32px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.gallery .bottom-shadow {
-  margin-bottom: 15px;
-  background-image: url("img/gallery-shadow-bottom.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .gallery .bottom-shadow {
-    background-image: url("img/gallery-shadow-bottom@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.gallery .bottom-shadow .active {
-  background-image: url("img/gallery-shadow-bottom-arrow.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .gallery .bottom-shadow .active {
-    background-image: url("img/gallery-shadow-bottom-arrow@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.gallery .top-shadow {
-  margin-top: 15px;
-  background-image: url("img/gallery-shadow-top.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .gallery .top-shadow {
-    background-image: url("img/gallery-shadow-top@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.gallery .top-shadow .active {
-  background-image: url("img/gallery-shadow-top-arrow.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .gallery .top-shadow .active {
-    background-image: url("img/gallery-shadow-top-arrow@2x.png");
-    background-size: 32px 32px;
-  }
-}
-.breadcrumb .back {
-  display: inline-block;
-  margin-right: 20px;
-}
-.breadcrumb .back a {
-  padding-left: 5px;
-  color: black;
-  font-size: 24px;
-  text-decoration: underline;
-  font-weight: 300;
-}
-.breadcrumb .path {
-  display: inline-block;
-  color: #4d4d4d;
-}
-.breadcrumb .path a {
-  margin: 0 5px;
-  display: inline-block;
-  color: #4d4d4d;
-  font-size: 20px;
-  text-decoration: underline;
-  font-weight: 300;
-}
-.explore-more {
-  background: #f2f2f2;
-  padding: 30px 20px;
-}
-.explore-more h2 {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 50px;
-}
-.explore-more-column {
-  background: #cdcdcd;
-  padding: 10px 30px;
-  text-align: center;
-}
-.explore-more-column h2 {
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 50px;
-}
-.explore-more-column .info-block.text-leaf {
-  margin-bottom: 30px;
-}
-.image-leaf .content img {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 15px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.image-leaf .shadow {
-  height: 31px;
-  background-image: url("img/shadow.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-right: 12px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .image-leaf .shadow {
-    background-image: url("img/shadow@2x.png");
-    background-size: 228px 31px;
-  }
-}
-.in-content-leaf .orange-leaf .content {
-  text-align: center;
-  background-color: #f17124;
-  background-image: -webkit-radial-gradient(circle, #f78d1e, #f17124);
-  background-image: radial-gradient(circle, #f78d1e, #f17124);
-  background-repeat: no-repeat;
-  color: white;
-  padding: 15px 20px 20px 20px;
-  font-family: 'Open Sans', sans-serif;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 15px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  font-size: 26px;
-}
-.in-content-leaf .orange-leaf .content.active {
-  color: #f17124;
-  background: white;
-}
-.in-content-leaf .orange-leaf .content.active a {
-  color: #f17124 !important;
-  background: white;
-}
-.in-content-leaf .orange-leaf .content.text-left {
-  text-align: left;
-}
-.in-content-leaf .orange-leaf .content a {
-  color: white;
-  text-decoration: none;
-  font-size: 26px;
-}
-.in-content-leaf .orange-leaf .content a:hover {
-  text-decoration: underline;
-}
-.in-content-leaf .orange-leaf .content a i {
-  margin-left: 10px;
-}
-.in-content-leaf .orange-leaf .content h1 {
-  font-size: 28px;
-}
-.in-content-leaf .orange-leaf .content .author {
-  font-size: 20px;
-}
-.in-content-leaf .orange-leaf .shadow {
-  height: 31px;
-  background-image: url("img/shadow.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-right: 12px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .in-content-leaf .orange-leaf .shadow {
-    background-image: url("img/shadow@2x.png");
-    background-size: 228px 31px;
-  }
-}
-.info-block {
-  position: relative;
-}
-.info-block .play-button {
-  position: absolute;
-  top: 40px;
-  left: 0;
-  right: 0;
-}
-.info-block .play-button a {
-  outline: 0;
-  color: white;
-}
-.info-block .play-button a.invert {
-  color: black;
-}
-.info-block .play-button a i {
-  font-size: 72px;
-}
-.info-block .play-button a:hover {
-  color: #b3b3b3;
-}
-.info-block.text-leaf.header {
-  height: 531px;
-}
-.info-block .orange-leaf-topshadow {
-  background-image: url("img/shadow-top.png");
-  background-position: top left;
-  background-repeat: no-repeat;
-  padding-top: 10px;
-  position: absolute;
-  bottom: 30px;
-  left: -19px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .info-block .orange-leaf-topshadow {
-    background-image: url("img/shadow-top@2x.png");
-    background-size: 19px 10px;
-  }
-}
-.info-block .orange-leaf-topshadow .orange-leaf {
-  position: relative !important;
-  text-align: left;
-}
-.info-block .orange-leaf-topshadow .orange-leaf .wrapper {
-  margin: 0 60px;
-}
-.info-block .orange-leaf-topshadow .orange-leaf .content {
-  display: inline-block;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.info-block .orange-leaf .content {
-  text-align: left;
-  background-color: #f17124;
-  background-image: -webkit-radial-gradient(circle, #f78d1e, #f17124);
-  background-image: radial-gradient(circle, #f78d1e, #f17124);
-  background-repeat: no-repeat;
-  color: white;
-  padding: 15px 20px 20px 20px;
-  font-family: 'Open Sans', sans-serif;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 15px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.info-block .orange-leaf .content.active {
-  color: #f17124;
-  background: white;
-}
-.info-block .orange-leaf .content.active a {
-  color: #f17124 !important;
-  background: white;
-}
-.info-block .orange-leaf .content.standout {
-  padding: 25px 20px 20px 25px;
-}
-.info-block .orange-leaf .content.standout h2 {
-  font-size: 28px;
-}
-.info-block .orange-leaf .content.standout .author {
-  font-size: 22px;
-}
-.info-block .orange-leaf .content h2 {
-  margin: 0;
-  font-weight: 600;
-  font-size: 17px;
-}
-.info-block .orange-leaf .content h2.standout {
-  font-size: 24px;
-}
-.info-block .orange-leaf .content .author {
-  margin-bottom: 3px;
-  font-size: 16px;
-}
-.info-block .orange-leaf .content .author em {
-  font-size: 14px;
-}
-.info-block .orange-leaf .content a {
-  color: white;
-  text-decoration: underline;
-  font-size: 14px;
-}
-.info-block .orange-leaf .content a i {
-  margin-left: 5px;
-  font-size: 12px;
-}
-.info-block .orange-leaf .content a:hover {
-  text-decoration: none;
-}
-.info-block .orange-leaf .shadow {
-  height: 31px;
-  background-image: url("img/shadow.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-right: 12px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .info-block .orange-leaf .shadow {
-    background-image: url("img/shadow@2x.png");
-    background-size: 228px 31px;
-  }
-}
-.info-block.full-orange-leaf .orange-leaf .content {
-  height: 272px;
-  padding: 35px 20px 0 20px;
-}
-.info-block.full-orange-leaf .orange-leaf .content .quote {
-  font-style: italic;
-  font-weight: 300;
-  line-height: 40px;
-  margin-bottom: 30px;
-  font-size: 24px;
-}
-.info-block.full-orange-leaf .orange-leaf .content .quote.large {
-  font-size: 18px;
-  line-height: 20px;
-}
-.info-block.full-orange-leaf .orange-leaf .content p {
-  font-size: 11px;
-  text-align: right;
-}
-.info-block.full-orange-leaf .orange-leaf .content p .quote-author {
-  font-weight: 600;
-  display: block;
-  font-size: 13px;
-}
-.info-block.full-orange-leaf .orange-leaf .content p .quote-author:before {
-  content: "— ";
-}
-.info-block.text-leaf {
-  position: relative;
-  text-align: center;
-  height: 272px;
-  overflow: hidden;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 15px;
-  -moz-background-clip: padding-box;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.info-block.text-leaf img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.info-block.text-leaf .orange-leaf {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 10px;
-}
-.info-block.header {
-  overflow: visible;
-}
-.info-block.double-height {
-  height: 575px;
-}
-.loader {
-  margin-top: 50px;
-  padding: 20px;
-  text-align: center;
-}
-footer {
-  margin-top: 50px;
-  height: 70px;
-  background-color: #e6e6e6;
-  text-align: center;
-  line-height: 70px;
-  font-family: 'Open Sans', sans-serif;
-}
-footer a {
-  color: #f7931e;
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .container.info-blocks.with-header {
-    left: 0;
-  }
-  .container.info-blocks .info-block {
-    margin-bottom: 0;
-  }
-  .blog .container.info-blocks .info-block.text-leaf {
+  /* line 43, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000343}}
+  .info-block {
+    position: relative;
+    overflow: hidden;
     margin-bottom: 30px;
   }
-  .container.info-blocks .info-block .play-button {
-    top: 30px;
+  /* line 46, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000346}}
+  .info-block img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
   }
-  .container.info-blocks .info-block .play-button a i {
-    font-size: 48px;
+  /* line 54, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000354}}
+  .info-block .play-button {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
   }
-  .container.info-blocks .info-block .orange-leaf .content {
-    text-align: left;
-    padding: 10px 15px;
-  }
-  .container.info-blocks .info-block .orange-leaf .content h2 {
-    margin: 0;
-    font-size: 13px;
-  }
-  .container.info-blocks .info-block .orange-leaf .content .author {
-    font-size: 12px;
-    margin-bottom: 3px;
-  }
-  .container.info-blocks .info-block .orange-leaf .content .author em {
-    font-size: 10px;
-  }
-  .container.info-blocks .info-block .orange-leaf .content a {
+  /* line 59, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000359}}
+  .info-block .play-button a {
+    outline: 0;
     color: white;
-    text-decoration: underline;
-    font-size: 12px;
   }
-  .container.info-blocks .info-block .orange-leaf .content a i {
-    margin-left: 2px;
-    font-size: 10px;
+  /* line 62, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000362}}
+  .info-block .play-button a.invert {
+    color: black;
   }
-  .container.info-blocks .info-block .orange-leaf .content a:hover {
-    text-decoration: none;
+  /* line 66, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000366}}
+  .info-block .play-button a i {
+    font-size: 64px;
   }
-  .container.info-blocks .info-block.full-orange-leaf .orange-leaf .content {
-    height: 214px;
-    padding-top: 20px;
+  /* line 70, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000370}}
+  .info-block .play-button a:hover {
+    color: #b3b3b3;
   }
-  .container.info-blocks .info-block.full-orange-leaf .orange-leaf .content .quote {
-    line-height: 25px;
-    margin-bottom: 20px;
-    font-size: 18px;
+  /* line 77, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000377}}
+  .info-block .orange-leaf {
+    z-index: 20;
   }
-  .container.info-blocks .info-block.full-orange-leaf .orange-leaf .content .quote.large {
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .container.info-blocks .info-block.full-orange-leaf .orange-leaf .content p {
-    font-size: 11px;
-    text-align: right;
-  }
-  .container.info-blocks .info-block.full-orange-leaf .orange-leaf .content p .quote-author {
-    font-weight: 600;
-    display: block;
-    font-size: 10px;
-  }
-  .container.info-blocks .info-block.full-orange-leaf .orange-leaf .content p .quote-author:before {
-    content: "— ";
-  }
-  .container.info-blocks .info-block.text-leaf {
-    height: 214px;
-  }
-  .container.info-blocks .info-block.text-leaf.header {
-    height: 423px;
-  }
-  .container.info-blocks .info-block.double-height {
-    height: 460px;
-  }
-  .container.info-blocks .info-block .col-lg-6 .info-block .play-button {
-    top: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .blog .content-wrapper {
-    padding-right: 0;
-  }
-  .blog .socialicons {
-    padding-left: 20px;
-  }
-  .blog .container.with-header .text-content {
-    padding-right: 0;
-  }
-  .blog .container.with-header .text-content .wrapper {
-    padding-right: 0;
-  }
-  .gallery-row .col-sm-3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .gallery-row .col-sm-3 a {
-    display: inline-block;
-  }
-  .gallery-row img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  /* line 79, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\0000379}}
+  .info-block .orange-leaf .content {
+    text-align: left;
+    background-color: #f17124;
+    background-image: -webkit-radial-gradient(circle, #f78d1e, #f17124);
+    background-image: radial-gradient(circle, #f78d1e, #f17124);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px 20px 15px 20px;
+    font-family: 'Open Sans', sans-serif;
     -webkit-border-top-right-radius: 0;
     -webkit-border-bottom-right-radius: 15px;
     -webkit-border-bottom-left-radius: 0;
@@ -1201,104 +820,74 @@ footer a {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
-  .gallery-row.row-margin {
+  /* line 101, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003101}}
+  .info-block .orange-leaf .content h2 {
     margin: 0;
+    font-weight: 600;
+    font-size: 17px;
   }
-  .explore-more h2 {
-    padding-left: 15px;
+  /* line 118, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003118}}
+  .info-block .orange-leaf .content a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
   }
-  .breadcrumb {
-    padding: 0 30px;
+  /* line 122, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003122}}
+  .info-block .orange-leaf .content a i {
+    margin-left: 5px;
+    font-size: 12px;
   }
-  .breadcrumb .path {
-    display: block;
-    margin: 10px 0 0 15px;
+  /* line 127, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003127}}
+  .info-block .orange-leaf .content a:hover {
+    text-decoration: none;
   }
-  .loader-row {
-    height: 80px;
+  /* line 136, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003136}}
+  .info-block .orange-leaf .shadow {
+    height: 31px;
+    background-image: url("img/shadow.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 12px;
+    z-index: 20;
   }
-  .in-content-leaf {
-    min-height: 50px;
-  }
-  .loader-row .in-content-leaf {
-    height: 90px;
-  }
-  .in-content-leaf .orange-leaf {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .container.info-blocks {
-    padding: 0;
-  }
-  .container.info-blocks.with-header {
-    left: 0;
-  }
-  .container.info-blocks.with-header > .padding20-left {
-    padding: 0;
-  }
-  .container.info-blocks.with-header .text-content {
-    padding: 0 30px;
-  }
-  .container.info-blocks .info-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 420px;
-    margin-bottom: 30px;
-  }
-  .container.info-blocks .info-block .play-button {
-    top: 80px;
-  }
-  .container.info-blocks .info-block.text-leaf {
-    height: 350px;
-    -webkit-border-top-right-radius: 0;
-    -webkit-border-bottom-right-radius: 0;
-    -webkit-border-bottom-left-radius: 0;
-    -webkit-border-top-left-radius: 0;
-    -moz-border-radius-topright: 0;
-    -moz-border-radius-bottomright: 0;
-    -moz-border-radius-bottomleft: 0;
-    -moz-border-radius-topleft: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    -moz-background-clip: padding-box;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-  }
-  .container.info-blocks .info-block.text-leaf .orange-leaf {
+  /* line 147, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003147}}
+  .info-block.text-leaf .orange-leaf {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+    bottom: -9px;
+    left: 17px;
+    right: 15px;
   }
-  .container.info-blocks .info-block .orange-leaf-topshadow {
-    padding-top: 0;
+  /* line 153, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003153}}
+  .info-block.text-leaf .orange-leaf .content h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  /* line 158, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003158}}
+  .info-block.text-leaf .orange-leaf .content .author {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  /* line 168, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003168}}
+  .info-block.full-orange-leaf .orange-leaf {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    background: none;
-  }
-  .container.info-blocks .info-block .orange-leaf-topshadow .orange-leaf {
-    position: relative !important;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
   }
-  .container.info-blocks .info-block .orange-leaf-topshadow .orange-leaf .content {
-    display: block;
-  }
-  .container.info-blocks .info-block .orange-leaf-topshadow .orange-leaf .wrapper {
-    margin: 0;
-  }
-  .container.info-blocks .info-block .shadow {
-    display: none;
-  }
-  .container.info-blocks .info-block.full-orange-leaf .content {
-    height: 240px;
+  /* line 174, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003174}}
+  .info-block.full-orange-leaf .orange-leaf .content {
+    height: 100%;
     -webkit-border-top-right-radius: 0;
     -webkit-border-bottom-right-radius: 0;
     -webkit-border-bottom-left-radius: 0;
@@ -1315,31 +904,1002 @@ footer a {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     text-align: center;
+    padding: 55px 20px 0 20px;
   }
-  .container.info-blocks .info-block.full-orange-leaf .content p {
+  /* line 179, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003179}}
+  .info-block.full-orange-leaf .orange-leaf .content .quote {
     text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 40px;
+    font-size: 35px;
   }
-  .container.info-blocks .info-block.header {
-    height: 250px;
-    margin-bottom: 0;
+  /* line 186, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003186}}
+  .info-block.full-orange-leaf .orange-leaf .content .quote.large {
+    font-size: 18px;
+    line-height: 20px;
   }
-  .container.info-blocks .info-block.double-height {
-    height: 490px;
+  /* line 192, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003192}}
+  .info-block.full-orange-leaf .orange-leaf .content p {
+    text-align: center;
+    font-size: 11px;
   }
-  .container.info-blocks .col-lg-6 .info-block {
-    height: 240px;
+  /* line 195, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003195}}
+  .info-block.full-orange-leaf .orange-leaf .content p .quote-author {
+    font-weight: 600;
+    display: block;
+    font-size: 13px;
   }
-  .container.info-blocks .col-lg-6 .info-block .play-button {
-    top: 30px;
+  /* line 196, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003196}}
+  .info-block.full-orange-leaf .orange-leaf .content p .quote-author:before {
+    content: "— ";
   }
+  /* line 211, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003211}}
+  .loader {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  /* line 216, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003216}}
+  .loader img {
+    margin-right: 10px;
+  }
+  /* line 219, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003219}}
   footer {
-    height: 140px;
-    line-height: 35px;
+    padding-top: 35.5px;
+    margin-top: 50px;
+    height: 95px;
+    background-color: #e6e6e6;
+    text-align: center;
+    line-height: 12px;
+    font-family: 'Open Sans', sans-serif;
   }
-  footer .container {
-    padding-top: 35px;
-  }
-  footer .container .visible-xs {
-    display: inline !important;
+  /* line 229, /data/www/cz.passioncomm.yeti/css/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003229}}
+  footer a {
+    color: #f7931e;
   }
 }
+@media (max-width: 767px) and only screen and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and only screen and (min--moz-device-pixel-ratio: 2), (max-width: 767px) and only screen and (-o-min-device-pixel-ratio: 2/1), (max-width: 767px) and only screen and (min-device-pixel-ratio: 2), (max-width: 767px) and only screen and (min-resolution: 192dpi), (max-width: 767px) and only screen and (min-resolution: 2dppx) {
+  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
+  .info-block .orange-leaf .shadow {
+    background-image: url("img/shadow@2x.png");
+    background-size: 228px 31px;
+  }
+}
+/*
+.row-margin {
+	margin-bottom: @rowSpacing;
+}
+
+@shadowHeight: 31px;
+@infoblockHeight: 272px;
+@infoblockBottomMargin: 0;
+@infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight;
+.blog {
+	.content-wrapper {
+		padding-right: 100px;
+	}
+
+	address {
+		display: block;
+		text-align: center;
+		padding: 20px 0;
+		background: white;
+	}
+
+	.socialicons {
+		text-align: left;
+		h2 {
+			text-align: center;
+		}
+
+		&.outside {
+			position: absolute;
+			top: 120px;
+			left: 5px;
+			.social {
+				display: block;
+				width: 32px;
+				height: 32px;
+				padding: 5px;
+				margin: 0 5px 5px 5px;
+				background-position: center;
+				background-repeat: no-repeat;
+				span {
+					display: none;
+				}
+
+				&.facebook {
+					.retinaimg ("social/facebook" , 32px , 32px);
+				}
+
+				&.google {
+					.retinaimg ("social/google" , 32px , 32px);
+				}
+
+				&.twitter {
+					.retinaimg ("social/twitter" , 32px , 32px);
+				}
+
+				&.email {
+					.retinaimg ("social/email" , 32px , 32px);
+				}
+
+				&.addthis {
+					.retinaimg ("social/addthis" , 32px , 32px);
+				}
+			}
+		}
+
+		&.inside {
+			.social {
+				display: inline-block;
+				width: 75px;
+				background: blue;
+				height: 44px;
+				padding: 5px;
+				.passion-rounded-border ();
+				background-position: center;
+				background-repeat: no-repeat;
+				line-height: 40px;
+				font-size: 35px;
+				color: white;
+				text-align: center;
+				margin-right: 5px;
+				span {
+					display: none;
+				}
+
+				&.facebook {
+					text-align: right;
+					padding-right: 15px;
+					background-color: #2f6199;
+				}
+
+				&.twitter {
+					background-color: #20c4f1;
+					padding-bottom: 3px;
+				}
+
+				&.addthis {
+					width: 45px;
+					background-color: #e6e6e6;
+				}
+			}
+		}
+
+		.shareinfo {
+			padding-top: 3px;
+			display: inline-block;
+			line-height: 16px;
+			margin-right: 5px;
+			.num {
+				line-height: 22px;
+				font-size: 22px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.container.with-header {
+	padding-left: 0;
+	position: relative;
+	left: -5px;
+	.text-content {
+		padding-right: 250px;
+		.blog & {
+			padding-right: 0;
+			p {
+				&.lead {
+					font-size: 20px;
+				}
+
+				font-size: 15px;
+				a {
+					color: @passionOranzova;
+					&.inactive {
+						color: #4d4d4d;
+						text-decoration: underline;
+					}
+				}
+			}
+
+			h2 {
+				font-size: 20px;
+			}
+
+			h3 {
+				font-size: 16px;
+			}
+
+			blockquote {
+				border-left-color: @passionOranzova;
+				font-style: italic;
+				padding: 0 20px;
+			}
+
+			.table {
+				border-collapse: collapse;
+				tr {
+					border-spacing: 5px;
+					border-bottom: 5px solid @pageBackground;
+				}
+
+				th {
+					background-color: @passionOranzova;
+				}
+
+				td {
+					background-color: white;
+				}
+			}
+		}
+
+		h1 {
+			font-size: 22px;
+			font-weight: 600;
+		}
+	}
+
+	.gallery-detail-arrow {
+		text-align: center;
+	}
+
+	.gallery-row , .gallery-detail {
+		img {
+			.img-responsive ();
+			.passion-rounded-border ();
+		}
+	}
+}
+
+.gallery {
+	.gallery-detail {
+		background-color: #cccccc;
+		padding: 20px 0;
+	}
+
+	.top-shadow , .bottom-shadow {
+		background-repeat: repeat-x;
+		height: 32px;
+		.active {
+			height: 32px;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+
+	.bottom-shadow {
+		margin-bottom: 15px;
+		.retinaimg ("gallery-shadow-bottom" , 32px , 32px);
+		.active {
+			.retinaimg ("gallery-shadow-bottom-arrow" , 32px , 32px);
+		}
+	}
+
+	.top-shadow {
+		margin-top: 15px;
+		.retinaimg ("gallery-shadow-top" , 32px , 32px);
+		.active {
+			.retinaimg ("gallery-shadow-top-arrow" , 32px , 32px);
+		}
+	}
+}
+
+.breadcrumb {
+	.back {
+		display: inline-block;
+		margin-right: 20px;
+		a {
+			padding-left: 5px;
+			color: black;
+			font-size: 24px;
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	}
+
+	.path {
+		display: inline-block;
+		color: lighten(black, 30%);
+		a {
+			margin: 0 5px;
+			display: inline-block;
+			color: lighten(black, 30%);
+			font-size: 20px;
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	}
+}
+
+.explore-more {
+	background: #f2f2f2;
+	padding: 30px 20px;
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 50px;
+	}
+}
+
+.explore-more-column {
+	background: lighten(gray, 30%);
+	padding: 10px 30px;
+	text-align: center;
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.info-block.text-leaf {
+		margin-bottom: 30px;
+	}
+}
+
+.image-leaf {
+	.content {
+		img {
+			.passion-rounded-border ();
+		}
+	}
+
+	.shadow {
+		@shadowHeight: 31px;
+		height: @shadowHeight;
+		.retinaimg ("shadow" , 228px , @shadowHeight);
+		background-repeat: no-repeat;
+		background-position: right top;
+		margin-right: 12px;
+	}
+}
+
+.in-content-leaf {
+	.orange-leaf {
+		.content {
+			&.active {
+				color: @gradientColor;
+				background: white;
+				a {
+					color: @gradientColor ! important;
+					background: white;
+				}
+			}
+
+			text-align: center;
+			&.text-left {
+				text-align: left;
+			}
+
+			@gradientColor: #f17124;
+			background-color: @gradientColor;
+			#gradient > .radial (#F78D1E;
+			@gradientColor);
+			color: white;
+			padding: 15px 20px 20px 20px;
+			font-family: 'Open Sans', sans-serif;
+			.passion-rounded-border ();
+			font-size: 26px;
+			a {
+				color: white;
+				text-decoration: none;
+				font-size: 26px;
+				&:hover {
+					text-decoration: underline;
+				}
+
+				i {
+					margin-left: 10px;
+				}
+			}
+
+			h1 {
+				font-size: 28px;
+			}
+
+			.author {
+				font-size: 20px;
+			}
+		}
+
+		.shadow {
+			@shadowHeight: 31px;
+			height: @shadowHeight;
+			.retinaimg ("shadow" , 228px , @shadowHeight);
+			background-repeat: no-repeat;
+			background-position: right top;
+			margin-right: 12px;
+		}
+	}
+}
+
+.info-block {
+	position: relative;
+	.play-button {
+		position: absolute;
+		top: 40px;
+		left: 0;
+		right: 0;
+		a {
+			outline: 0;
+			color: white;
+			&.invert {
+				color: black;
+			}
+
+			i {
+				font-size: 72px;
+			}
+
+			&:hover {
+				color: darken(white, 30%);
+			}
+		}
+	}
+
+	&.text-leaf.header {
+		height: 531px;
+	}
+
+	.orange-leaf-topshadow {
+		@shadowHeight: 10px;
+		.retinaimg ("shadow-top" , 19px , @shadowHeight);
+		background-position: top left;
+		background-repeat: no-repeat;
+		padding-top: @shadowHeight;
+		position: absolute;
+		bottom: 30px;
+		left: -19px;
+		.orange-leaf {
+			.wrapper {
+				margin: 0 60px;
+			}
+
+			position: relative ! important;
+			text-align: left;
+			.content {
+				display: inline-block;
+				.passion-rounded-border-on-header ();
+			}
+
+			.shadow {
+			}
+		}
+	}
+
+	.orange-leaf {
+		.content {
+			&.active {
+				color: @gradientColor;
+				background: white;
+				a {
+					color: @gradientColor ! important;
+					background: white;
+				}
+			}
+
+			&.standout {
+				padding: 25px 20px 20px 25px;
+				h2 {
+					font-size: 28px;
+				}
+
+				.author {
+					font-size: 22px;
+				}
+			}
+
+			text-align: left;
+			@gradientColor: #f17124;
+			background-color: @gradientColor;
+			#gradient > .radial (#F78D1E;
+			@gradientColor);
+			color: white;
+			padding: 15px 20px 20px 20px;
+			font-family: 'Open Sans', sans-serif;
+			.passion-rounded-border ();
+			h2 {
+				margin: 0;
+				font-weight: 600;
+				font-size: 17px;
+				&.standout {
+					font-size: 24px;
+				}
+			}
+
+			.author {
+				margin-bottom: 3px;
+				font-size: 16px;
+				em {
+					font-size: 14px;
+				}
+			}
+
+			a {
+				color: white;
+				text-decoration: underline;
+				font-size: 14px;
+				i {
+					margin-left: 5px;
+					font-size: 12px;
+				}
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+
+		.shadow {
+			@shadowHeight: 31px;
+			height: @shadowHeight;
+			.retinaimg ("shadow" , 228px , @shadowHeight);
+			background-repeat: no-repeat;
+			background-position: right top;
+			margin-right: 12px;
+		}
+	}
+
+	&.full-orange-leaf {
+		.orange-leaf {
+			.content {
+				height: @infoblockHeight;
+				padding: 35px 20px 0 20px;
+				.quote {
+					font-style: italic;
+					font-weight: 300;
+					line-height: 40px;
+					margin-bottom: 30px;
+					font-size: 24px;
+					&.large {
+						font-size: 18px;
+						line-height: 20px;
+					}
+				}
+
+				p {
+					font-size: 11px;
+					text-align: right;
+					.quote-author {
+						&:before {
+							content: "— ";
+						}
+
+						font-weight: 600;
+						display: block;
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+
+	&.text-leaf {
+		position: relative;
+		text-align: center;
+		height: @infoblockHeight;
+		overflow: hidden;
+		.passion-rounded-border ();
+		img {
+			.center-block ();
+			.img-responsive ();
+		}
+
+		.orange-leaf {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 10px;
+		}
+	}
+
+	&.header {
+		overflow: visible;
+	}
+
+	&.double-height {
+		height: @infoblockDoubleHeight;
+	}
+}
+
+.loader {
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 50px;
+	height: 70px;
+	background-color: #e6e6e6;
+	text-align: center;
+	line-height: 70px;
+	font-family: 'Open Sans', sans-serif;
+	a {
+		color: @passionOranzova;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	@shadowHeight: 31px;
+	@infoblockHeight: 214px;
+	@infoblockHeaderHeight: 423px;
+	@infoblockBottomMargin: 0;
+	@infoblockDoubleHeight: 460px;
+	body {
+		min-width: 272px;
+	}
+
+	.container.info-blocks {
+		&.with-header {
+			left: 0;
+		}
+
+		.info-block {
+			margin-bottom: @infoblockBottomMargin;
+			.blog &.text-leaf {
+				margin-bottom: 30px;
+			}
+
+			.play-button {
+				top: 30px;
+				a {
+					i {
+						font-size: 48px;
+					}
+				}
+			}
+
+			.orange-leaf {
+				.content {
+					h2 {
+						margin: 0;
+						font-size: 13px;
+					}
+
+					.author {
+						font-size: 12px;
+						margin-bottom: 3px;
+						em {
+							font-size: 10px;
+						}
+					}
+
+					a {
+						color: white;
+						text-decoration: underline;
+						font-size: 12px;
+						i {
+							margin-left: 2px;
+							font-size: 10px;
+						}
+
+						&:hover {
+							text-decoration: none;
+						}
+					}
+
+					text-align: left;
+					padding: 10px 15px;
+				}
+			}
+
+			&.full-orange-leaf {
+				.orange-leaf {
+					.content {
+						height: @infoblockHeight;
+						padding-top: 20px;
+						.quote {
+							line-height: 25px;
+							margin-bottom: 20px;
+							font-size: 18px;
+							&.large {
+								font-size: 14px;
+								line-height: 18px;
+							}
+						}
+
+						p {
+							font-size: 11px;
+							text-align: right;
+							.quote-author {
+								&:before {
+									content: "— ";
+								}
+
+								font-weight: 600;
+								display: block;
+								font-size: 10px;
+							}
+						}
+					}
+				}
+			}
+
+			&.text-leaf {
+				height: @infoblockHeight;
+			}
+
+			&.text-leaf.header {
+				height: @infoblockHeaderHeight;
+			}
+
+			&.double-height {
+				height: @infoblockDoubleHeight;
+			}
+
+			.col-lg-6 .info-block {
+				.play-button {
+					top: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	@shadowHeight: 31px;
+	@infoblockHeight: 350px;
+	@infoblockHeaderHeight: 250px;
+	@infoblockBottomMargin: 30px;
+	@infoblockDoubleHeight: 490px;
+	@content-padding: 35px;
+	@leafPadding: 10px 15px;
+	@leafSpacing: 25px;
+	.blog {
+		.content-wrapper {
+			padding-right: 0;
+		}
+
+		.socialicons {
+			padding-left: 20px;
+		}
+	}
+
+	.container {
+		&.with-header {
+			.header {
+				margin-top: @leafSpacing;
+			}
+
+			.text-content {
+				.blog & {
+					padding-right: 0;
+					.wrapper {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.gallery-row {
+		.col-sm-3 {
+			text-align: center;
+			a {
+				display: inline-block;
+			}
+
+			margin-bottom: 10px;
+		}
+
+		img {
+			.img-responsive ();
+			.passion-rounded-border ();
+		}
+
+		&.row-margin {
+			margin: 0;
+		}
+	}
+
+	.leaf-position () {
+		position: absolute;
+		bottom: @leafSpacing;
+		left: @leafSpacing;
+		right: @leafSpacing;
+	}
+
+	.explore-more {
+		h2 {
+			padding-left: 15px;
+		}
+	}
+
+	.breadcrumb {
+		padding: 0 @content-padding;
+		.path {
+			display: block;
+			margin: 10px 0 0 15px;
+		}
+	}
+
+	@inContentLeafLineHeight: 30px;
+	.loader-row {
+		min-height: @inContentLeafLineHeight * 2 + 20px;
+		background: #f2f2f2;
+	}
+
+	.in-content-leaf {
+		min-height: @inContentLeafLineHeight + 20px;
+		.loader-row & {
+			min-height: @inContentLeafLineHeight * 2 + 30px;
+			.video & {
+				margin-top: 35px;
+				margin-right: @content-padding - 15;
+				margin-left: @content-padding - 15;
+				.orange-leaf {
+					margin-top: 10px;
+					margin-bottom: 10px;
+					margin-left: 0;
+					margin-right: 0;
+				}
+			}
+			.blog & {
+				margin-top: 35px;
+				margin-right: @content-padding - 15;
+				margin-left: @content-padding - 15;
+				.orange-leaf {
+					margin-top: 10px;
+					margin-bottom: 10px;
+					margin-left: 0;
+					margin-right: 0;
+				}
+			}
+		}
+
+		.orange-leaf {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: @content-padding;
+			margin-right: @content-padding;
+			.content {
+				padding: @leafPadding;
+				h1 {
+					margin-top: 0;
+					font-size: 19px;
+					font-weight: 600;
+				}
+
+				.author {
+					font-size: 17px;
+				}
+			}
+		}
+	}
+
+	.container.info-blocks {
+		padding: 0;
+		&.with-header {
+			left: 0;
+			& > .padding20-left {
+				padding: 0;
+			}
+
+			.header {
+				.in-content-leaf {
+					.orange-leaf {
+						margin: 0;
+					}
+				}
+			}
+
+			.text-content , .header .col-xs-12.col-sm-8 {
+				padding: 0 @content-padding;
+			}
+		}
+
+		.info-block {
+			.center-block ();
+			max-width: 420px;
+			margin-bottom: @infoblockBottomMargin;
+			.play-button {
+				top: 80px;
+			}
+
+			&.text-leaf {
+				height: @infoblockHeight;
+				.border-radius ();
+				.orange-leaf {
+					.content {
+						padding: @leafPadding;
+						h2 {
+							font-size: 18px;
+						}
+
+						.author {
+							font-size: 16px;
+						}
+					}
+
+					position: absolute;
+					bottom: @leafSpacing;
+					left: @leafSpacing;
+					right: @leafSpacing;
+				}
+			}
+
+			.orange-leaf-topshadow {
+				padding-top: 0;
+				.leaf-position ();
+				background: none;
+				.orange-leaf {
+					position: relative ! important;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					.content {
+						display: block;
+					}
+
+					.wrapper {
+						margin: 0;
+					}
+				}
+			}
+
+			.shadow {
+				display: none;
+			}
+
+			&.full-orange-leaf {
+				.content {
+					height: 240px;
+					.border-radius ();
+					text-align: center;
+					p {
+						text-align: center;
+					}
+				}
+			}
+
+			&.header {
+				height: @infoblockHeaderHeight;
+				margin-bottom: 0;
+			}
+
+			&.double-height {
+				height: @infoblockDoubleHeight;
+			}
+		}
+
+		.col-lg-6 .info-block {
+			height: 240px;
+			.play-button {
+				top: 30px;
+			}
+		}
+	}
+
+	footer {
+		@height: 140px;
+		@line-height: 35px;
+		height: @height;
+		line-height: @line-height;
+		margin-top: 0;
+		.container {
+			.visible-xs {
+				display: inline ! important;
+			}
+
+			padding-top: (@height - 2 * @line-height) / 2;
+		}
+	}
+}
+ */

@@ -17,18 +17,23 @@
 	require "inc-menu.php";
 ?>
 
-<?php
-	require "inc-tophead.php";
-?>
+	<div class="tophead">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-1 visible-xs arrow"><a href="#"><i class="fa fa-chevron-left"></i></a></div>
+				<div class="col-xs-10 col-sm-5 logo"></div>
+				<div class="col-xs-1 visible-xs arrow"><a href="#"><i class="fa fa-chevron-right"></i></a></div>
+				<div class="col-sm-7 hidden-xs slogan">
+					We promise that everything we do,<br /> we do with passion.
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="container info-blocks">
 		<div class="row row-margin">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-			<!-- 
-				//dalsi moznost, jak elegantne vyresit zobrazovani obrazku
 				<div class="info-block text-leaf double-height" style="background: url('images/block0.png'); background-size: cover;">
-			 -->
-				<div class="info-block text-leaf double-height">
 					<div class="orange-leaf">
 						<div class="content standout">
 							<h2>Yetti Campaign</h2>
@@ -37,7 +42,7 @@
 						</div>
 						<div class="shadow"></div>
 					</div>
-					<img src="images/block0.png" />
+<!-- 					<img src="images/block0@2x.png" /> -->
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">

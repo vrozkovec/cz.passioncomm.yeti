@@ -1,0 +1,17 @@
+.info-block .orange-leaf .content {
+  background-color: #f17124;
+/*   background-image: url("img/orangebck.png"); */
+/*   background-position: center; */
+/*   background-repeat: no-repeat; */
+/*   background-size: cover; */
+/*   -ms-behavior: url(/backgroundsize.min.htc); */
+
+/*   border-radius: 5px; */
+/*   -ms-behavior: url(/border-radius.htc); */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .info-block .orange-leaf .content {
+/*     background-image: url("img/orangebck@2x.png"); */
+/*     background-size: 205px 205px; */
+  }
+}

@@ -9,9 +9,13 @@
 	rel="stylesheet">
 	
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+body {
+	padding-top: 50px;
+}
+</style>
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/main.css">
-<!-- <link rel="stylesheet" href="css/main.min.css"> -->
+<link rel="stylesheet" href="css/main.min.css">
 	<!--[if IE 8]>
 		<link rel="stylesheet" href="css/main.ie.css">
    <![endif]-->
