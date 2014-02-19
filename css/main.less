@@ -13,7 +13,8 @@
 
 @content-padding: 15px;
 @pageBackground: white;
-@text-padding: 0 20px;
+@text-padding-left-right: 20px;
+@text-padding: 0 @text-padding-left-right;
 
 
 .container {
@@ -68,6 +69,52 @@ body {
 			font-weight: 600;
 		}
 	}
+	.blog & {
+		p {
+			&.lead {
+				font-size: 20px;
+			}
+
+			font-size: 15px;
+			a {
+				color: @passionOranzova;
+				&.inactive {
+					color: #4d4d4d;
+					text-decoration: underline;
+				}
+			}
+		}
+
+		h2 {
+			font-size: 20px;
+		}
+
+		h3 {
+			font-size: 16px;
+		}
+
+		blockquote {
+			border-left-color: @passionOranzova;
+			font-style: italic;
+			padding: 0 20px;
+		}
+
+		.table {
+			border-collapse: collapse;
+			tr {
+				border-spacing: 5px;
+				border-bottom: 5px solid @pageBackground;
+			}
+
+			th {
+				background-color: @passionOranzova;
+			}
+
+			td {
+				background-color: white;
+			}
+		}
+	}	
 }
 
 .orange-leaf {
@@ -129,6 +176,38 @@ body {
 				text-decoration: none;
 			}
 		}
+	}
+	.header & {
+		margin-top: 20px;
+		.content {
+			padding: 15px 10px 10px 20px;
+			text-align: left;
+			h1 {
+				margin-top: 0;
+				font-size: 18px;
+				font-weight: 600;
+			}
+			.author {
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+.image-leaf {
+	.content {
+		img {
+			.passion-rounded-border ();
+		}
+	}
+
+	.shadow {
+		@shadowHeight: 31px;
+		height: @shadowHeight;
+		.retinaimg ("shadow" , 228px , @shadowHeight);
+		background-repeat: no-repeat;
+		background-position: right top;
+		margin-right: 12px;
 	}
 }
 
@@ -277,6 +356,117 @@ body {
 	}
 }
 
+.blog {
+	.lead {
+		font-style: italic;
+	}
+	address {
+		display: block;
+		text-align: center;
+		padding: 20px 0;
+		background: white;
+	}
+
+	.socialicons {
+		text-align: left;
+		h2 {
+			text-align: center;
+		}
+
+		&.outside {
+			position: absolute;
+			top: 120px;
+			left: 5px;
+			.social {
+				display: block;
+				width: 32px;
+				height: 32px;
+				padding: 5px;
+				margin: 0 5px 5px 5px;
+				background-position: center;
+				background-repeat: no-repeat;
+				span {
+					display: none;
+				}
+
+				&.facebook {
+					.retinaimg ("social/facebook" , 32px , 32px);
+				}
+
+				&.google {
+					.retinaimg ("social/google" , 32px , 32px);
+				}
+
+				&.twitter {
+					.retinaimg ("social/twitter" , 32px , 32px);
+				}
+
+				&.email {
+					.retinaimg ("social/email" , 32px , 32px);
+				}
+
+				&.addthis {
+					.retinaimg ("social/addthis" , 32px , 32px);
+				}
+			}
+		}
+
+		&.inside {
+			margin-bottom: 30px;
+			.social {
+				display: inline-block;
+				width: 70px;
+				background: blue;
+				height: 44px;
+				padding: 5px;
+				.passion-rounded-border ();
+				background-position: center;
+				background-repeat: no-repeat;
+				line-height: 40px;
+				font-size: 35px;
+				color: white;
+				text-align: center;
+				margin-right: 5px;
+				span {
+					display: none;
+				}
+
+				&.facebook {
+					text-align: right;
+					padding-right: 15px;
+					background-color: #2f6199;
+					i {
+						position: relative;
+						top: 3px;
+					}
+				}
+
+				&.twitter {
+					background-color: #20c4f1;
+					padding-bottom: 3px;
+				}
+
+				&.addthis {
+					width: 45px;
+					background-color: #e6e6e6;
+				}
+			}
+		}
+
+		.shareinfo {
+			padding-top: 3px;
+			display: inline-block;
+			line-height: 16px;
+			margin-right: 5px;
+			.num {
+				line-height: 22px;
+				font-size: 22px;
+				font-weight: 600;
+			}
+		}
+	}	
+}
+
 .loader {
 	margin-top: 40px;
 	padding: 20px;
@@ -301,7 +491,42 @@ body {
 	}
 
 
+.breadcrumb {
+	.back {
+		display: inline-block;
+		margin-right: 20px;
+		a {
+			padding-left: 5px;
+			color: black;
+			font-size: 24px;
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	}
 
+	.path {
+		display: inline-block;
+		color: lighten(black, 30%);
+		a {
+			margin: 0 5px;
+			display: inline-block;
+			color: lighten(black, 30%);
+			font-size: 20px;
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	}
+}
+
+.explore-more {
+	background: #f2f2f2;
+	padding: 30px 20px;
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 50px;
+	}
+}
 
 @media (max-width: 767px) {
 		
