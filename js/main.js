@@ -5,7 +5,7 @@ $(document).ready(function() {
     function checkWidth() {
         var windowsize = $window.width();
         if (windowsize < 700) {
-            $('.info-block').height(function(){
+            $('.info-block.text-leaf').height(function(){
             	return $(this).width() - 35;
             });
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
 //            	return (height - $(this).height()) / 2;
 //            });
         } else {
-        	$('.info-block').css("height", "");
+        	$('.info-block.text-leaf').css("height", "");
 //        	$('.play-button').css("bottom", "");
 //        	if (windowsize > 939) {
 //        		$('.header .play-button').css("top", function(index, value) {
