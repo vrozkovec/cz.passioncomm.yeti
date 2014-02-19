@@ -21,6 +21,18 @@ require "inc-menu.php";
 require "inc-tophead.php";
 ?>
 
+<?php 
+if(count($_FILES['uploads']['filesToUpload'])) {
+	foreach ($_FILES['uploads']['filesToUpload'] as $file) {
+	  
+		var_dump($file);	
+		//do your upload stuff here
+		echo $file;
+
+	}
+}
+?>
+
 	<div class="container info-blocks">
 		<div class="row row-margin">
 			<div class="col-sm-8 col-md-6">
@@ -32,8 +44,9 @@ require "inc-tophead.php";
 					<div class="orange-leaf">
 						<div class="content standout">
 							<h2>
-							<form>
-								<input type="file" accept="image/*" capture="camera" multiple="multiple" />
+							<form method="post" action="test.php" enctype="multipart/form-data">
+								<input name="filesToUpload[]" type="file" accept="image/*" capture="camera" multiple="multiple" />
+								<button type="submit"></button>
 							</form>
 							
 							</h2>
