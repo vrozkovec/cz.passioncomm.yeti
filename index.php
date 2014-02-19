@@ -37,7 +37,7 @@
 						</div>
 						<div class="shadow"></div>
 					</div>
-					<img src="images/block0.png" />
+					<img src="images/block0@2x.png" />
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">

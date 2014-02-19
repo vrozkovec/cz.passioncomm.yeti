@@ -63,7 +63,7 @@ require "inc-menu.php";
 			<div class="row row-margin socialicons inside visible-xs">
 				<div class="col-xs-12">
 					<span class="shareinfo"> <span class="num">32</span>
-						<div>shares</div>
+<!-- 						<div>shares</div> -->
 					</span> <a href="#" class="social facebook"><i
 						class="fa fa-facebook"></i></a> <a href="#" class="social twitter"><i
 						class="fa fa-twitter"></i></a> <a href="#" class="social addthis"><i
@@ -72,7 +72,9 @@ require "inc-menu.php";
 			</div>
 
 			<div class="row row-margin">
-				<div class="col-xs-12 col-sm-8 text-content">
+				<div class="col-xs-12 col-sm-8">
+					<div class="text-content">
+					
 					<div class="content-wrapper">
 
 						<div class="image-leaf">
@@ -169,6 +171,7 @@ require "inc-menu.php";
 
 							</table>
 						</div>
+					</div>
 					</div>
 				</div>
 

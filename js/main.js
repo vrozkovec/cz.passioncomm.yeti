@@ -11,8 +11,13 @@ $(document).ready(function() {
 
             $('.play-button').css("top", function(index, value) {
             	var height = $(this).next().position().top;
+            	console.log($(this).next());
+            	console.log(height);
             	return (height - $(this).height()) / 2;
             });
+        } else {
+        	$('.info-block').css("height", "");
+        	$('.play-button').css("top", "");
         }
     }
     // Execute on load

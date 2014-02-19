@@ -10,6 +10,12 @@
 @import "tophead.less";
 @import "menu.less";
 
+
+@content-padding: 15px;
+@pageBackground: white;
+@text-padding: 0 20px;
+
+
 .container {
 	max-width: 921px;
 }
@@ -19,7 +25,20 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-@pageBackground: white;
+
+.leaf-pos-reset () {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.leaf-absolute-pos () {
+	position: absolute;
+	bottom: -9px;
+	left: @content-padding + 2;
+	right: @content-padding;
+}
+
 
 body {
 	padding-top: 50px;
@@ -30,141 +49,192 @@ body {
 }
 
 
-@media (max-width: 767px) {
-		
-	.container.info-blocks {
-		padding: 0;
+
+.container.info-blocks {
+	padding: 0;
+	.video & {
+		.padding20-left {
+			padding: 0;
+		}
+	}
+}
+	
+.text-content {
+	.video & {
+		padding: @text-padding;
+		h1 {
+			margin-top: 5px;
+			font-size: 22px;
+			font-weight: 600;
+		}
+	}
+}
+
+.orange-leaf {
+	z-index: 20;
+	.content {
+		text-align: left;
+		@gradientColor: #f17124;
+		background-color: @gradientColor;
+		#gradient > .radial (#F78D1E;
+		@gradientColor);
+		color: white;
+		padding: 10px 20px 15px 20px;
+		font-family: 'Open Sans', sans-serif;
+		.passion-rounded-border ();
 	}
 	
-	@content-padding: 15px;
-	
-	@max-width: 450px;
-	
-	.info-block {
-		position: relative;
-		overflow: hidden;
-		img {
-			position: absolute;
-			top: 0;
-			z-index: -1;
-		}
-		
-		margin-bottom: 30px;
-		
-		.play-button {
-			position: absolute;
-			top: 40px;
-			left: 0;
-			right: 0;
+	.in-content-leaf & {
+		.content {
+			text-align: center;
+			font-size: 22px;
+			padding: 0;
+			
 			a {
-				outline: 0;
+				display: block;
+				padding: 10px 20px 15px;
 				color: white;
-				&.invert {
-					color: black;
-				}
-	
 				i {
-					font-size: 64px;
-				}
-	
-				&:hover {
-					color: darken(white, 30%);
+					margin-left: 10px;
 				}
 			}
-		}		
-		
-		
-		.orange-leaf {
-			z-index: 20;
-			.content {
-				text-align: left;
-				@gradientColor: #f17124;
-				background-color: @gradientColor;
-				#gradient > .radial (#F78D1E; @gradientColor);
-				color: white;
+			.loader-row & {
 				padding: 10px 20px 15px 20px;
-				font-family: 'Open Sans', sans-serif;
-				.passion-rounded-border ();
-				
-				&.active {
-					a {
-					}
-				}
-	
-				&.standout {
-					h2 {
-					}
-					.author {
-					}
-				}
-				
-				h2 {
-					margin: 0;
-					font-weight: 600;
-					font-size: 17px;
-					&.standout {
-//						font-size: 24px;
-					}
-				}
-	
-				.author {
-//					margin-bottom: 3px;
-//					font-size: 16px;
-					em {
-//						font-size: 14px;
-					}
-				}
-	
-				a {
-					color: white;
-					text-decoration: underline;
-					font-size: 14px;
-					i {
-						margin-left: 5px;
-						font-size: 12px;
-					}
-	
-					&:hover {
-						text-decoration: none;
-					}
-				}
+				font-size: 22px;
 			}
-			
-					
-			
-
-		.shadow {
-			@shadowHeight: 31px;
-			height: @shadowHeight;
-			.retinaimg ("shadow" , 228px , @shadowHeight);
-			background-repeat: no-repeat;
-			background-position: right top;
-			margin-right: 12px;
-			z-index: 20;
 		}
-	}		
-		&.text-leaf {
-				.orange-leaf {
-					position: absolute;
-					bottom: -9px;
-					left: @content-padding + 2;
-					right: @content-padding;				
-					.content {
-						h2 {
-							font-size: 20px;
-							font-weight: 600;
-						}
+	}
+	
+	.shadow {
+		@shadowHeight: 31px;
+		height: @shadowHeight;
+		.retinaimg ("shadow" , 228px , @shadowHeight);
+		background-repeat: no-repeat;
+		background-position: right top;
+		margin-right: 12px;
+		z-index: 20;
+	}	
+}
 
-						.author {
-							font-size: 18px;
-							margin-bottom: 10px;
-						}
-					}
+.loader-row {
+	margin-top: 35px;
+}
+.in-content-leaf {
+	padding: @text-padding;
+	&.leaf-link {
+		.content:hover {
+			background: white;
+			a {
+				color: @passionOranzova;
+				text-decoration: none;
+			}
+		}
+	}
+}
 
+.info-block {
+	position: relative;
+	overflow: hidden;
+	img {
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+
+	margin-bottom: 30px;
+	.play-button {
+		position: absolute;
+		top: 40px;
+		left: 0;
+		right: 0;
+		a {
+			outline: 0;
+			color: white;
+			&.invert {
+				color: black;
+			}
+
+			i {
+				font-size: 64px;
+			}
+
+			&:hover {
+				color: darken(white, 30%);
+			}
+		}
+	}
+
+	.orange-leaf {
+		.content {
+			&.active {
+				a {
 				}
 			}
-			
-		&.full-orange-leaf {
+
+			&.standout {
+				h2 {
+				}
+
+				.author {
+				}
+			}
+
+			h2 {
+				margin: 0;
+				font-weight: 600;
+				font-size: 17px;
+				&.standout {
+				}
+			}
+
+			.author {
+				em {
+				}
+			}
+
+			a {
+				color: white;
+				text-decoration: underline;
+				font-size: 14px;
+				i {
+					margin-left: 5px;
+					font-size: 12px;
+				}
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	&.text-leaf {
+		&.header {
+			.orange-leaf {
+				bottom: 10px;
+				.content .author {
+					margin: 0;
+				}
+			}
+		}
+
+		.orange-leaf {
+			.leaf-absolute-pos ();
+			.content {
+				h2 {
+					font-size: 20px;
+					font-weight: 600;
+				}
+
+				.author {
+					font-size: 18px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+	&.full-orange-leaf {
 		.orange-leaf {
 			position: absolute;
 			top: 0;
@@ -204,17 +274,16 @@ body {
 				}
 			}
 		}
-	}				
 	}
-	
-	
-	.loader {
-		margin-top: 40px;
-		padding: 20px;
-		text-align: center;
-		font-size: 20px;
-		img { margin-right: 10px; }
-	}
+}
+
+.loader {
+	margin-top: 40px;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	img { margin-right: 10px; }
+}
 	
 	footer {
 		@height: 95px;
@@ -231,6 +300,12 @@ body {
 		}
 	}
 
+
+
+
+@media (max-width: 767px) {
+		
+	
 }
 
 

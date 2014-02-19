@@ -23,7 +23,7 @@ require "inc-menu.php";
 		<div class="padding20-left">
 
 
-			<div class="row">
+			<div class="row hidden-xs">
 				<div class="col-xs-12 breadcrumb">
 					<span class="back"><i class="fa fa-angle-double-left"></i> <a
 						href="index.php">Back</a></span> <span class="path"><a href="#">Home</a>
@@ -51,7 +51,9 @@ require "inc-menu.php";
 			</div>
 
 			<div class="row row-margin">
-				<div class="col-xs-12 text-content">
+				<div class="col-xs-12">
+					<div class="text-content">
+				
 					<h1>Project description</h1>
 					<p>Suspendisse auctor molestie orci et fermentum. Donec libero
 						mauris; varius id metus et, tempus volutpat tellus. Maecenas
@@ -79,6 +81,7 @@ require "inc-menu.php";
 						at. In hac habitasse platea dictumst. Nunc placerat nisi congue
 						ultrices facilisis. Aenean non mi eu arcu suscipit vulputate ac
 						eget purus. Nullam non nunc in mi mattis fermentum.</p>
+					</div>
 				</div>
 			</div>
 
@@ -103,7 +106,7 @@ require "inc-menu.php";
 		</div>
 	</div>
 
-	<div class="top-shadow">
+	<div class="top-shadow hidden-xs">
 		<div class="container">
 			<div class="row gallery-detail-arrow arrow-top">
 				<div class="col-sm-3"></div>
@@ -114,7 +117,7 @@ require "inc-menu.php";
 		</div>
 	</div>
 
-	<div class="gallery-detail">
+	<div class="gallery-detail hidden-xs">
 		<div class="container">
 			<div class="row gallery-detail-arrow arrow-top">
 				<div class="col-sm-12">
@@ -125,7 +128,7 @@ require "inc-menu.php";
 	</div>
 
 
-	<div class="bottom-shadow">
+	<div class="bottom-shadow hidden-xs">
 		<div class="container">
 			<div class="row row-margin gallery-detail-arrow arrow-bottom">
 				<div class="col-sm-3 active"></div>
@@ -159,8 +162,7 @@ require "inc-menu.php";
 
 			<div class="row row-margin visible-xs">
 				<div class="col-xs-12">
-					<div class="in-content-leaf">
-
+					<div class="in-content-leaf leaf-link">
 						<div class="orange-leaf">
 							<div class="content">
 								<a href="gallery.php">View Gallery<i
@@ -174,7 +176,7 @@ require "inc-menu.php";
 
 			<div class="row row-margin visible-xs">
 				<div class="col-xs-12">
-					<div class="in-content-leaf">
+					<div class="in-content-leaf leaf-link">
 						<div class="orange-leaf">
 							<div class="content">
 								<a href="video.php">Watch the video<i
@@ -202,7 +204,7 @@ require "inc-menu.php";
 				</div>
 			</div>
 
-			<div class="explore-more">
+			<div class="explore-more hidden-xs">
 				<h2>Explore more work</h2>
 				<div class="row row-margin">
 					<div class="col-lg-3 col-md-3 col-sm-3">

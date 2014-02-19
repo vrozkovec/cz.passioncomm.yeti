@@ -22,7 +22,6 @@ require "inc-menu.php";
 	<div class="container info-blocks with-header">
 		<div class="padding20-left">
 
-
 			<div class="row">
 				<div class="col-xs-12 breadcrumb hidden-xs">
 					<span class="back"><i class="fa fa-angle-double-left"></i> <a
@@ -32,54 +31,44 @@ require "inc-menu.php";
 			</div>
 			<div class="row row-margin">
 				<div class="col-xs-12">
-					<div class="info-block text-leaf header"
-						style="background: url('images/video@2x.png'); background-size: cover; background-position: top center;">
-						<div class="orange-leaf-topshadow">
-							<div class="orange-leaf">
-								<div class="content standout">
-									<div class="wrapper">
-										<h2>Staropramen Alhemicar</h2>
-										<div class="author">Staropramen a. s.</div>
-									</div>
+					<div class="info-block text-leaf header">
+							<div class="play-button">
+								<div class="text-center">
+									<a href="#"><i class="fa fa-play-circle-o"></i></a>
 								</div>
-								<div class="shadow"></div>
 							</div>
+						<div class="orange-leaf">
+							<div class="content standout">
+								<div class="wrapper">
+									<h2>Staropramen Alhemicar</h2>
+									<div class="author">Staropramen a. s.</div>
+								</div>
+							</div>
+							<div class="shadow"></div>
 						</div>
-						<!-- 						<img src="images/video@2x.png" /> -->
+						<img src="images/video@2x.png" />
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-margin">
-				<div class="col-xs-12 text-content">
-					<h1>Project description</h1>
-					<p>Suspendisse auctor molestie orci et fermentum. Donec libero
-						mauris; varius id metus et, tempus volutpat tellus. Maecenas
-						semper sem massa, vel dictum arcu viverra id. Nam dictum magna sed
-						neque tincidunt, ac laoreet erat rutrum. Vivamus eget leo nisl.
-						Nunc varius vitae tortor nec posuere. Quisque mauris tortor,
-						placerat et sapien sed, pretium feugiat erat. Duis viverra, ante
-						ullamcorper auctor cursus, justo eros pharetra orci, eu bibendum
-						mi sem at sapien. Proin accumsan, dolor a ultricies rhoncus,
-						tortor justo auctor nunc, id facilisis arcu libero non metus.
-						Donec suscipit libero ante, vel pretium sem bibendum sed.
-						Suspendisse auctor at sapien vel malesuada? Curabitur a aliquam
-						neque, in vestibulum nibh. Maecenas sit amet semper tortor, ut
-						condimentum neque.</p>
-
-					<p>Vivamus cursus arcu felis, vel viverra nibh scelerisque non.
-						Vestibulum luctus ligula sit amet laoreet luctus. Suspendisse
-						dignissim, libero vitae vestibulum porttitor, neque sem rutrum
-						lectus, in tincidunt turpis eros eget dui. Ut auctor fringilla
-						libero eget venenatis. Mauris dignissim enim eu egestas
-						condimentum. Sed vel risus gravida, condimentum purus ac, laoreet
-						urna! Cras mollis eu massa vitae interdum. Aenean dictum ipsum non
-						sapien dictum interdum. Donec ultricies bibendum nunc vitae
-						auctor. Proin pellentesque massa ac vehicula dignissim?
-						Pellentesque pellentesque felis mi, quis fermentum nibh bibendum
-						at. In hac habitasse platea dictumst. Nunc placerat nisi congue
-						ultrices facilisis. Aenean non mi eu arcu suscipit vulputate ac
-						eget purus. Nullam non nunc in mi mattis fermentum.</p>
+				<div class="col-xs-12">
+					<div class="text-content">
+						<h1>Project description</h1>
+						<p>Suspendisse auctor molestie orci et fermentum. Donec libero
+							mauris; varius id metus et, tempus volutpat tellus. Maecenas
+							semper sem massa, vel dictum arcu viverra id. Nam dictum magna sed
+							neque tincidunt, ac laoreet erat rutrum. Vivamus eget leo nisl.
+							Nunc varius vitae tortor nec posuere. Quisque mauris tortor,
+							placerat et sapien sed, pretium feugiat erat. Duis viverra, ante
+							ullamcorper auctor cursus, justo eros pharetra orci, eu bibendum
+							mi sem at sapien. Proin accumsan, dolor a ultricies rhoncus,
+							tortor justo auctor nunc, id facilisis arcu libero non metus.
+							Donec suscipit libero ante, vel pretium sem bibendum sed.
+							Suspendisse auctor at sapien vel malesuada? Curabitur a aliquam
+							neque, in vestibulum nibh. Maecenas sit amet semper tortor, ut
+							condimentum neque.</p>
+					</div>
 				</div>
 			</div>
 
