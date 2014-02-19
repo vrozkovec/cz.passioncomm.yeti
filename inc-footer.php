@@ -22,7 +22,6 @@
 	
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/retina-1.1.0.min.js"></script>
 
 
 
@@ -34,3 +33,5 @@
 			s.parentNode.insertBefore(g, s)
 		}(document, 'script'));
 	</script>
+
+	<script src="js/retina-1.1.0.min.js"></script>
