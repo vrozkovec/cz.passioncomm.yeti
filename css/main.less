@@ -573,8 +573,8 @@ body {
 	@infoblockHeight: 272px;
 	@infoblockHeaderHeight: 423px;
 	@infoblockBottomMargin: 0;
-	@infoblockDoubleHeight: 460px;
-	
+	@infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight;
+
 	.info-block {
 		height: @infoblockHeight;
 		&.full-orange-leaf {
