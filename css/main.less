@@ -16,9 +16,11 @@
 @text-padding-left-right: 20px;
 @text-padding: 0 @text-padding-left-right;
 
+@infoblockBottomMargin: 30px;
+@shadowHeight: 31px;
 
 .container {
-	max-width: 921px;
+	max-width: 920px;
 }
 
 
@@ -34,10 +36,18 @@
 	top: 0;
 }
 .leaf-absolute-pos () {
-	position: absolute;
-	bottom: -9px;
-	left: @content-padding + 2;
-	right: @content-padding;
+	@media (max-width: @passion-screen-phone-max) {
+		position: absolute;
+		bottom: -9px;
+		left: @content-padding + 2;
+		right: @content-padding;
+	}
+	@media (min-width: @passion-screen-tablet-min) {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: @content-padding;
+	}
 }
 
 
@@ -202,7 +212,6 @@ body {
 	}
 
 	.shadow {
-		@shadowHeight: 31px;
 		height: @shadowHeight;
 		.retinaimg ("shadow" , 228px , @shadowHeight);
 		background-repeat: no-repeat;
@@ -220,7 +229,7 @@ body {
 		z-index: -1;
 	}
 
-	margin-bottom: 30px;
+	margin-bottom: @infoblockBottomMargin;
 	.play-button {
 		position: absolute;
 		top: 40px;
@@ -314,11 +323,12 @@ body {
 	}
 
 	&.full-orange-leaf {
+		margin-bottom: 0;
 		.orange-leaf {
 			position: absolute;
 			top: 0;
 			right: 0;
-			bottom: 0;
+			bottom: @shadowHeight;
 			left: 0;
 			.content {
 				height: 100%;
@@ -544,23 +554,15 @@ body {
 }
 
 @media (min-width: @passion-screen-tablet-min) {
-	.info-block {
-		.passion-rounded-border();
-	}
 	
-}
-@media (min-width: @passion-screen-tablet-min) and (max-width: @passion-screen-tablet-max) {
-	.container {
-		max-width: 700px;
-	}
 	@shadowHeight: 31px;
-	@infoblockHeight: 214px;
+	@infoblockHeight: 300px;
 	@infoblockHeaderHeight: 423px;
-	@infoblockBottomMargin: 0;
-	@infoblockDoubleHeight: 460px;
+	@infoblockDoubleHeight: @infoblockHeight * 2 + @infoblockBottomMargin;
 	
 	.info-block {
 		height: @infoblockHeight;
+		.passion-rounded-border();
 		&.full-orange-leaf {
 			.orange-leaf {
 				.content {
@@ -570,8 +572,24 @@ body {
 		
 		&.double-height {
 			height: @infoblockDoubleHeight;
+		}	
+		
+			
+		&.full-orange-leaf {
+			margin-bottom: 0;
+			height: @infoblockHeight + 3;
+			.orange-leaf {
+				bottom: @shadowHeight;
+				.content {
+					.passion-rounded-border();
+				}
+			}
 		}		
+			
 	}
+	
+}
+@media (min-width: @passion-screen-tablet-min) and (max-width: @passion-screen-tablet-max) {
 }
 
 @media (min-width: @passion-screen-desktop-min) {
