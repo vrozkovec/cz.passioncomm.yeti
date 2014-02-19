@@ -23,7 +23,7 @@ require "inc-menu.php";
 	<div class="container info-blocks with-header">
 
 
-		<div class="row row-margin header">
+		<div class="row row-margin header visible-xs">
 			<div class="col-xs-12 col-sm-8">
 				<div class="content-wrapper">
 					<div class="in-content-leaf">
@@ -37,34 +37,31 @@ require "inc-menu.php";
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="tophead">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-1 visible-xs arrow">
-						<a href="#"><i class="fa fa-chevron-left"></i></a>
-					</div>
-					<div class="col-xs-10 col-sm-5 logo"></div>
-					<div class="col-xs-1 visible-xs arrow">
-						<a href="#"><i class="fa fa-chevron-right"></i></a>
-					</div>
-					<div class="col-sm-7 hidden-xs slogan">
-						We promise that everything we do,<br /> we do with passion.
-					</div>
+	<div class="container">
+		<div class="col-xs-8 col-xs-offset-2">
+			<img src="css/img/passion-logo.png" class="img-responsive" />
+		</div>
+	</div>
+	<div class="tophead hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-1 visible-xs arrow">
+					<a href="#"><i class="fa fa-chevron-left"></i></a>
+				</div>
+				<div class="col-xs-10 col-sm-5 logo"></div>
+				<div class="col-xs-1 visible-xs arrow">
+					<a href="#"><i class="fa fa-chevron-right"></i></a>
+				</div>
+				<div class="col-sm-7 hidden-xs slogan">
+					We promise that everything we do,<br /> we do with passion.
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="container info-blocks with-header">
-
-		<div class="row hidden-xs">
-			<div class="col-xs-12 breadcrumb">
-				<span class="back"><i class="fa fa-angle-double-left"></i> <a
-					href="index.php">Back</a></span> <span class="path"><a href="#">Blog</a>
-					/ <a href="#">Contact</a></span>
-			</div>
-		</div>
 
 		<div class="row row-margin header">
 			<div class="col-xs-12">
