@@ -35,15 +35,6 @@ $(document).ready(function() {
     	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 50);
     }
     
-    var windowsize = $window.width();
-    if (windowsize < 700) {
-    	$('.info-block.text-leaf').css('background-image', function(){
-    		return 'url("' + $(this).children("img").attr('src') + '")';
-    	});
-    	$('.info-block.text-leaf img').hide();
-    }
-
-
 });
 
 $(window).resize(function() {

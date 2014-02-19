@@ -41,7 +41,7 @@ require "inc-menu.php";
 						</div>
 						<div class="shadow"></div>
 					</div>
-					<img src="images/yeti@2x.png" />
+					<img src="images/yeti.png" />
 				</div>
 			</div>
 		</div>
