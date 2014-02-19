@@ -3,10 +3,26 @@
    ========================================================================== */
 
 @import "elements.less";
+@import "bootstrap/less/variables.less";
 @import "bootstrap/less/mixins.less";
 
 @passionOranzova: #f7931e;
 @pozadiMenu: #e6e6e6;
+
+
+@passion-screen-phone:                  480px;
+@passion-screen-phone-min:              @passion-screen-phone;
+
+@passion-screen-tablet:                  700px;
+@passion-screen-tablet-min:              @passion-screen-tablet;
+
+@passion-screen-desktop:                  940px;
+@passion-screen-desktop-min:              @passion-screen-desktop;
+
+// So media queries don't overlap when required, provide a maximum
+@passion-screen-phone-max:              (@passion-screen-tablet-min - 1);
+@passion-screen-tablet-max:              (@passion-screen-desktop-min - 1);
+
 
 .fa() {
   display: inline-block;

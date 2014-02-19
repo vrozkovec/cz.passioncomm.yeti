@@ -8,8 +8,9 @@
 	href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
 	rel="stylesheet">
 	
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap/less/bootstrap.css">
+<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
 <link rel="stylesheet" href="css/main.css">
 <!-- <link rel="stylesheet" href="css/main.min.css"> -->
 	<!--[if IE 8]>

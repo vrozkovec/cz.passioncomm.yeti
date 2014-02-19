@@ -51,7 +51,13 @@
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: @passion-screen-phone-max) {
+	.hidden-xs {
+		display: none;
+	}
+	.visible-xs {
+		display: block;
+	}
 	.tophead {
 		.container {
 			.logo {

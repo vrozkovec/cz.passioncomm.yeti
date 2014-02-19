@@ -13,8 +13,13 @@
 						.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
 	</script>
 
-	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/vendor/bootstrap-custom/js/bootstrap.min.js"></script>
 
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 <!-- 	<script src="js/retina.min.js"></script> -->

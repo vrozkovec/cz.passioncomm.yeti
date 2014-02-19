@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     function checkWidth() {
         var windowsize = $window.width();
-        if (windowsize <= 767) {
+        if (windowsize < 700) {
             $('.info-block').height(function(){
             	return $(this).width() - 35;
             });
