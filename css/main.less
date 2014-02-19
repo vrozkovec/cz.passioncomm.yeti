@@ -134,6 +134,15 @@ body {
 		padding: 10px 20px 15px 20px;
 		font-family: 'Open Sans', sans-serif;
 		.passion-rounded-border ();
+		
+		&.active {
+			color: @gradientColor;
+			background: white;
+			a {
+				color: @gradientColor ! important;
+				background: white;
+			}
+		}
 	}
 	
 	.in-content-leaf & {
@@ -218,6 +227,9 @@ body {
 .info-block {
 	position: relative;
 	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
 	img {
 		position: absolute;
 		top: 0;
