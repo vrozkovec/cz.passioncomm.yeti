@@ -20,15 +20,16 @@ require "inc-head.php";
 ?>
 
 <?php 
-if(count($_FILES['filesToUpload'])) {
-	foreach ($_FILES['uploads']['filesToUpload'] as $file) {
+		var_dump($_FILES);	
+// if(count($_FILES['filesToUpload'])) {
+// 	foreach ($_FILES['uploads']['filesToUpload'] as $file) {
 	  
-		var_dump($file);	
-		//do your upload stuff here
-		echo $file;
+// 		var_dump($file);	
+// 		//do your upload stuff here
+// 		echo $file;
 
-	}
-}
+// 	}
+// }
 ?>
 							<form method="post" action="test.php" enctype="multipart/form-data">
 								<input name="filesToUpload[]" type="file" accept="image/*" capture="camera" multiple="multiple" />
