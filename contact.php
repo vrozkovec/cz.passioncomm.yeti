@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <?php
-	require "inc-head.php";
+require "inc-head.php";
 ?>
 
 <body class="blog contact">
@@ -16,7 +16,7 @@
         <![endif]-->
 
 <?php
-	require "inc-menu.php";
+require "inc-menu.php";
 ?>
 
 
@@ -86,16 +86,33 @@
 			</div>
 		</div>
 
-		<div class="row row-margin socialicons inside">
+		<div class="row row-margin socialicons inside contact">
 			<h2>Follow Us!</h2>
 			<div class="col-xs-12 text-center">
 				<div class="text-content">
 					<a href="#" class="social facebook"><i class="fa fa-facebook"></i></a>
 					<a href="#" class="social twitter"><i class="fa fa-twitter"></i></a>
-					<a href="#" class="social vimeo"><i class="fa fa-vimeo"></i></a>
+					<a href="#" class="social youtube"><i class="fa fa-youtube-play"></i></a>
 				</div>
 			</div>
 		</div>
+
+		<div class="row row-margin loader-row visible-xs">
+			<div class="col-xs-12">
+				<div class="in-content-leaf">
+					<div class="orange-leaf">
+						<div class="content">
+							<div>
+								<img src="css/img/preloader-white.gif" />
+							</div>
+							Load more work
+						</div>
+						<div class="shadow"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 	
 <?php

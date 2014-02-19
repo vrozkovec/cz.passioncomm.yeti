@@ -63,136 +63,138 @@ require "inc-menu.php";
 			<div class="row row-margin socialicons inside visible-xs">
 				<div class="col-xs-12">
 					<div class="text-content">
-					<span class="shareinfo"> <span class="num">32</span>
-						<div>shares</div>
-					</span> <a href="#" class="social facebook"><i
-						class="fa fa-facebook"></i></a> <a href="#" class="social twitter"><i
-						class="fa fa-twitter"></i></a> <a href="#" class="social addthis"><i
-						class="fa fa-plus"></i></a>
-				</div>
+						<span class="shareinfo"> <span class="num">32</span>
+							<div>shares</div>
+						</span> <a href="#" class="social facebook"><i
+							class="fa fa-facebook"></i></a> <a href="#"
+							class="social twitter"><i class="fa fa-twitter"></i></a> <a
+							href="#" class="social addthis"><i class="fa fa-plus"></i></a>
+					</div>
 				</div>
 			</div>
 
 			<div class="row row-margin">
 				<div class="col-xs-12 col-sm-8">
 					<div class="text-content">
-					
-					<div class="content-wrapper">
 
-						<div class="image-leaf">
-							<div class="content">
-								<img class="img-responsive" src="images/blog@2x.png" />
+						<div class="content-wrapper">
+
+							<div class="image-leaf">
+								<div class="content">
+									<img class="img-responsive" src="images/blog@2x.png" />
+								</div>
+								<div class="shadow"></div>
 							</div>
-							<div class="shadow"></div>
-						</div>
 
 
 
 
-						<h2>Project description</h2>
-						<p class="lead">
-							Suspendisse auctor molestie orci <a href="#">vel viverra nibh
-								scelerisque</a> et fermentum. Donec libero mauris; varius id
-							metus et, tempus volutpat tellus.
-						</p>
-						<p>
-							Vivamus cursus arcu felis, vel <a class="inactive" href="#">vel
-								viverra nibh scelerisque (link inactive)</a> viverra nibh
-							scelerisque non. Vestibulum luctus ligula sit amet laoreet
-							luctus. Suspendisse dignissim, libero vitae vestibulum porttitor,
-							neque sem rutrum lectus, in tincidunt turpis eros eget dui. Ut
-							auctor fringilla libero eget venenatis.
-						</p>
+							<h2>Project description</h2>
+							<p class="lead">
+								Suspendisse auctor molestie orci <a href="#">vel viverra nibh
+									scelerisque</a> et fermentum. Donec libero mauris; varius id
+								metus et, tempus volutpat tellus.
+							</p>
+							<p>
+								Vivamus cursus arcu felis, vel <a class="inactive" href="#">vel
+									viverra nibh scelerisque (link inactive)</a> viverra nibh
+								scelerisque non. Vestibulum luctus ligula sit amet laoreet
+								luctus. Suspendisse dignissim, libero vitae vestibulum
+								porttitor, neque sem rutrum lectus, in tincidunt turpis eros
+								eget dui. Ut auctor fringilla libero eget venenatis.
+							</p>
 
-						<h3>Another subtitle</h3>
+							<h3>Another subtitle</h3>
 
-						<p>
-							Vivamus cursus arcu felis, <a href="#">vel viverra nibh
-								scelerisque</a> non. Vestibulum luctus ligula sit amet laoreet
-							luctus. Suspendisse dignissim, libero vitae vestibulum porttitor,
-							neque sem rutrum lectus, in tincidunt turpis eros eget dui. Ut
-							auctor fringilla libero eget venenatis. Mauris dignissim enim eu
-							egestas condimentum. Sed vel risus gravida, condimentum purus ac,
-							laoreet urna! Cras mollis eu massa vitae interdum. Aenean dictum
-							ipsum non sapien dictum interdum. Donec ultricies bibendum nunc
-							vitae auctor. Proin pellentesque massa ac vehicula dignissim?
-							Pellentesque pellentesque felis mi, quis fermentum nibh bibendum
-							at. In hac habitasse platea dictumst. Nunc placerat nisi congue
-							ultrices facilisis. Aenean non mi eu arcu suscipit vulputate ac
-							eget purus. Nullam non nunc in mi mattis fermentum.
-						</p>
-
-						<h3>Another subtitle</h3>
-
-						<blockquote>
 							<p>
 								Vivamus cursus arcu felis, <a href="#">vel viverra nibh
 									scelerisque</a> non. Vestibulum luctus ligula sit amet laoreet
 								luctus. Suspendisse dignissim, libero vitae vestibulum
 								porttitor, neque sem rutrum lectus, in tincidunt turpis eros
-								eget dui.
+								eget dui. Ut auctor fringilla libero eget venenatis. Mauris
+								dignissim enim eu egestas condimentum. Sed vel risus gravida,
+								condimentum purus ac, laoreet urna! Cras mollis eu massa vitae
+								interdum. Aenean dictum ipsum non sapien dictum interdum. Donec
+								ultricies bibendum nunc vitae auctor. Proin pellentesque massa
+								ac vehicula dignissim? Pellentesque pellentesque felis mi, quis
+								fermentum nibh bibendum at. In hac habitasse platea dictumst.
+								Nunc placerat nisi congue ultrices facilisis. Aenean non mi eu
+								arcu suscipit vulputate ac eget purus. Nullam non nunc in mi
+								mattis fermentum.
 							</p>
-						</blockquote>
-						<p>
-							Vivamus cursus arcu felis, <a href="#">vel viverra nibh
-								scelerisque</a> non. Vestibulum luctus ligula sit amet laoreet
-							luctus. Suspendisse dignissim, libero vitae vestibulum porttitor,
-							neque sem rutrum lectus, in tincidunt turpis eros eget dui. Ut
-							auctor fringilla libero eget venenatis. Mauris dignissim enim eu
-							egestas condimentum. Sed vel risus gravida, condimentum purus ac,
-							laoreet urna! Cras mollis eu massa vitae interdum. Aenean dictum
-							ipsum non sapien dictum interdum. Donec ultricies bibendum nunc
-							vitae auctor. Proin pellentesque massa ac vehicula dignissim?
-							Pellentesque pellentesque felis mi, quis fermentum nibh bibendum
-							at. In hac habitasse platea dictumst. Nunc placerat nisi congue
-							ultrices facilisis. Aenean non mi eu arcu suscipit vulputate ac
-							eget purus. Nullam non nunc in mi mattis fermentum.
-						</p>
 
-						<div class="table-responsive">
-							<table class="table">
-								<thead>
-									<tr>
-										<th>Header 1</th>
-										<th>Header 2</th>
-										<th>Header 3</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Content 1</td>
-										<td>Content 2</td>
-										<td>Content 3</td>
-									</tr>
-									<tr>
-										<td>Content 1</td>
-										<td>Content 2</td>
-										<td>Content 3</td>
-									</tr>
-								</tbody>
+							<h3>Another subtitle</h3>
 
-							</table>
-						</div>
-					</div>
-					</div>
-					
-				<div class="row row-margin loader-row visible-xs">
-					<div class="col-xs-12">
-						<div class="in-content-leaf">
-							<div class="orange-leaf">
-								<div class="content">
-									<div>
-										<img src="css/img/preloader-white.gif" />
-									</div>
-									Load more work
-								</div>
-								<div class="shadow"></div>
+							<blockquote>
+								<p>
+									Vivamus cursus arcu felis, <a href="#">vel viverra nibh
+										scelerisque</a> non. Vestibulum luctus ligula sit amet laoreet
+									luctus. Suspendisse dignissim, libero vitae vestibulum
+									porttitor, neque sem rutrum lectus, in tincidunt turpis eros
+									eget dui.
+								</p>
+							</blockquote>
+							<p>
+								Vivamus cursus arcu felis, <a href="#">vel viverra nibh
+									scelerisque</a> non. Vestibulum luctus ligula sit amet laoreet
+								luctus. Suspendisse dignissim, libero vitae vestibulum
+								porttitor, neque sem rutrum lectus, in tincidunt turpis eros
+								eget dui. Ut auctor fringilla libero eget venenatis. Mauris
+								dignissim enim eu egestas condimentum. Sed vel risus gravida,
+								condimentum purus ac, laoreet urna! Cras mollis eu massa vitae
+								interdum. Aenean dictum ipsum non sapien dictum interdum. Donec
+								ultricies bibendum nunc vitae auctor. Proin pellentesque massa
+								ac vehicula dignissim? Pellentesque pellentesque felis mi, quis
+								fermentum nibh bibendum at. In hac habitasse platea dictumst.
+								Nunc placerat nisi congue ultrices facilisis. Aenean non mi eu
+								arcu suscipit vulputate ac eget purus. Nullam non nunc in mi
+								mattis fermentum.
+							</p>
+
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>Header 1</th>
+											<th>Header 2</th>
+											<th>Header 3</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Content 1</td>
+											<td>Content 2</td>
+											<td>Content 3</td>
+										</tr>
+										<tr>
+											<td>Content 1</td>
+											<td>Content 2</td>
+											<td>Content 3</td>
+										</tr>
+									</tbody>
+
+								</table>
 							</div>
 						</div>
 					</div>
-				</div>					
-					
-					
+
+					<div class="row row-margin loader-row visible-xs">
+						<div class="col-xs-12">
+							<div class="in-content-leaf">
+								<div class="orange-leaf">
+									<div class="content">
+										<div>
+											<img src="css/img/preloader-white.gif" />
+										</div>
+										Load more work
+									</div>
+									<div class="shadow"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
 				</div>
 
 
