@@ -555,8 +555,8 @@ body {
 
 @media (min-width: @passion-screen-tablet-min) {
 	
-	@shadowHeight: 31px;
-	@infoblockHeight: 300px;
+	@shadowHeight: 25px;
+	@infoblockHeight: 290px;
 	@infoblockHeaderHeight: 423px;
 	@infoblockDoubleHeight: @infoblockHeight * 2 + @infoblockBottomMargin;
 	
@@ -577,11 +577,19 @@ body {
 			
 		&.full-orange-leaf {
 			margin-bottom: 0;
-			height: @infoblockHeight + 3;
+			height: @infoblockHeight + @shadowHeight;
 			.orange-leaf {
 				bottom: @shadowHeight;
 				.content {
 					.passion-rounded-border();
+					h2 {
+						&.quote {
+							font-size: 22px;
+						}
+					}
+					p {
+						text-align: right;
+					}
 				}
 			}
 		}		
@@ -593,26 +601,6 @@ body {
 }
 
 @media (min-width: @passion-screen-desktop-min) {
-	@shadowHeight: 31px;
-	@infoblockHeight: 272px;
-	@infoblockHeaderHeight: 423px;
-	@infoblockBottomMargin: 0;
-	@infoblockDoubleHeight: @infoblockHeight + @shadowHeight + @infoblockBottomMargin + @infoblockHeight;
-
-	.info-block {
-		height: @infoblockHeight;
-		&.full-orange-leaf {
-			.orange-leaf {
-				.content {
-				}
-			}
-		}
-		
-		&.double-height {
-			height: @infoblockDoubleHeight;
-		}		
-	}
-	
 }
 
 /*

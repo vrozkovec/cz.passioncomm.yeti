@@ -199,10 +199,9 @@ require "inc-tophead.php";
 			</div>
 
 						
-			<div class="clearfix visible-sm"></div>
+			<div class="clearfix visible-sm visible-lg visible-md"></div>
 			
-			
-			<div class="col-sm-8">
+			<div class="col-sm-6 col-md-6">
 				<div class="info-block text-leaf">
 
 					<div class="play-button">
@@ -223,21 +222,26 @@ require "inc-tophead.php";
 					<img src="images/block3@2x.png" />
 				</div>
 			</div>
-
-			<div class="col-sm-4 col-md-3">
+			
+			<div class="col-sm-6 col-md-6">
 				<div class="info-block text-leaf">
+
+					<div class="play-button">
+						<div class="text-center">
+							<a href="#" class="invert"><i class="fa fa-play-circle-o"></i></a>
+						</div>
+					</div>
+
 					<div class="orange-leaf">
-						<div class="content active">
-							<h2>Welcome Julia our new designer</h2>
-							<div class="author">
-								<em>by</em> PassionComm
-							</div>
-							<a href="gallery.php">View gallery <i
+						<div class="content">
+							<h2>The Art of Hard Rock event gallery</h2>
+							<div class="author">Hard Rock café</div>
+							<a href="video.php">Watch the Video <i
 								class="fa fa-angle-double-right"></i></a>
 						</div>
 						<div class="shadow"></div>
 					</div>
-					<img src="images/block2@2x.png" />
+					<img src="images/block3@2x.png" />
 				</div>
 			</div>
 						
