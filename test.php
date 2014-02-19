@@ -20,7 +20,7 @@ require "inc-head.php";
 ?>
 
 <?php 
-if(count($_FILES['uploads']['filesToUpload'])) {
+if(count($_FILES['filesToUpload'])) {
 	foreach ($_FILES['uploads']['filesToUpload'] as $file) {
 	  
 		var_dump($file);	
