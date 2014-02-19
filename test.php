@@ -46,7 +46,7 @@ if(count($_FILES['uploads']['filesToUpload'])) {
 							<h2>
 							<form method="post" action="test.php" enctype="multipart/form-data">
 								<input name="filesToUpload[]" type="file" accept="image/*" capture="camera" multiple="multiple" />
-								<button type="submit"></button>
+								<button type="submit">Up</button>
 							</form>
 							
 							</h2>
