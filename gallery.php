@@ -20,40 +20,36 @@ require "inc-menu.php";
 ?>
 
 	<div class="container info-blocks with-header">
-		<div class="padding20-left">
-
-
-			<div class="row hidden-xs">
-				<div class="col-xs-12 breadcrumb">
-					<span class="back"><i class="fa fa-angle-double-left"></i> <a
-						href="index.php">Back</a></span> <span class="path"><a href="#">Home</a>
-						/ <a href="#">Yetti Campaign</a></span>
-				</div>
+		<div class="row hidden-xs">
+			<div class="col-xs-12 passion-breadcrumb">
+				<span class="back"><i class="fa fa-angle-double-left"></i> <a
+					href="index.php">Back</a></span> <span class="path"><a href="#">Home</a>
+					/ <a href="#">Yetti Campaign</a></span>
 			</div>
+		</div>
 
-			<div class="row row-margin">
-				<div class="col-xs-12">
-					<div class="info-block text-leaf header">
-						<div class="orange-leaf-topshadow">
-							<div class="orange-leaf">
-								<div class="content standout">
-									<div class="wrapper">
-										<h2>Yetti Campaign</h2>
-										<div class="author">Benzina a. s.</div>
-									</div>
-								</div>
-								<div class="shadow"></div>
+		<div class="row row-margin">
+			<div class="col-xs-12">
+				<div class="info-block text-leaf header">
+					<div class="orange-leaf">
+						<div class="orange-leaf-topshadow"></div>
+						<div class="content standout">
+							<div class="wrapper">
+								<h2>Yetti Campaign</h2>
+								<div class="author">Benzina a. s.</div>
 							</div>
 						</div>
-						<img src="images/yeti@2x.png" />
+						<div class="shadow"></div>
 					</div>
+					<img src="images/yeti@2x.png" />
 				</div>
 			</div>
+		</div>
 
-			<div class="row row-margin">
-				<div class="col-xs-12">
-					<div class="text-content">
-				
+		<div class="row row-margin">
+			<div class="col-xs-12">
+				<div class="text-content">
+
 					<h1>Project description</h1>
 					<p>Suspendisse auctor molestie orci et fermentum. Donec libero
 						mauris; varius id metus et, tempus volutpat tellus. Maecenas
@@ -81,27 +77,26 @@ require "inc-menu.php";
 						at. In hac habitasse platea dictumst. Nunc placerat nisi congue
 						ultrices facilisis. Aenean non mi eu arcu suscipit vulputate ac
 						eget purus. Nullam non nunc in mi mattis fermentum.</p>
-					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="row row-margin gallery-row hidden-xs">
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img1.png" />
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img2.png" />
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img3.png" />
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img4.png" />
-					</a>
-				</div>
+		<div class="row row-margin gallery-row hidden-xs">
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img1.png" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img2.png" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img3.png" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img4.png" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -119,7 +114,7 @@ require "inc-menu.php";
 
 	<div class="gallery-detail hidden-xs">
 		<div class="container">
-			<div class="row gallery-detail-arrow arrow-top">
+			<div class="row">
 				<div class="col-sm-12">
 					<img src="images/gallery/img1-detail.png" />
 				</div>
@@ -140,191 +135,153 @@ require "inc-menu.php";
 	</div>
 
 	<div class="container info-blocks with-header">
-		<div class="padding20-left">
-			<div class="row row-margin gallery-row hidden-xs">
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img1.png" />
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img2.png" />
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img3.png" />
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#"> <img src="images/gallery/img4.png" />
-					</a>
-				</div>
+		<div class="row row-margin gallery-row hidden-xs">
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img1.png" />
+				</a>
 			</div>
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img2.png" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img3.png" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="#"> <img src="images/gallery/img4.png" />
+				</a>
+			</div>
+		</div>
 
-			<div class="row row-margin visible-xs">
-				<div class="col-xs-12">
-					<div class="in-content-leaf leaf-link">
-						<div class="orange-leaf">
-							<div class="content">
-								<a href="gallery.php">View Gallery<i
-									class="fa fa-angle-double-right"></i></a>
-							</div>
-							<div class="shadow"></div>
+		<div class="row row-margin visible-xs">
+			<div class="col-xs-12">
+				<div class="in-content-leaf leaf-link">
+					<div class="orange-leaf">
+						<div class="content">
+							<a href="gallery.php">View Gallery<i
+								class="fa fa-angle-double-right"></i></a>
 						</div>
+						<div class="shadow"></div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="row row-margin visible-xs">
-				<div class="col-xs-12">
-					<div class="in-content-leaf leaf-link">
-						<div class="orange-leaf">
-							<div class="content">
-								<a href="video.php">Watch the video<i
-									class="fa fa-angle-double-right"></i></a>
-							</div>
-							<div class="shadow"></div>
+		<div class="row row-margin visible-xs">
+			<div class="col-xs-12">
+				<div class="in-content-leaf leaf-link">
+					<div class="orange-leaf">
+						<div class="content">
+							<a href="video.php">Watch the video<i
+								class="fa fa-angle-double-right"></i></a>
 						</div>
+						<div class="shadow"></div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="row row-margin loader-row visible-xs">
-				<div class="col-xs-12">
-					<div class="in-content-leaf">
-						<div class="orange-leaf">
-							<div class="content">
-								<div>
-									<img src="css/img/preloader-white.gif" />
-								</div>
-								Load more work
+		<div class="row row-margin loader-row visible-xs visible-sm">
+			<div class="col-xs-12">
+				<div class="in-content-leaf">
+					<div class="orange-leaf">
+						<div class="content">
+							<div>
+								<img src="css/img/preloader-white.gif" />
 							</div>
-							<div class="shadow"></div>
+							Load more work
 						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="explore-more hidden-xs">
-				<h2>Explore more work</h2>
-				<div class="row row-margin">
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<div class="info-block text-leaf">
-
-							<div class="play-button">
-								<div class="text-center">
-									<a href="#"><i class="fa fa-play-circle-o"></i></a>
-								</div>
-							</div>
-
-							<div class="orange-leaf">
-								<div class="content">
-									<h2>Staropramen Alhemicar</h2>
-									<div class="author">Staropramen a. s.</div>
-									<a href="video.php">Watch the Video <i
-										class="fa fa-angle-double-right"></i></a>
-								</div>
-								<div class="shadow"></div>
-							</div>
-							<img src="images/block2@2x.png" />
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<div class="info-block text-leaf">
-							<div class="orange-leaf">
-								<div class="content active">
-									<h2>Welcome Julia our new designer</h2>
-									<div class="author">
-										<em>by</em> PassionComm
-									</div>
-									<a href="blog.php">Read More <i
-										class="fa fa-angle-double-right"></i></a>
-								</div>
-								<div class="shadow"></div>
-							</div>
-							<img src="images/block2@2x.png" />
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<div class="info-block text-leaf">
-							<div class="orange-leaf">
-								<div class="content active">
-									<h2>Welcome Julia our new designer</h2>
-									<div class="author">
-										<em>by</em> PassionComm
-									</div>
-									<a href="blog.php">Read More <i
-										class="fa fa-angle-double-right"></i></a>
-								</div>
-								<div class="shadow"></div>
-							</div>
-							<img src="images/block2@2x.png" />
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<div class="info-block text-leaf">
-
-							<div class="play-button">
-								<div class="text-center">
-									<a href="#"><i class="fa fa-play-circle-o"></i></a>
-								</div>
-							</div>
-
-							<div class="orange-leaf">
-								<div class="content">
-									<h2>Staropramen Alhemicar</h2>
-									<div class="author">Staropramen a. s.</div>
-									<a href="video.php">Watch the Video <i
-										class="fa fa-angle-double-right"></i></a>
-								</div>
-								<div class="shadow"></div>
-							</div>
-							<img src="images/block1@2x.png" />
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6">
-						<div class="info-block text-leaf">
-
-							<div class="play-button">
-								<div class="text-center">
-									<a href="#"><i class="fa fa-play-circle-o"></i></a>
-								</div>
-							</div>
-
-							<div class="orange-leaf">
-								<div class="content">
-									<h2>The Art of Hard Rock event gallery</h2>
-									<div class="author">Hard Rock café</div>
-									<a href="video.php">Watch the Video <i
-										class="fa fa-angle-double-right"></i></a>
-								</div>
-								<div class="shadow"></div>
-							</div>
-							<img src="images/block3@2x.png" />
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6">
-						<div class="info-block text-leaf">
-							<div class="orange-leaf">
-								<div class="content">
-									<h2>Holmes Place Opening Study</h2>
-									<div class="author">
-										<em>by</em> James Cook
-									</div>
-									<a href="blog.php">Read More <i
-										class="fa fa-angle-double-right"></i></a>
-								</div>
-								<div class="shadow"></div>
-							</div>
-							<img src="images/block3@2x.png" />
-						</div>
+						<div class="shadow"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="explore-more hidden-xs hidden-sm">
+		<div class="container">
+			<h2>Explore more work</h2>
+
+			<div class="row row-margin">
+				<div class="col-sm-3">
+					<div class="info-block text-leaf">
+						<div class="play-button">
+							<div class="text-center">
+								<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							</div>
+						</div>
+
+						<div class="orange-leaf">
+							<div class="content">
+								<h2>Staropramen Alhemicar</h2>
+								<div class="author">Staropramen a. s.</div>
+								<a href="video.php">Watch the Video <i
+									class="fa fa-angle-double-right"></i></a>
+							</div>
+							<div class="shadow"></div>
+						</div>
+						<img src="images/block2@2x.png" />
+					</div>
+				</div>
+
+				<div class="col-sm-3">
+					<div class="info-block full-orange-leaf">
+						<div class="orange-leaf">
+							<div class="content">
+								<h2 class="quote large">“Great creative ideas that help us
+									aachieving our international development goals with
+									Staropramen!”</h2>
+								<p>
+									<span class="quote-author">Frederic Landtmeters</span> CMO
+									Starbev
+								</p>
+							</div>
+							<div class="shadow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="info-block text-leaf">
+						<div class="orange-leaf">
+							<div class="content active">
+								<h2>Welcome Julia our new designer</h2>
+								<div class="author">
+									<em>by</em> PassionComm
+								</div>
+								<a href="gallery.php">View gallery <i
+									class="fa fa-angle-double-right"></i></a>
+							</div>
+							<div class="shadow"></div>
+						</div>
+						<img src="images/block2@2x.png" />
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="info-block text-leaf">
+
+						<div class="play-button">
+							<div class="text-center">
+								<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							</div>
+						</div>
+
+						<div class="orange-leaf">
+							<div class="content">
+								<h2>Staropramen Alhemicar</h2>
+								<div class="author">Staropramen a. s.</div>
+								<a href="video.php">Watch the Video <i
+									class="fa fa-angle-double-right"></i></a>
+							</div>
+							<div class="shadow"></div>
+						</div>
+						<img src="images/block1@2x.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	
 <?php
 require "inc-footer.php";

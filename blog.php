@@ -34,7 +34,7 @@ require "inc-menu.php";
 		<div class="padding20-left">
 
 			<div class="row hidden-xs">
-				<div class="col-xs-12 breadcrumb">
+				<div class="col-xs-12 passion-breadcrumb">
 					<span class="back"><i class="fa fa-angle-double-left"></i> <a
 						href="index.php">Back</a></span> <span class="path"><a href="#">Home</a>
 						/ <a href="#">Yetti Campaign Gallery</a></span>
@@ -202,7 +202,7 @@ require "inc-menu.php";
 				<div class="col-xs-12 col-sm-4 explore-more-column hidden-xs">
 					<h2>Explore more work</h2>
 					<div class="row">
-						<div class="col-xs-12">
+						<div class="col-sm-12">
 							<div class="info-block text-leaf">
 
 								<div class="play-button">
@@ -224,45 +224,41 @@ require "inc-menu.php";
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="info-block text-leaf">
-								<div class="orange-leaf">
-									<div class="content active">
-										<h2>Welcome Julia our new designer</h2>
-										<div class="author">
-											<em>by</em> PassionComm
-										</div>
-										<a href="blog.php">Read More <i
-											class="fa fa-angle-double-right"></i></a>
+					<div class="col-sm-12">
+						<div class="info-block text-leaf">
+							<div class="orange-leaf">
+								<div class="content active">
+									<h2>Welcome Julia our new designer</h2>
+									<div class="author">
+										<em>by</em> PassionComm
 									</div>
-									<div class="shadow"></div>
+									<a href="blog.php">Read More <i
+										class="fa fa-angle-double-right"></i></a>
 								</div>
-								<img src="images/block2@2x.png" />
+								<div class="shadow"></div>
 							</div>
+							<img src="images/block2@2x.png" />
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="info-block text-leaf">
+					<div class="col-xs-12">
+						<div class="info-block text-leaf">
 
-								<div class="play-button">
-									<div class="text-center">
-										<a href="#"><i class="fa fa-play-circle-o"></i></a>
-									</div>
+							<div class="play-button">
+								<div class="text-center">
+									<a href="#"><i class="fa fa-play-circle-o"></i></a>
 								</div>
-
-								<div class="orange-leaf">
-									<div class="content">
-										<h2>Staropramen Alhemicar</h2>
-										<div class="author">Staropramen a. s.</div>
-										<a href="video.php">Watch the Video <i
-											class="fa fa-angle-double-right"></i></a>
-									</div>
-									<div class="shadow"></div>
-								</div>
-								<img src="images/block1@2x.png" />
 							</div>
+
+							<div class="orange-leaf">
+								<div class="content">
+									<h2>Staropramen Alhemicar</h2>
+									<div class="author">Staropramen a. s.</div>
+									<a href="video.php">Watch the Video <i
+										class="fa fa-angle-double-right"></i></a>
+								</div>
+								<div class="shadow"></div>
+							</div>
+							<img src="images/block1@2x.png" />
 						</div>
 					</div>
 				</div>

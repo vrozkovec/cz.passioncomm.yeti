@@ -499,3 +499,10 @@
     background-position: center;
   }
 }
+@media (max-width: 939px) {
+  /* line 73, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000373}}
+  .tophead .container .slogan {
+    font-size: 22px;
+  }
+}

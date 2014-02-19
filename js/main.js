@@ -9,15 +9,21 @@ $(document).ready(function() {
             	return $(this).width() - 35;
             });
 
-            $('.play-button').css("top", function(index, value) {
-            	var height = $(this).next().position().top;
-            	console.log($(this).next());
-            	console.log(height);
-            	return (height - $(this).height()) / 2;
-            });
+//            $('.play-button').css("top", function(index, value) {
+//            	var height = $(this).next().position().top;
+//            	return (height - $(this).height()) / 2;
+//            });
         } else {
         	$('.info-block').css("height", "");
-        	$('.play-button').css("top", "");
+//        	$('.play-button').css("bottom", "");
+//        	if (windowsize > 939) {
+//        		$('.header .play-button').css("top", function(index, value) {
+//        			var height = $('.header .orange-leaf').position().top;
+//        			return (height - $(this).height()) / 2;
+//        		});
+//        	} else {
+//        	}
+        	
         }
     }
     // Execute on load
