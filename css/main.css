@@ -1900,7 +1900,7 @@ footer a {
   /* line 801, /data/www/cz.passioncomm.yeti/css/main.less */
   @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/main\.less}line{font-family:\00003801}}
   .jquery-media-width-fix-class {
-    float: left;
+    float: none;
   }
 }
 /*

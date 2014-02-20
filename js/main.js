@@ -2,6 +2,8 @@ $(document).ready(function() {
 
     function checkWidth() {
     	
+    	console.log($('.jquery-media-width-fix-class').css("float"));
+    	
     	//only for phone
         if ($('.jquery-media-width-fix-class').css("float") == "none") {
             $('.info-block.text-leaf').height(function(){

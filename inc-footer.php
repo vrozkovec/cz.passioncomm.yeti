@@ -5,6 +5,8 @@
 		</div>
 	</footer>
 	
+	<span class="jquery-media-width-fix-class"></span>
+	
 	<script
 		src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script>
