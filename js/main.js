@@ -1,10 +1,9 @@
 $(document).ready(function() {
-	// Optimalisation: Store the references outside the event handler:
-    var $window = $(window);
 
     function checkWidth() {
-        var windowsize = $window.width();
-        if (windowsize < 700) {
+    	
+    	//only for phone
+        if ($('.jquery-media-width-fix-class').css("float") == "none") {
             $('.info-block.text-leaf').height(function(){
             	return $(this).width() - 35;
             });
@@ -25,6 +24,10 @@ $(document).ready(function() {
 //        	}
         	
         }
+        $('.play-button').css("top", function(index, value) {
+        	var height = $(this).next().position().top;
+        	return (height - $(this).height()) / 2;
+        });
     }
     // Execute on load
     checkWidth();
@@ -34,23 +37,6 @@ $(document).ready(function() {
     if ($('body.blog').length) {
     	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 50);
     }
-    
-//    if (window.devicePixelRatio == 2) {
-//
-//        var images = $("img.hires");
-//
-//        // loop through the images and make them hi-res
-//        for(var i = 0; i < images.length; i++) {
-//
-//          // create new image name
-//          var imageType = images[i].src.substr(-4);
-//          var imageName = images[i].src.substr(0, images[i].src.length - 4);
-//          imageName += "@2x" + imageType;
-//
-//          //rename image
-//          images[i].src = imageName;
-//        }
-//    }
         
 });
 
