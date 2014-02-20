@@ -37,9 +37,9 @@ require "inc-tophead.php";
 						</div>
 						<div class="shadow"></div>
 					</div>
-					<img src="images/yeti-mobile@2x.png" data-at2x="images/yeti-mobile@2x.png" class="visible-xs" width="500" height="500" />
-					<img src="images/yeti-tablet@2x.png" data-at2x="images/yeti-tablet@2x.png" class="visible-sm" width="500" height="500" />
-					<img src="images/yeti-desktop@2x.png" data-at2x="images/yeti-desktop@2x.png" class="visible-md visible-lg" width="500" height="500" />
+					<img src="images/yeti-mobile.png" data-at2x="images/yeti-mobile@2x.png" class="visible-xs" width="500" height="500" />
+					<img src="images/yeti-tablet.png" data-at2x="images/yeti-tablet@2x.png" class="visible-sm" width="500" height="500" />
+					<img src="images/yeti-desktop.png" data-at2x="images/yeti-desktop@2x.png" class="visible-md visible-lg" width="500" height="500" />
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-3">
