@@ -19,15 +19,14 @@
 @infoblockBottomMargin: 30px;
 @shadowHeight: 31px;
 
-.container {
-	max-width: 920px;
-}
-
 
 * {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+	max-width: 940px;
+}
 
 .leaf-pos-reset () {
 	bottom: 0;
@@ -52,7 +51,7 @@
 
 
 body {
-	padding-top: 50px;
+	padding-top: 40px;
 	background-color: @pageBackground;
 	a {
 		color: @passionOranzova;
@@ -122,16 +121,14 @@ body {
 	}	
 }
 
-@gradientColor: #f17124;
 
 .orange-leaf {
 	z-index: 20;
 	.content {
 		text-align: left;
-		background-color: @gradientColor;
-		#gradient > .radial (#F78D1E;
-		@gradientColor);
-		color: white;
+		
+		.passion-gradient-passive();
+				
 		padding: 10px 20px 15px 20px;
 		font-family: 'Open Sans', sans-serif;
 		.passion-rounded-border ();
@@ -185,7 +182,7 @@ body {
 	padding: @text-padding;
 	&.leaf-link {
 		.content:hover {
-			background: white;
+			.passion-gradient-active();
 			a {
 				color: @passionOranzova;
 				text-decoration: none;
@@ -254,6 +251,9 @@ body {
 			}
 
 			i {
+				.video & {
+					font-size: 88px;
+				}
 				font-size: 64px;
 			}
 
@@ -269,8 +269,6 @@ body {
 				margin: 0;
 				font-weight: 600;
 				font-size: 17px;
-				&.standout {
-				}
 			}
 
 			a {
@@ -293,8 +291,13 @@ body {
 		&.header {
 			.orange-leaf {
 				bottom: 10px;
-				.content .author {
-					margin: 0;
+				.content {
+					.author {
+						margin: 0;
+					}
+					&:hover, &.active {
+						.passion-gradient-passive();
+					}
 				}
 			}
 		}
@@ -303,12 +306,7 @@ body {
 			.leaf-absolute-pos ();
 			.content {
 				&:hover, .active {
-					color: @gradientColor;
-					background: white;
-					a {
-						color: @gradientColor ! important;
-						background: white;
-					}
+					.passion-gradient-active();
 				}
 				h2 {
 					font-size: 20px;
@@ -519,16 +517,19 @@ body {
 
 .passion-breadcrumb {
 	
-	padding-top: 10px;
+	padding-left: 30px;
+	padding-top: 30px;
 	padding-bottom: 20px;
+	
+	line-height: 20px;
 	
 	.back {
 		display: inline-block;
 		margin-right: 20px;
 		a {
-			padding-left: 5px;
+			padding-left: 3px;
 			color: black;
-			font-size: 24px;
+			font-size: 16px;
 			text-decoration: underline;
 			font-weight: 300;
 		}
@@ -541,7 +542,7 @@ body {
 			margin: 0 5px;
 			display: inline-block;
 			color: lighten(black, 30%);
-			font-size: 20px;
+			font-size: 14px;
 			text-decoration: underline;
 			font-weight: 300;
 		}
@@ -554,16 +555,26 @@ body {
 
 @media (min-width: @passion-screen-tablet-min) {
 
-.explore-more {
-	margin-top: 50px;
-	background: #f2f2f2;
-	padding: 30px 20px;
-	h2 {
-		font-size: 22px;
-		font-weight: 600;
-		margin-bottom: 50px;
+	.explore-more {
+		margin-top: 50px;
+		background: #f2f2f2;
+		padding: 30px 20px;
+		h2 {
+			font-size: 22px;
+			font-weight: 600;
+			margin-bottom: 50px;
+		}
+		.video & {
+			h2 {
+				font-size: 24px;
+			}
+			margin-top: 20px;
+			padding-bottom: 10px;
+			.container {
+				padding: 0 0 0 20px;
+			}
+		} 
 	}
-}
 	
 	@shadowHeight: 25px;
 	@infoblockHeight: 285px;
@@ -576,6 +587,21 @@ body {
 		height: @infoblockHeight;
 		.passion-rounded-border();
 		
+		.header-leaf() {
+			padding: 25px 45px 20px 110px;
+			h2 {
+				font-size: 33px;
+			}
+			.author {
+				font-size: 30px;
+				font-weight: 300;
+			}
+			a {
+				font-size: 16px;
+			}
+		}
+		
+		
 		.orange-leaf {
 			bottom: -2px;
 			.content {
@@ -583,17 +609,7 @@ body {
 					font-size: 19px;
 				}
 				&.standout {
-					padding: 20px 45px;
-					h2 {
-						font-size: 33px;
-					}
-					.author {
-						font-size: 29px;
-						font-weight: 300;
-					}
-					a {
-						font-size: 16px;
-					}
+					.header-leaf();
 				}
 				.author {
 					em {
@@ -625,7 +641,11 @@ body {
 					right: 40%;
 				}
 				.video & {
-					right: 30%;
+					.content {
+						.header-leaf();
+					}
+					right: 320px;
+					bottom: 50px;
 				}			
 			}
 		}
@@ -714,17 +734,52 @@ body {
 	
 	
 }
+
 @media (min-width: @passion-screen-tablet-min) and (max-width: @passion-screen-tablet-max) {
 	
+
+	.container {
+		max-width: 700px;
+	}
+	
+	.passion-breadcrumb {
+		
+		padding-left: 30px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
 	.info-block {
 		&.header {
+			height: 560px;
 			.orange-leaf {
 				.content {
 					.passion-rounded-border-on-header();
 				}
+				.gallery & {
+					right: 40%;
+				}
+				.video & {
+					.content {
+					}
+					right: 140px;
+					bottom: 10px;
+				}			
 			}
 		}
 	}
+	
+	.video {
+		.text-content  {
+			padding: 0 70px;
+		}
+		.loader-row {
+			.in-content-leaf {
+				padding: 0 30px;
+			}
+		}
+	}
+	
 	
 }
 

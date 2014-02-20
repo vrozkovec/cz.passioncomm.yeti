@@ -14,9 +14,9 @@
 			</div>
 			<div class="navbar-collapse collapse main-menu">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.php"><span
-							class="glyphicon glyphicon-home hidden-xs"></span> <span
-							class="visible-xs">Home</span></a></li>
+					<li class="active home">
+						<a href="index.php"><span class="glyphicon glyphicon-home hidden-xs"></span> 
+					<span class="visible-xs">Home</span></a></li>
 					<li><a href="video.php">Video</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="blog.php">Blog <span class="badge">2</span></a></li>
@@ -29,8 +29,8 @@
 				<button type="button" class="navbar-toggle collapsed"
 					data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span> <span class="icon-bar"></span> <i
-						class="icon-menuicon"></i>
+						class="icon-bar"></span> <span class="icon-bar"></span> 
+						<div class="menu-switch-ico"></div>
 				</button>
 				<ul class="nav navbar-nav languages">
 					<li><a class="cz" href="#"><span>CZ</span></a></li>

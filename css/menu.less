@@ -5,21 +5,32 @@
 @import "variables-mixins.less";
 
 .navbar-passion {
+	.container {
+		padding: 0;
+	}
+	background: white;
+	
+	.drop-shadow (2px , -1px , 6px , 0.5);
 	
 	z-index: 1000;
 	
-	@linkLineHeight: 25px;
+	@linkLineHeight: 20px;
 	
 	border: 0;
-	background: white;
 	font-family: 'Open Sans', sans-serif;
+	
+	min-height: 35px;
+	
+	@menuLinkPadding: 12px 27px 5px 27px;
+	
 	.main-menu {
+		.home {
+			font-size: @linkLineHeight - 4;
+		}
 		.navbar-nav {
 			& > li {
 				& > a {
-					@menuLinkPadding: 35px;
-					padding-left: @menuLinkPadding;
-					padding-right: @menuLinkPadding;
+					padding: @menuLinkPadding;
 					text-align: center;
 					color: @passionOranzova;
 					line-height: @linkLineHeight;
@@ -37,21 +48,19 @@
 				}
 	
 				&:hover, &:focus {
-					border-bottom: solid 2px @pozadiMenu;
+					border-bottom: solid 3px @pozadiMenu;
 				}
 				
 				&.active {
-					border-bottom: solid 2px black;
+					border-bottom: solid 3px black;
 				}
 			}
 		}
 	}
 
 	.navbar-header {
-		background: white;
-		
 		.navbar-toggle {
-			margin-top: -6px;
+			margin-top: -20px;
 			padding: 15px 9px 3px 9px;
 			background-color: @pozadiMenu;
 			.border-radius (0 , 10px , 0 , 0);
@@ -77,36 +86,39 @@
 			i { display: none; }
 		}
 
-		//styl jazyku
-		.languages {
-			& > li.active > a {
-				color: black;
-			}			
-			margin: 0 0 0 12px;
-			a {
-				margin-top: 0;
-				display: inline-block;
-				line-height: @linkLineHeight;
-				float: left;
-				height: auto;
-				font-size: 18px;
-				padding: 15px 0;
-				color: black;
-				&.active , &:hover , &:focus {
-					text-decoration: none;
-					font-weight: bold;
-					border-bottom: solid 2px @pozadiMenu;
+//	&.languages-nav {
+			//styl jazyku
+			.languages {
+				& > li.active > a {
+					color: black;
+				}			
+				a {
+					margin-top: 0;
+					display: inline-block;
+					line-height: @linkLineHeight;
+					float: left;
+					height: auto;
+					font-size: 16px;
+					padding: @menuLinkPadding;
+					padding-left: 0;
+					padding-right: 0;
+					color: black;
+					&.active , &:hover , &:focus {
+						text-decoration: none;
+						font-weight: bold;
+						border-bottom: solid 3px @pozadiMenu;
+					}
+	
+					span { padding: 0 7px; }
+	
+					&.cz {
+						span { border-right: solid 1px @pozadiMenu; }
+					}
 				}
-
-				span { padding: 0 15px; }
-
-				&.cz {
-					span { border-right: solid 1px @pozadiMenu; }
+	
+				.navbar-brand {
 				}
-			}
-
-			.navbar-brand {
-			}
+//			}
 		}
 	}
 }
@@ -127,7 +139,20 @@
 		}
 }
 
+
+@media (min-width: @passion-screen-tablet-min) and (max-width: @passion-screen-tablet-max) {
+	.navbar-passion {
+		.container {
+			padding: 0 15px;
+		}			
+	}
+}
+
 @media (max-width: @passion-screen-phone-max) {
+	.navbar-passion {
+		.container {
+		}
+	}
 	.languages-nav {
 		display: none !important;
 	}
@@ -154,18 +179,43 @@
 					}
 				}
 			}
+			.retinaimg("menu-shadow", 1px, 20px);
+			background-position: bottom;
+			background-repeat: repeat-x;
 		}
 		
 		.navbar-header {
+			background: white;
+			padding: 0 5px 0 15px;
 			.languages {
 				margin: 0 0 0 11px;
 				a { 
+					line-height: 26px;
 					padding: 9px 0 5px 0;
-					font-size: 15px; 
+					font-size: 20px; 
 
 					span {
 						padding: 0 7px; 
 					}
+				}
+			}
+			.navbar-toggle {
+				margin-bottom: 0px;
+				
+				&.collapsed {
+					margin-bottom: 8px;
+					.menu-switch-ico {
+						display: none;
+					}
+				}
+				padding: 0;
+				.menu-switch-ico {
+					display: block;
+					width: 40px;
+					height: 55px;
+					.retinaimg("menu-switch", 40px, 65px);
+					background-position: bottom center;
+					background-repeat: no-repeat;
 				}
 			}
 		}

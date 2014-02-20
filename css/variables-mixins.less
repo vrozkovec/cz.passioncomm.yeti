@@ -8,15 +8,16 @@
 
 @passionOranzova: #f7931e;
 @pozadiMenu: #e6e6e6;
+@gradientColor: #f17124;
 
 
 @passion-screen-phone:                  480px;
 @passion-screen-phone-min:              @passion-screen-phone;
 
-@passion-screen-tablet:                  700px;
+@passion-screen-tablet:                  740px;
 @passion-screen-tablet-min:              @passion-screen-tablet;
 
-@passion-screen-desktop:                  940px;
+@passion-screen-desktop:                  970px;
 @passion-screen-desktop-min:              @passion-screen-desktop;
 
 // So media queries don't overlap when required, provide a maximum
@@ -40,6 +41,22 @@
 
 .passion-rounded-border() {
 	.border-radius(0, 15px, 0, 15px);
+}
+
+.passion-gradient-passive(){
+	background-color: @gradientColor;
+	#gradient > .radial (#F78D1E;
+	@gradientColor);
+	color: white;
+}
+
+.passion-gradient-active(){
+	background-color: white;
+	color: @gradientColor;
+		a {
+			color: @gradientColor ! important;
+//			background: white;
+		}
 }
 
 .retinaimg(@imageName, @width, @height, @imageSuffix: "png") {
