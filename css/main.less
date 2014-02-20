@@ -122,11 +122,12 @@ body {
 	}	
 }
 
+@gradientColor: #f17124;
+
 .orange-leaf {
 	z-index: 20;
 	.content {
 		text-align: left;
-		@gradientColor: #f17124;
 		background-color: @gradientColor;
 		#gradient > .radial (#F78D1E;
 		@gradientColor);
@@ -239,7 +240,8 @@ body {
 
 	margin-bottom: @infoblockBottomMargin;
 	.play-button {
-		z-index: 100;
+		//pod orange-leaf
+		z-index: 19;
 		position: absolute;
 		top: 20%;
 		left: 0;
@@ -300,6 +302,14 @@ body {
 		.orange-leaf {
 			.leaf-absolute-pos ();
 			.content {
+				&:hover, .active {
+					color: @gradientColor;
+					background: white;
+					a {
+						color: @gradientColor ! important;
+						background: white;
+					}
+				}
 				h2 {
 					font-size: 20px;
 					font-weight: 600;

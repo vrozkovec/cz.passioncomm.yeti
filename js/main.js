@@ -39,6 +39,15 @@ $(document).ready(function() {
     if ($('body.blog').length) {
     	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 50);
     }
+    
+    $('.info-block.text-leaf .orange-leaf').hover(
+		function (){
+	    	$(this).children('.content').addClass('active');
+	    },
+	    function (){
+	    	$(this).children('.content').removeClass('active');
+	    }
+    );
         
 });
 
