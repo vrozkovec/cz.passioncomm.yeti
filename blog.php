@@ -43,7 +43,7 @@ require "inc-menu.php";
 
 
 			<div class="row row-margin header">
-				<div class="col-xs-12 col-sm-8">
+				<div class="col-xs-12 col-sm-12 col-md-8">
 					<div class="content-wrapper">
 						<div class="in-content-leaf">
 							<div class="orange-leaf">
@@ -74,7 +74,7 @@ require "inc-menu.php";
 			</div>
 
 			<div class="row row-margin">
-				<div class="col-xs-12 col-sm-8">
+				<div class="col-xs-12 col-sm-12 col-md-8">
 					<div class="text-content">
 
 						<div class="content-wrapper">
@@ -178,7 +178,7 @@ require "inc-menu.php";
 						</div>
 					</div>
 
-					<div class="row row-margin loader-row visible-xs">
+					<div class="row row-margin loader-row visible-xs visible-sm">
 						<div class="col-xs-12">
 							<div class="in-content-leaf">
 								<div class="orange-leaf">
@@ -199,7 +199,7 @@ require "inc-menu.php";
 
 
 
-				<div class="col-xs-12 col-sm-4 explore-more-column hidden-xs">
+				<div class="col-xs-12 col-sm-4 explore-more-column hidden-xs hidden-sm">
 					<h2>Explore more work</h2>
 					<div class="row">
 						<div class="col-sm-12">
