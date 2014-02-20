@@ -4,6 +4,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic,300,400italic,600italic,700,700italic&subset=latin,latin-ext);
 @import "../font-passioncomm/stylesheets/passioncomm.css";
+@import "../font-icomoon/style.css";
 @import "bootstrap/less/mixins.less";
 @import "elements.less";
 @import "variables-mixins.less";
@@ -26,6 +27,13 @@
 
 .container {
 	max-width: 940px;
+}
+
+
+.play-button a {
+	&:link, &:hover {
+		text-decoration: none;
+	}
 }
 
 .leaf-pos-reset () {
@@ -251,10 +259,10 @@ body {
 			}
 
 			i {
-				.video & {
-					font-size: 88px;
-				}
-				font-size: 64px;
+				font-size: 48px !important;
+			}
+			.video & i {
+				font-size: 88px;
 			}
 
 			&:hover {

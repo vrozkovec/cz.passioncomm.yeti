@@ -207,7 +207,7 @@ require "inc-menu.php";
 
 								<div class="play-button">
 									<div class="text-center">
-										<a href="#"><i class="fa fa-play-circle-o"></i></a>
+										<a href="#"><i class="icon-play"></i></a>
 									</div>
 								</div>
 
@@ -245,7 +245,7 @@ require "inc-menu.php";
 
 							<div class="play-button">
 								<div class="text-center">
-									<a href="#"><i class="fa fa-play-circle-o"></i></a>
+									<a href="#"><i class="icon-play"></i></a>
 								</div>
 							</div>
 

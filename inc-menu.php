@@ -15,7 +15,7 @@
 			<div class="navbar-collapse collapse main-menu">
 				<ul class="nav navbar-nav">
 					<li class="active home">
-						<a href="index.php"><span class="glyphicon glyphicon-home hidden-xs"></span> 
+						<a href="index.php"><span class="icon-home"></span> 
 					<span class="visible-xs">Home</span></a></li>
 					<li><a href="video.php">Video</a></li>
 					<li><a href="gallery.php">Gallery</a></li>

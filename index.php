@@ -9,7 +9,7 @@
 require "inc-head.php";
 ?>
 
-<body>
+<body class="index">
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -47,7 +47,7 @@ require "inc-tophead.php";
 
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#"><i class="icon-play"></i></a>
 						</div>
 					</div>
 
@@ -86,7 +86,7 @@ require "inc-tophead.php";
 				<div class="info-block text-leaf">
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#"><i class="icon-play"></i></a>
 						</div>
 					</div>
 
@@ -129,7 +129,7 @@ require "inc-tophead.php";
 				<div class="info-block text-leaf">
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#"><i class="icon-play"></i></a>
 						</div>
 					</div>
 
@@ -183,7 +183,7 @@ require "inc-tophead.php";
 
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#"><i class="icon-play"></i></a>
 						</div>
 					</div>
 
@@ -208,7 +208,7 @@ require "inc-tophead.php";
 
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#" class="invert"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#" class="invert"><i class="icon-play"></i></a>
 						</div>
 					</div>
 
@@ -230,7 +230,7 @@ require "inc-tophead.php";
 
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#" class="invert"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#" class="invert"><i class="icon-play"></i></a>
 						</div>
 					</div>
 

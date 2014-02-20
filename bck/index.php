@@ -52,7 +52,7 @@
 							
 							<div class="play-button">
 								<div class="text-center">
-									<a href="#"><i class="fa fa-play-circle-o"></i></a>
+									<a href="#"><i class="icon-play"></i></a>
 								</div>
 							</div>
 							
@@ -89,7 +89,7 @@
 							
 							<div class="play-button">
 								<div class="text-center">
-									<a href="#" class="invert"><i class="fa fa-play-circle-o"></i></a>
+									<a href="#" class="invert"><i class="icon-play"></i></a>
 								</div>
 							</div>
 							
@@ -114,7 +114,7 @@
 				<div class="info-block text-leaf">
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#"><i class="icon-play"></i></a>
 						</div>
 					</div>
 					
@@ -161,7 +161,7 @@
 																		
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#"><i class="icon-play"></i></a>
 						</div>
 					</div>
 							
@@ -184,7 +184,7 @@
 																		
 					<div class="play-button">
 						<div class="text-center">
-							<a href="#" class="invert"><i class="fa fa-play-circle-o"></i></a>
+							<a href="#" class="invert"><i class="icon-play"></i></a>
 						</div>
 					</div>
 							
