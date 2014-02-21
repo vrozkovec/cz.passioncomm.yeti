@@ -24,9 +24,6 @@
 	@menuLinkPadding: 12px 27px 5px 27px;
 	
 	.main-menu {
-		.home {
-			font-size: @linkLineHeight - 4;
-		}
 		.navbar-nav {
 			& > li {
 				& > a {
@@ -123,6 +120,16 @@
 	}
 }
 
+@media (min-width: @passion-screen-tablet-min) {
+	.navbar-passion {
+		.main-menu {
+			.home {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
 @media (max-width: @passion-screen-tablet-max) {
 	@menuLinkPadding: 20px;
 	.navbar-passion {
@@ -168,6 +175,7 @@
 				& > li {
 					border-bottom: none;
 					& > a {
+						font-size: 14px;
 						padding-top: 5px;
 						padding-bottom: 5px;
 					}

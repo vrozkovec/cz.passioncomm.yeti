@@ -165,8 +165,8 @@ require "inc-tophead.php";
 			<div class="col-sm-4 col-md-3">
 				<div class="info-block text-leaf">
 					<div class="orange-leaf">
-						<div class="content active">
-							<h2>Welcome Julia our new designer</h2>
+						<div class="content">
+							<h2>Welcome Julia<br />our new designer</h2>
 							<div class="author">
 								<em>by</em> PassionComm
 							</div>

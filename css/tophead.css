@@ -519,8 +519,46 @@
   @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000387}}
   .tophead .container .slogan {
     font-size: 22px;
-    line-height: 30px;
-    margin-top: 50px;
+    line-height: 27px;
+    margin-top: 48px;
+  }
+  /* line 93, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000393}}
+  .tophead .container .logo {
+    background-image: url("img/logo.png");
+    height: 90px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+  }
+}
+@media (max-width: 969px) and only screen and (-webkit-min-device-pixel-ratio: 2), (max-width: 969px) and only screen and (min--moz-device-pixel-ratio: 2), (max-width: 969px) and only screen and (-o-min-device-pixel-ratio: 2/1), (max-width: 969px) and only screen and (min-device-pixel-ratio: 2), (max-width: 969px) and only screen and (min-resolution: 192dpi), (max-width: 969px) and only screen and (min-resolution: 2dppx) {
+  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
+  .tophead .container .logo {
+    background-image: url("img/logo@2x.png");
+    background-size: 232px 90px;
+  }
+}
+@media (min-width: 970px) {
+  /* line 106, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003106}}
+  .tophead {
+    margin-bottom: 30px;
+  }
+  /* line 108, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003108}}
+  .tophead a:hover {
+    text-decoration: none;
+  }
+  /* line 120, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003120}}
+  .tophead .container .slogan {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-top: 42px;
+    padding-left: 16px;
   }
 }
 /*# sourceMappingURL=tophead.map */

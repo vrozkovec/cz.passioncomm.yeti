@@ -14,6 +14,10 @@ $(document).ready(function() {
 //            	var height = $(this).next().position().top;
 //            	return (height - $(this).height()) / 2;
 //            });
+            $('.play-button').css("top", function(index, value) {
+            	var height = $(this).next().position().top;
+            	return (height - $(this).height()) / 2;
+            });
         } else {
         	$('.info-block.text-leaf').css("height", "");
 //        	$('.play-button').css("bottom", "");
@@ -26,10 +30,6 @@ $(document).ready(function() {
 //        	}
         	
         }
-        $('.play-button').css("top", function(index, value) {
-        	var height = $(this).next().position().top;
-        	return (height - $(this).height()) / 2;
-        });
         
         if ($('.blog').length) {
         	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 20);
