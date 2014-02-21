@@ -166,8 +166,16 @@ body {
 				}
 			}
 			.loader-row & {
-				padding: 10px 20px 15px 20px;
+				padding: 18px 20px 15px 20px;
 				font-size: 22px;
+				&:hover {
+					img.pasive { display: inline;}
+					img.active { display: none;}
+					
+					.passion-gradient-active();
+				}
+				img.pasive { display: none;}
+				img.active { display: inline;}
 			}
 		}
 	}
@@ -460,7 +468,7 @@ body {
 
 				&.facebook {
 					text-align: right;
-					padding-right: 15px;
+					padding-right: 20px;
 					background-color: #2f6199;
 					i {
 						position: relative;
@@ -731,7 +739,6 @@ body {
 			padding: 0 25px;
 			img {
 				.img-responsive ();
-				.passion-rounded-border ();
 			}
 		}	
 		
@@ -772,21 +779,35 @@ body {
 				padding: 0 20px;
 			}
 		}
+		.image-leaf {
+			.content {
+				position: relative;
+				height: 286px;
+				overflow: hidden;
+				.passion-rounded-border ();
+				img {
+					position: absolute;
+					top:0;
+					left: 0;
+				}
+			}	
+		}
 	}
-	
-	
 }
 
 @media (min-width: @passion-screen-tablet-min) and (max-width: @passion-screen-tablet-max) {
 
 	.container {
 		max-width: 680px;
+		.video & {
+			max-width: 700px;
+		}
 	}
 	
 	.passion-breadcrumb {
 		
-		padding-left: 30px;
-		padding-top: 30px;
+		padding-left: 39px;
+		padding-top: 35px;
 		padding-bottom: 30px;
 	}
 
@@ -798,6 +819,7 @@ body {
 					.passion-rounded-border-on-header();
 				}
 				.gallery & {
+					.border-radius();
 					right: 40% !important;
 					bottom: 15px;
 					.content {
@@ -813,9 +835,23 @@ body {
 					right: 140px;
 					bottom: 10px;
 				}			
+				.gallery & {
+					.content {
+					}
+					bottom: 10px !important;
+				}			
+
+			}
+			.gallery &, .video & {
+				.border-radius();
 			}
 		}
-				
+		.play-button {
+			.video & {
+				top: 163px;
+				i { font-size: 71px !important; }
+			} 
+		}
 	}
 	
 	.gallery {
@@ -824,6 +860,10 @@ body {
 				margin-top: 15px !important;
 			}
 		}
+		.loader-row {
+			margin-top: 118px !important;
+		}		
+		
 	}
 	
 	
@@ -840,20 +880,36 @@ body {
 	}
 	
 	.blog {
+		.passion-breadcrumb {
+			padding-left: 29px;
+			padding-top: 33px;
+			padding-bottom: 23px;
+		}
+		
+		.image-leaf {
+			.content {
+				height: 286px;
+			}
+		}
 
+		.padding20-left {
+		}
 		.header {
 			.content-wrapper {
 				padding-right: 20px;
 			}
 			.in-content-leaf {
-				padding-right: 0;
 				margin-top: 5px;
+				padding-right: 0;
 				.orange-leaf {
-					h1 {
-						font-size: 30px;
-					}
-					.author { 
-						font-size: 20px;
+					.content {
+						padding: 15px 10px 18px 32px;
+						h1 {
+							font-size: 28px;
+						}
+						.author { 
+							font-size: 20px;
+						}
 					}
 				}
 			}
@@ -873,15 +929,36 @@ body {
 }
 
 @media (min-width: @passion-screen-desktop-min) {
+	
+	.container {
+		.video & {
+			max-width: 940px;	
+		}
+	}	
+	
+	.explore-more {
+		h2 {
+			margin-top: 40px;
+			margin-bottom: 42px;
+		}
+		.video & {
+			h2 {
+			}
+			.container {
+			}
+		} 
+	}	
+	
 	.explore-more-column {
 		background: lighten(gray, 30%);
 		padding: 10px 30px;
 		text-align: center;
 		h2 {
-			font-size: 22px;
+			font-size: 24px;
 			font-weight: 600;
-			margin-top: 10px;
-			margin-bottom: 50px;
+			margin-top: 30px;
+			margin-bottom: 43px;
+			text-align: left;
 		}
 	
 		.info-block.text-leaf {
@@ -902,15 +979,39 @@ body {
 				}
 			}	
 		}
+		.play-button {
+			top: 50%;
+			.video & {
+				top: 106px !important;
+				i {
+					font-size: 70px !important;
+				}
+			}
+			.blog & {
+				top: 66px !important;
+				i {
+					font-size: 56px !important;
+				}
+			}
+
+		}
 		
 		&.header {
+			.gallery & {
+				height: 590px;
+			}
+			
 			position: relative;
 			.orange-leaf {
 				.content {
 					.passion-rounded-border-on-header();
 					left: -5px;
 				}
+				.gallery & {
+					bottom: 32px !important;
+				}					
 			}
+			
 			
 			@shadowWidth: 19px;
 			@shadowHeight: 10px;
@@ -985,8 +1086,14 @@ body {
 			.in-content-leaf {
 				margin-top: 5px;
 				.orange-leaf {
-					h1 {
-						font-size: 30px;
+					.content {
+						padding: 14px 10px 23px 31px;
+						h1 {
+							font-size: 30px;
+						}
+						.author {
+							font-size: 19px;
+						}
 					}
 				}
 			}
@@ -999,27 +1106,124 @@ body {
 			background: none;
 			.explore-wrapper {
 				.passion-rounded-border();
-				padding: 10px 20px 10px 20px;
-				background: lighten(gray, 30%);
+				padding: 10px 12px 10px 20px;
+				background-color: #f2f2f2 !important;
+			}
+		}		
+		.image-leaf {
+			margin-top: 20px;
+			.content {
+				height: 286px;
 			}
 		}
 	}
+	
+	.gallery {	
+		@padding: 0 15px;
+		.gallery-detail-arrow {
+			padding: @padding;
+		}
+		
+		.gallery-row , .gallery-detail {
+			padding: @padding;
+			img {
+				.passion-rounded-border();
+			}
+		}	
+		.gallery-detail {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			.gallery-wrapper {
+				position: relative;
+				display: inline-block;
+				a {
+					color: black;
+					text-decoration: none;
+					outline: none;
+					position: absolute;
+					top: 5px;
+					right: 5px;
+				}
+			}
+		}	
+		
+		.text-content {
+			h1 {
+				margin-top: 7px !important;
+			}
+		}
+		.explore-more, .gallery-detail {
+			.container {
+				padding: @padding;
+			}
+		}		
+		
+		.text-content {
+			h1 {
+			}
+		}
+	}		
+	
 }
 
 @media (max-width: @passion-screen-phone-max) {
-	.info-block.full-orange-leaf {
-		.orange-leaf {
-			position: relative;
-			.leaf-pos-reset();
-			.content {
-				padding: 62px 20px 30px 20px;
+
+	.blog {
+		.header {
+			.content-wrapper {
+				.in-content-leaf {
+					padding: 0 5px;
+				}
 			}
 		}
-		.shadow {
-			display: none;
+		.text-content {
+			padding: 0 5px;
+		}
+		.loader-row {
+			.in-content-leaf {
+				margin-top: 20px;
+				padding: 0 5px;
+			}
+		}
+	}	
+	
+	
+	.info-block {
+		&.full-orange-leaf {
+			.orange-leaf {
+				position: relative;
+				.leaf-pos-reset();
+				.content {
+					padding: 62px 20px 30px 20px;
+				}
+			}
+			.shadow {
+				display: none;
+			}
+			
+			margin-bottom: @infoblockBottomMargin;
+		}
+		&.text-leaf {
+			&.header {
+				.video & {
+					height: 286px;
+				}
+			}
 		}
 		
-		margin-bottom: @infoblockBottomMargin;
+		.play-button {
+			a {
+				i {
+//					font-size: 52px !important;
+				}
+				.video & i {
+					font-size: 66px !important;
+				}
+	
+				&:hover {
+				}
+			}
+		}		
 	}
 	
 	.jquery-media-width-fix-class {

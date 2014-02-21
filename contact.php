@@ -100,7 +100,8 @@ require "inc-menu.php";
 					<div class="orange-leaf">
 						<div class="content">
 							<div>
-								<img src="css/img/preloader-white.gif" />
+									<img src="css/img/preloader-white.gif" class="active" />
+									<img src="css/img/preloader.gif" class="pasive" />
 							</div>
 							Load more work
 						</div>

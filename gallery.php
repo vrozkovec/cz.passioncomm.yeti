@@ -115,7 +115,12 @@ require "inc-menu.php";
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="images/gallery/img1-detail.png" />
+					<div class="gallery-wrapper">
+						<img src="images/gallery/img1-detail.png" />
+						<a href="#">
+							<i class="icon-close"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -187,7 +192,8 @@ require "inc-menu.php";
 					<div class="orange-leaf">
 						<div class="content">
 							<div>
-								<img src="css/img/preloader-white.gif" />
+									<img src="css/img/preloader-white.gif" class="active" />
+									<img src="css/img/preloader.gif" class="pasive" />
 							</div>
 							Load more work
 						</div>

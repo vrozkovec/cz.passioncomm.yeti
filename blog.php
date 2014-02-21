@@ -81,15 +81,11 @@ require "inc-menu.php";
 
 							<div class="image-leaf">
 								<div class="content">
-									<img class="img-responsive" src="images/blog@2x.png" />
+									<img src="images/blog.png" />
 								</div>
 								<div class="shadow"></div>
 							</div>
 
-
-
-
-							
 							<p class="lead">
 								Suspendisse auctor molestie orci <a href="#">vel viverra nibh
 									scelerisque</a> et fermentum. Donec libero mauris; varius id
@@ -184,7 +180,8 @@ require "inc-menu.php";
 								<div class="orange-leaf">
 									<div class="content">
 										<div>
-											<img src="css/img/preloader-white.gif" />
+											<img src="css/img/preloader-white.gif" class="active" />
+											<img src="css/img/preloader.gif" class="pasive" />
 										</div>
 										Load more work
 									</div>
