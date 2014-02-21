@@ -20,8 +20,8 @@
 					<li><a href="#">People</a></li>
 					<li><a href="#">Philosophy</a></li>
 					<li><a href="#">Jobs <span class="badge">2</span></a></li>
-					<li><a href="#">Contact</a></li>
 					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
 			<!--/.navbar-collapse -->
