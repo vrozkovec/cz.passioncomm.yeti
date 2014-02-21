@@ -3,6 +3,7 @@
    ========================================================================== */
 @import "variables-mixins.less";
 
+@topHeight: 160px; 
 .tophead {
 	.retinaimg("tophead", auto, 160px);
 	background-repeat: no-repeat;
@@ -12,7 +13,6 @@
 	
 	.container {
 
-		@topHeight: 160px; 
 		height: @topHeight;
 
 		.logo {
@@ -21,7 +21,7 @@
 			height: @imgHeight;
 			margin-top: (@topHeight - @imgHeight) / 2;
 			background-repeat: no-repeat;
-			background-position: left center;
+			background-position: 10px 10px;
 		}
 		.slogan {
 			font-family: 'Open Sans', sans-serif;
@@ -72,6 +72,9 @@
 		.container {
 			.slogan {
 				font-size: 22px;
+				@lineHeight: 30px;
+				line-height: @lineHeight;
+				margin-top: (@topHeight - 2 * @lineHeight) / 2;
 			}
 		}
 	}
