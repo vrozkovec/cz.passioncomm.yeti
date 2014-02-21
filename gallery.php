@@ -49,7 +49,6 @@ require "inc-menu.php";
 		<div class="row row-margin">
 			<div class="col-xs-12">
 				<div class="text-content">
-
 					<h1>Project description</h1>
 					<p>Suspendisse auctor molestie orci et fermentum. Donec libero
 						mauris; varius id metus et, tempus volutpat tellus. Maecenas
