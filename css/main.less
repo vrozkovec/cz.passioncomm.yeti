@@ -638,6 +638,10 @@ body {
 						font-size: 18px;
 						font-weight: 300;
 					}
+					&.standout {
+						.header-leaf();
+						padding-left: 40px;
+					}
 				}
 			}
 		}
@@ -660,6 +664,15 @@ body {
 			
 		&.double-height {
 			height: @infoblockDoubleHeight;
+			.orange-leaf {
+				right: 120px;
+				.content {
+					&.standout {
+						.header-leaf();
+						padding-left: 40px;
+					}
+				}
+			}			
 		}	
 		
 			
