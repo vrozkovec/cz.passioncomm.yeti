@@ -19,17 +19,6 @@ require "inc-head.php";
 require "inc-menu.php";
 ?>
 
-	<div class="row row-margin socialicons outside visible-md visible-lg">
-		<div class="col-xs-12">
-			<a href="#" class="social google"><span>Share on google</span></a> <a
-				href="#" class="social facebook"><span>Share on facebook</span></a>
-			<a href="#" class="social twitter"><span>Share on twitter</span></a>
-			<a href="#" class="social email"><span>Share via e-mail</span></a> <a
-				href="#" class="social addthis"><span>Share with addthis</span></a>
-		</div>
-	</div>
-
-
 	<div class="container info-blocks with-header">
 		<div class="padding20-left">
 
@@ -45,6 +34,16 @@ require "inc-menu.php";
 			<div class="row row-margin header">
 				<div class="col-xs-12 col-sm-12 col-md-8">
 					<div class="content-wrapper">
+						<div class="socialicons outside visible-md visible-lg">
+							<div class="wrapper">
+								<a href="#" class="social google"><span>Share on google</span></a> <a
+									href="#" class="social facebook"><span>Share on facebook</span></a>
+								<a href="#" class="social twitter"><span>Share on twitter</span></a>
+								<a href="#" class="social email"><span>Share via e-mail</span></a> <a
+									href="#" class="social addthis"><span>Share with addthis</span></a>
+							</div>
+						</div>
+					
 						<div class="in-content-leaf">
 							<div class="orange-leaf">
 								<div class="content text-left">

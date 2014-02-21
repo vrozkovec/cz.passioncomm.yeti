@@ -32,7 +32,7 @@ $(document).ready(function() {
         }
         
         if ($('.blog').length) {
-        	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 20);
+//        	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 20);
 		}
     }
     // Execute on load
