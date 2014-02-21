@@ -31,7 +31,9 @@ $(document).ready(function() {
         	return (height - $(this).height()) / 2;
         });
         
-    	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 20);
+        if ($('.blog').length) {
+        	$('.blog .socialicons.outside').css('left', $('.container.with-header').offset().left - 20);
+		}
     }
     // Execute on load
     checkWidth();
