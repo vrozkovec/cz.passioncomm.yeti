@@ -937,8 +937,11 @@ body {
 	
 	.container {
 		.video & {
-			max-width: 940px;	
+			max-width: 935px;	
 		}
+		.blog & {
+			max-width: 935px;	
+		}		
 	}	
 	
 	.explore-more {
@@ -961,9 +964,10 @@ body {
 		h2 {
 			font-size: 24px;
 			font-weight: 600;
-			margin-top: 30px;
+			margin-top: 21px;
 			margin-bottom: 43px;
 			text-align: left;
+			padding-left: 5px;
 		}
 	
 		.info-block.text-leaf {
@@ -1116,7 +1120,7 @@ body {
 			}
 		}		
 		.image-leaf {
-			margin-top: 20px;
+			margin-top: 10px;
 			.content {
 				height: 286px;
 			}
@@ -1173,6 +1177,13 @@ body {
 
 @media (max-width: @passion-screen-phone-max) {
 
+	.container {
+		max-width: 685px;
+		.row {
+			margin: 0;
+		}
+	}
+
 	.blog {
 		.header {
 			.content-wrapper {
@@ -1190,8 +1201,14 @@ body {
 				padding: 0 5px;
 			}
 		}
+		.image-leaf {
+			.content {
+				img {
+					.img-responsive();
+				}
+			}
+		}
 	}	
-	
 	
 	.info-block {
 		&.full-orange-leaf {
