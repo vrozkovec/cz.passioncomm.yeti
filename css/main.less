@@ -175,10 +175,10 @@ body {
 				padding: 18px 20px 15px 20px;
 				font-size: 22px;
 				&:hover {
-					img.pasive { display: inline;}
-					img.active { display: none;}
+					//img.pasive { display: inline;}
+					//img.active { display: none;}
 					
-					.passion-gradient-active();
+					//.passion-gradient-active();
 				}
 				img.pasive { display: none;}
 				img.active { display: inline;}
@@ -409,15 +409,6 @@ body {
 	.lead {
 		font-style: italic;
 	}
-	address {
-		display: block;
-		text-align: center;
-		padding: 20px 0;
-		background: white;
-		.lead {
-			font-size: 18px; 
-		}
-	}
 
 	.socialicons {
 		text-align: left;
@@ -534,6 +525,61 @@ body {
 			}
 		}
 	}	
+}
+
+.contact {
+	.contact-wrap {
+		background-color: #f2f2f2;
+		.inner-shadow(0, 1px, 5px, 0.5);
+		a:hover {
+			color: @passionOranzova;
+		}
+	}
+	.header {
+		.content-wrapper {
+			.in-content-leaf {
+				padding: 0 20px !important;
+			}
+		}
+	}
+	
+	.container.logo {
+		margin-bottom: 37px;
+	}
+	address {
+		display: block;
+		text-align: center;
+		padding: 30px 0;
+		line-height: 28px;
+		a {
+			text-decoration: underline;
+		}
+		font-size: 15px;
+		.lead {
+			font-size: 20px;
+			line-height: 30px;
+			font-style: normal; 
+		}
+	}
+	
+	.loader-row {
+		background-color: #f2f2f2;
+		padding: 18px 10px 15px 10px;
+		margin-bottom: 0;
+	}
+	footer {
+		margin-top: 0;
+	}
+	
+	.socialicons.contact {
+		margin-bottom: 45px !important;
+	}
+	.map {
+		img {
+			margin: 0 auto;
+		}
+		text-align: center;
+	}
 }
 
 .loader {
@@ -1234,7 +1280,6 @@ body {
 @media (max-width: @passion-screen-phone-max) {
 
 	.container {
-		max-width: 685px;
 		.row {
 			margin: 0;
 		}

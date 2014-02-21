@@ -43,7 +43,6 @@ $(document).ready(function() {
 			} else {
 				$(".hires").each(function(){
 					//mobil
-					console.log($(this).attr("data-mobile-src"));
 					if (lastUsedSize == 0) {
 						$(this).attr("src", $(this).attr("data-mobile-src"));
 					}

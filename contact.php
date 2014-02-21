@@ -21,8 +21,6 @@ require "inc-menu.php";
 
 
 	<div class="container info-blocks with-header">
-
-
 		<div class="row row-margin header visible-xs">
 			<div class="col-xs-12 col-sm-8">
 				<div class="content-wrapper">
@@ -39,47 +37,53 @@ require "inc-menu.php";
 		</div>
 	</div>
 
-	<div class="container margin20-top">
-		<div class="col-xs-8 col-xs-offset-2">
-			<img src="css/img/passion-logo.png" class="img-responsive" />
-		</div>
-	</div>
-<!-- 	<div class="tophead hidden-xs"> -->
-<!-- 		<div class="container"> -->
-<!-- 			<div class="row"> -->
-<!-- 				<div class="col-xs-1 visible-xs arrow"> -->
-<!-- 					<a href="#"><i class="fa fa-chevron-left"></i></a> -->
-<!-- 				</div> -->
-<!-- 				<div class="col-xs-10 col-sm-5 logo"></div> -->
-<!-- 				<div class="col-xs-1 visible-xs arrow"> -->
-<!-- 					<a href="#"><i class="fa fa-chevron-right"></i></a> -->
-<!-- 				</div> -->
-<!-- 				<div class="col-sm-7 hidden-xs slogan"> -->
-<!-- 					We promise that everything we do,<br /> we do with passion. -->
-<!-- 				</div> -->
-<!-- 			</div> -->
-<!-- 		</div> -->
-<!-- 	</div> -->
-
-	<div class="container info-blocks with-header">
-
-		<div class="row row-margin header">
-			<div class="col-xs-12">
-				<address>
-					<span class="lead">+420 736 163 629</span><br> <a class="lead"
-						href="contact@passioncomm.com">contact@passioncomm.com</a><br> <span
-						class="lead">Passion Communications</span><br> Malostranské
-					náměstí 266/5<br> Prague 1, Czech Republic<br>
-				</address>
+	<div class="container logo">
+		<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+			<div>
+				<img src="css/img/contact-logo@2x.png" class="img-responsive" />
 			</div>
 		</div>
+	</div>
+	<!-- 	<div class="tophead hidden-xs"> -->
+	<!-- 		<div class="container"> -->
+	<!-- 			<div class="row"> -->
+	<!-- 				<div class="col-xs-1 visible-xs arrow"> -->
+	<!-- 					<a href="#"><i class="fa fa-chevron-left"></i></a> -->
+	<!-- 				</div> -->
+	<!-- 				<div class="col-xs-10 col-sm-5 logo"></div> -->
+	<!-- 				<div class="col-xs-1 visible-xs arrow"> -->
+	<!-- 					<a href="#"><i class="fa fa-chevron-right"></i></a> -->
+	<!-- 				</div> -->
+	<!-- 				<div class="col-sm-7 hidden-xs slogan"> -->
+	<!-- 					We promise that everything we do,<br /> we do with passion. -->
+	<!-- 				</div> -->
+	<!-- 			</div> -->
+	<!-- 		</div> -->
+	<!-- 	</div> -->
 
+
+	<div class="contact-wrap">
+		<div class="container margin20-top">
+			<div class="row row-margin header">
+				<div class="col-xs-12">
+					<address>
+						<span class="lead">+420 736 163 629</span><br> <a class="lead"
+							href="contact@passioncomm.com">contact@passioncomm.com</a><br> <span
+							class="lead">Passion Communications</span><br> Malostranské
+						náměstí 266/5<br> Prague 1, Czech Republic<br>
+					</address>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container info-blocks with-header map">
 		<div class="row row-margin header">
 			<div class="col-xs-12">
-				<iframe width="100%" height="350" frameborder="0" scrolling="no"
-					marginheight="0" marginwidth="0"
+				<iframe class="hidden-xs margin20-top" width="100%" height="350" frameborder="0"
+					scrolling="no" marginheight="0" marginwidth="0"
 					src="https://maps.google.cz/maps?f=q&amp;source=s_q&amp;hl=cs&amp;geocode=&amp;q=Passion+Communications+s.r.o,+Praha+1&amp;aq=0&amp;oq=passion+communi&amp;sll=49.803763,15.474912&amp;sspn=5.439088,10.239258&amp;brcurrent=5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=50.088649,14.402561&amp;spn=0.004819,0.00751&amp;z=16&amp;output=embed"></iframe>
-				</small>
+					<img src="css/img/contact-map@2x.png" class="img-responsive visible-xs" />
 			</div>
 		</div>
 
@@ -100,8 +104,8 @@ require "inc-menu.php";
 					<div class="orange-leaf">
 						<div class="content">
 							<div>
-									<img src="css/img/preloader-white.gif" class="active" />
-									<img src="css/img/preloader.gif" class="pasive" />
+								<img src="css/img/preloader-white.gif" class="active" /> <img
+									src="css/img/preloader.gif" class="pasive" />
 							</div>
 							Load more work
 						</div>
