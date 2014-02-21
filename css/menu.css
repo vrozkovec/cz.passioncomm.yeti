@@ -654,7 +654,7 @@
   .navbar-passion .navbar-header .languages a {
     line-height: 26px;
     padding: 9px 0 5px 0;
-    font-size: 20px;
+    font-size: 15px;
   }
   /* line 197, /data/www/cz.passioncomm.yeti/css/menu.less */
   @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003197}}
@@ -704,3 +704,4 @@
     background-size: 40px 65px;
   }
 }
+/*# sourceMappingURL=menu.map */

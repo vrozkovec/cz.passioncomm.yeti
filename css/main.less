@@ -45,7 +45,7 @@
 .leaf-absolute-pos () {
 	@media (max-width: @passion-screen-phone-max) {
 		position: absolute;
-		bottom: -9px;
+		bottom: -12px;
 		left: @content-padding + 2;
 		right: @content-padding;
 	}
@@ -137,7 +137,7 @@ body {
 		
 		.passion-gradient-passive();
 				
-		padding: 10px 20px 15px 20px;
+		padding: 12px 20px 12px 20px;
 		font-family: 'Open Sans', sans-serif;
 		.passion-rounded-border ();
 		
@@ -254,12 +254,13 @@ body {
 		a {
 			outline: 0;
 			color: white;
+			font-weight: 300;
 			&.invert {
 				color: black;
 			}
 
 			i {
-				font-size: 48px !important;
+				font-size: 52px !important;
 			}
 			.video & i {
 				font-size: 88px;
@@ -282,6 +283,7 @@ body {
 			a {
 				color: white;
 				text-decoration: underline;
+				font-weight: 300;
 				font-size: 14px;
 				i {
 					margin-left: 5px;
@@ -323,7 +325,8 @@ body {
 
 				.author {
 					font-size: 18px;
-					margin-bottom: 10px;
+					margin-bottom: 9px;
+					font-weight: 300;
 				}
 			}
 		}
@@ -965,7 +968,7 @@ body {
 			position: relative;
 			.leaf-pos-reset();
 			.content {
-				padding: 20px;
+				padding: 62px 20px 30px 20px;
 			}
 		}
 		.shadow {
@@ -976,7 +979,7 @@ body {
 	}
 	
 	.jquery-media-width-fix-class {
-		float: none;
+		float: none !important;
 	}
 }
 

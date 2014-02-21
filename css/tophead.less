@@ -4,10 +4,20 @@
 @import "variables-mixins.less";
 
 @topHeight: 160px; 
+
+
 .tophead {
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
 	.retinaimg("tophead", auto, 160px);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: @gradientColor;
+	.passion-gradient-passive();
+	
 
 	margin-bottom: @rowSpacing;	
 	
@@ -16,8 +26,8 @@
 		height: @topHeight;
 
 		.logo {
-			@imgHeight: 100px;
-			.retinaimg("logo", 220px, @imgHeight);
+			@imgHeight: 90px;
+			.retinaimg("logo", 232px, @imgHeight);
 			height: @imgHeight;
 			margin-top: (@topHeight - @imgHeight) / 2;
 			background-repeat: no-repeat;
@@ -45,6 +55,10 @@
 				&:hover {
 					@background: white;
 					background-color: rgba(red(@background), green(@background), blue(@background),0.2);
+				}
+				i {
+					position: relative;
+					top: 9px;
 				}
 			}
 		}
