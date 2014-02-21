@@ -41,10 +41,17 @@ require "inc-tophead.php";
 					</div>
 					<img 
 						src="images/yeti-mobile.png" 
-						data-responsimg-mobile="images/yeti-mobile.png, images/yeti-mobile@2x.png" 
-						data-responsimg-tablet="images/yeti-tablet.png" 
-						data-responsimg-desktop="images/yeti-desktop.png, images/yeti-desktop@2x.png" 
-						class="hires" width="600" height="590" /> 
+						data-mobile-src="images/yeti-mobile.png"
+						data-mobile-src2x="images/yeti-mobile@2x.png"
+						data-tablet-src="images/yeti-tablet.png"
+						data-tablet-src2x="images/yeti-tablet@2x.png"
+						data-desktop-src="images/yeti-desktop.png"
+						data-desktop-src2x="images/yeti-desktop@2x.png"
+						class="hires" width="600" height="590" />
+						 
+<!-- 					<img src="images/yeti-tablet.png" data-at2x="images/yeti-tablet@2x.png" class="visible-sm" width="600" height="590" />  -->
+<!-- 					<img src="images/yeti-desktop.png" data-at2x="images/yeti-desktop@2x.png" class="visible-md visible-lg" width="600" height="590" /> -->
+<!-- 					<img src="images/yeti-mobile.png" data-at2x="images/yeti-mobile@2x.png" class="visible-xs hires" width="600" height="590" />  -->
 <!-- 					<img src="images/yeti-tablet.png" data-at2x="images/yeti-tablet@2x.png" class="visible-sm" width="600" height="590" />  -->
 <!-- 					<img src="images/yeti-desktop.png" data-at2x="images/yeti-desktop@2x.png" class="visible-md visible-lg" width="600" height="590" /> -->
 				</div>

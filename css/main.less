@@ -594,7 +594,7 @@ body {
 	}
 }
 
-.jquery-media-width-fix-class {
+.screen-size-mobile, .screen-size-tablet, .screen-size-desktop {
 	float: left;
 }
 
@@ -961,7 +961,9 @@ body {
 		}
 	}
 	
-	
+	.screen-size-tablet {
+		float: none !important;
+	}
 }
 
 @media (min-width: @passion-screen-desktop-min) {
@@ -1224,7 +1226,9 @@ body {
 			}
 		}
 	}		
-	
+	.screen-size-desktop {
+		float: none !important;
+	}
 }
 
 @media (max-width: @passion-screen-phone-max) {
@@ -1311,7 +1315,7 @@ body {
 		}		
 	}
 	
-	.jquery-media-width-fix-class {
+	.screen-size-mobile {
 		float: none !important;
 	}
 }
