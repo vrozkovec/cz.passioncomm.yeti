@@ -77,8 +77,8 @@ require "inc-menu.php";
 					<div class="orange-leaf">
 						<div class="content">
 							<div>
-								<img src="css/img/preloader-white.gif" class="active" />
-								<img src="css/img/preloader.gif" class="pasive" />
+								<img src="css/img/preloader-white.gif" class="active" /> <img
+									src="css/img/preloader.gif" class="pasive" />
 							</div>
 							Load more work
 						</div>
@@ -103,12 +103,15 @@ require "inc-menu.php";
 						</div>
 
 						<div class="orange-leaf">
-							<div class="content">
-								<h2>Staropramen Alhemicar</h2>
-								<div class="author">Staropramen a. s.</div>
-								<a href="video.php">Watch the Video <i
-									class="fa fa-angle-double-right"></i></a>
-							</div>
+							<a href="video.php">
+								<div class="content">
+									<h2>Staropramen Alhemicar</h2>
+									<div class="author">Staropramen a. s.</div>
+									<span class="link">Watch the Video <i
+										class="fa fa-angle-double-right"></i>
+									</span>
+								</div>
+							</a>
 							<div class="shadow"></div>
 						</div>
 						<img src="images/block2@2x.png" />
@@ -134,14 +137,16 @@ require "inc-menu.php";
 				<div class="col-sm-3">
 					<div class="info-block text-leaf">
 						<div class="orange-leaf">
-							<div class="content">
-								<h2>Welcome Julia our new designer</h2>
-								<div class="author">
-									<em>by</em> PassionComm
+							<a href="gallery.php">
+								<div class="content">
+									<h2>Welcome Julia our new designer</h2>
+									<div class="author">
+										<em>by</em> PassionComm
+									</div>
+									<span class="link">View gallery <i
+										class="fa fa-angle-double-right"></i></span>
 								</div>
-								<a href="gallery.php">View gallery <i
-									class="fa fa-angle-double-right"></i></a>
-							</div>
+							</a>
 							<div class="shadow"></div>
 						</div>
 						<img src="images/block2@2x.png" />
@@ -157,12 +162,14 @@ require "inc-menu.php";
 						</div>
 
 						<div class="orange-leaf">
-							<div class="content">
-								<h2>Staropramen Alhemicar</h2>
-								<div class="author">Staropramen a. s.</div>
-								<a href="video.php">Watch the Video <i
-									class="fa fa-angle-double-right"></i></a>
-							</div>
+							<a href="video.php">
+								<div class="content">
+									<h2>Staropramen Alhemicar</h2>
+									<div class="author">Staropramen a. s.</div>
+									<span class="link">Watch the Video <i
+										class="fa fa-angle-double-right"></i></span>
+								</div>
+							</a>
 							<div class="shadow"></div>
 						</div>
 						<img src="images/block1@2x.png" />

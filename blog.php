@@ -36,14 +36,14 @@ require "inc-menu.php";
 					<div class="content-wrapper">
 						<div class="socialicons outside visible-md visible-lg">
 							<div class="wrapper">
-								<a href="#" class="social google"><span>Share on google</span></a> <a
-									href="#" class="social facebook"><span>Share on facebook</span></a>
+								<a href="#" class="social google"><span>Share on google</span></a>
+								<a href="#" class="social facebook"><span>Share on facebook</span></a>
 								<a href="#" class="social twitter"><span>Share on twitter</span></a>
-								<a href="#" class="social email"><span>Share via e-mail</span></a> <a
-									href="#" class="social addthis"><span>Share with addthis</span></a>
+								<a href="#" class="social email"><span>Share via e-mail</span></a>
+								<a href="#" class="social addthis"><span>Share with addthis</span></a>
 							</div>
 						</div>
-					
+
 						<div class="in-content-leaf">
 							<div class="orange-leaf">
 								<div class="content text-left">
@@ -147,7 +147,7 @@ require "inc-menu.php";
 							</p>
 
 							<div class="table-responsive">
-								<table class="table">
+								<table class="table table-striped">
 									<thead>
 										<tr>
 											<th>Header 1</th>
@@ -179,8 +179,8 @@ require "inc-menu.php";
 								<div class="orange-leaf">
 									<div class="content">
 										<div>
-											<img src="css/img/preloader-white.gif" class="active" />
-											<img src="css/img/preloader.gif" class="pasive" />
+											<img src="css/img/preloader-white.gif" class="active" /> <img
+												src="css/img/preloader.gif" class="pasive" />
 										</div>
 										Load more work
 									</div>
@@ -195,7 +195,7 @@ require "inc-menu.php";
 
 				<div
 					class="col-xs-12 col-sm-4 explore-more-column hidden-xs hidden-sm">
-						<div class="explore-wrapper">
+					<div class="explore-wrapper">
 						<h2>Explore more work</h2>
 						<div class="col-sm-12">
 							<div class="info-block text-leaf">
@@ -207,12 +207,14 @@ require "inc-menu.php";
 								</div>
 
 								<div class="orange-leaf">
-									<div class="content">
-										<h2>Staropramen Alhemicar</h2>
-										<div class="author">Staropramen a. s.</div>
-										<a href="video.php">Watch the Video <i
-											class="fa fa-angle-double-right"></i></a>
-									</div>
+									<a href="video.php">
+										<div class="content">
+											<h2>Staropramen Alhemicar</h2>
+											<div class="author">Staropramen a. s.</div>
+											<span class="link">Watch the Video <i
+												class="fa fa-angle-double-right"></i></span>
+										</div>
+									</a>
 									<div class="shadow"></div>
 								</div>
 								<img src="images/block2@2x.png" />
@@ -221,14 +223,17 @@ require "inc-menu.php";
 						<div class="col-sm-12">
 							<div class="info-block text-leaf">
 								<div class="orange-leaf">
-									<div class="content active">
-										<h2>Welcome Julia our new designer</h2>
-										<div class="author">
-											<em>by</em> PassionComm
+									<a href="blog.php">
+										<div class="content active">
+											<h2>Welcome Julia our new designer</h2>
+											<div class="author">
+												<em>by</em> PassionComm
+											</div>
+											<span class="link">Read More <i
+												class="fa fa-angle-double-right"></i></span>
+
 										</div>
-										<a href="blog.php">Read More <i
-											class="fa fa-angle-double-right"></i></a>
-									</div>
+									</a>
 									<div class="shadow"></div>
 								</div>
 								<img src="images/block2@2x.png" />
@@ -244,12 +249,14 @@ require "inc-menu.php";
 								</div>
 
 								<div class="orange-leaf">
-									<div class="content">
-										<h2>Staropramen Alhemicar</h2>
-										<div class="author">Staropramen a. s.</div>
-										<a href="video.php">Watch the Video <i
-											class="fa fa-angle-double-right"></i></a>
-									</div>
+									<a href="video.php">
+										<div class="content">
+											<h2>Staropramen Alhemicar</h2>
+											<div class="author">Staropramen a. s.</div>
+											<span class="link">Watch the Video <i
+												class="fa fa-angle-double-right"></i></span>
+										</div>
+									</a>
 									<div class="shadow"></div>
 								</div>
 								<img src="images/block1@2x.png" />
@@ -263,7 +270,7 @@ require "inc-menu.php";
 	</div>
 	
 <?php
-	require "inc-footer.php";
+require "inc-footer.php";
 ?>
 
 </body>

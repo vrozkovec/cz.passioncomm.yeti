@@ -11,310 +11,310 @@
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 /********* margin *********/
-/* line 90, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000390}}
+/* line 89, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000389}}
 .margin0 {
   margin: 0px;
 }
-/* line 91, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000391}}
+/* line 90, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000390}}
 .margin0-bottom {
   margin-bottom: 0px;
 }
-/* line 92, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000392}}
+/* line 91, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000391}}
 .margin0-left {
   margin-left: 0px;
 }
-/* line 93, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000393}}
+/* line 92, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000392}}
 .margin0-right {
   margin-right: 0px;
 }
-/* line 94, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000394}}
+/* line 93, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000393}}
 .margin0-top {
   margin-top: 0px;
 }
-/* line 96, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000396}}
+/* line 95, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000395}}
 .margin5 {
   margin: 5px;
 }
-/* line 97, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000397}}
+/* line 96, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000396}}
 .margin5-bottom {
   margin-bottom: 5px;
 }
-/* line 98, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000398}}
+/* line 97, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000397}}
 .margin5-left {
   margin-left: 5px;
 }
-/* line 99, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000399}}
+/* line 98, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000398}}
 .margin5-right {
   margin-right: 5px;
 }
-/* line 100, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003100}}
+/* line 99, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\0000399}}
 .margin5-top {
   margin-top: 5px;
 }
-/* line 102, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003102}}
+/* line 101, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003101}}
 .margin10 {
   margin: 10px;
 }
-/* line 103, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003103}}
+/* line 102, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003102}}
 .margin10-bottom {
   margin-bottom: 10px;
 }
-/* line 104, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003104}}
+/* line 103, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003103}}
 .margin10-left {
   margin-left: 10px;
 }
-/* line 105, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003105}}
+/* line 104, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003104}}
 .margin10-right {
   margin-right: 10px;
 }
-/* line 106, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003106}}
+/* line 105, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003105}}
 .margin10-top {
   margin-top: 10px;
 }
-/* line 108, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003108}}
+/* line 107, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003107}}
 .margin15 {
   margin: 15px;
 }
-/* line 109, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003109}}
+/* line 108, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003108}}
 .margin15-bottom {
   margin-bottom: 15px;
 }
-/* line 110, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003110}}
+/* line 109, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003109}}
 .margin15-left {
   margin-left: 15px;
 }
-/* line 111, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003111}}
+/* line 110, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003110}}
 .margin15-right {
   margin-right: 15px;
 }
-/* line 112, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003112}}
+/* line 111, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003111}}
 .margin15-top {
   margin-top: 15px;
 }
-/* line 114, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003114}}
+/* line 113, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003113}}
 .margin20 {
   margin: 20px;
 }
-/* line 115, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003115}}
+/* line 114, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003114}}
 .margin20-bottom {
   margin-bottom: 20px;
 }
-/* line 116, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003116}}
+/* line 115, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003115}}
 .margin20-left {
   margin-left: 20px;
 }
-/* line 117, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003117}}
+/* line 116, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003116}}
 .margin20-right {
   margin-right: 20px;
 }
-/* line 118, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003118}}
+/* line 117, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003117}}
 .margin20-top {
   margin-top: 20px;
 }
-/* line 120, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003120}}
+/* line 119, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003119}}
 .margin30 {
   margin: 30px;
 }
-/* line 121, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003121}}
+/* line 120, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003120}}
 .margin30-bottom {
   margin-bottom: 30px;
 }
-/* line 122, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003122}}
+/* line 121, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003121}}
 .margin30-left {
   margin-left: 30px;
 }
-/* line 123, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003123}}
+/* line 122, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003122}}
 .margin30-right {
   margin-right: 30px;
 }
-/* line 124, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003124}}
+/* line 123, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003123}}
 .margin30-top {
   margin-top: 30px;
 }
 /********* padding *********/
-/* line 129, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003129}}
+/* line 128, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003128}}
 .padding5 {
   padding: 5px;
 }
-/* line 130, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003130}}
+/* line 129, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003129}}
 .padding5-bottom {
   padding-bottom: 5px;
 }
-/* line 131, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003131}}
+/* line 130, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003130}}
 .padding5-left {
   padding-left: 5px;
 }
-/* line 132, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003132}}
+/* line 131, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003131}}
 .padding5-right {
   padding-right: 5px;
 }
-/* line 133, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003133}}
+/* line 132, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003132}}
 .padding5-top {
   padding-top: 5px;
 }
-/* line 135, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003135}}
+/* line 134, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003134}}
 .padding10 {
   padding: 10px;
 }
-/* line 136, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003136}}
+/* line 135, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003135}}
 .padding10-bottom {
   padding-bottom: 10px;
 }
-/* line 137, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003137}}
+/* line 136, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003136}}
 .padding10-left {
   padding-left: 10px;
 }
-/* line 138, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003138}}
+/* line 137, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003137}}
 .padding10-right {
   padding-right: 10px;
 }
-/* line 139, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003139}}
+/* line 138, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003138}}
 .padding10-top {
   padding-top: 10px;
 }
-/* line 141, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003141}}
+/* line 140, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003140}}
 .padding15 {
   padding: 15px;
 }
-/* line 142, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003142}}
+/* line 141, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003141}}
 .padding15-bottom {
   padding-bottom: 15px;
 }
-/* line 143, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003143}}
+/* line 142, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003142}}
 .padding15-left {
   padding-left: 15px;
 }
-/* line 144, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003144}}
+/* line 143, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003143}}
 .padding15-right {
   padding-right: 15px;
 }
-/* line 145, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003145}}
+/* line 144, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003144}}
 .padding15-top {
   padding-top: 15px;
 }
-/* line 147, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003147}}
+/* line 146, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003146}}
 .padding20 {
   padding: 20px;
 }
-/* line 148, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003148}}
+/* line 147, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003147}}
 .padding20-bottom {
   padding-bottom: 20px;
 }
-/* line 149, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003149}}
+/* line 148, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003148}}
 .padding20-left {
   padding-left: 20px;
 }
-/* line 150, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003150}}
+/* line 149, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003149}}
 .padding20-right {
   padding-right: 20px;
 }
-/* line 151, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003151}}
+/* line 150, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003150}}
 .padding20-top {
   padding-top: 20px;
 }
-/* line 153, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003153}}
+/* line 152, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003152}}
 .padding30 {
   padding: 30px;
 }
-/* line 154, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003154}}
+/* line 153, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003153}}
 .padding30-bottom {
   padding-bottom: 30px;
 }
-/* line 155, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003155}}
+/* line 154, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003154}}
 .padding30-left {
   padding-left: 30px;
 }
-/* line 156, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003156}}
+/* line 155, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003155}}
 .padding30-right {
   padding-right: 30px;
 }
-/* line 157, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003157}}
+/* line 156, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003156}}
 .padding30-top {
   padding-top: 30px;
 }
-/* line 159, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003159}}
+/* line 158, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003158}}
 .padding35 {
   padding: 35px;
 }
-/* line 160, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003160}}
+/* line 159, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003159}}
 .padding35-bottom {
   padding-bottom: 35px;
 }
-/* line 161, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003161}}
+/* line 160, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003160}}
 .padding35-left {
   padding-left: 35px;
 }
-/* line 162, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003162}}
+/* line 161, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003161}}
 .padding35-right {
   padding-right: 35px;
 }
-/* line 163, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003163}}
+/* line 162, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003162}}
 .padding35-top {
   padding-top: 35px;
 }
 /********* border *********/
-/* line 167, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003167}}
+/* line 166, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003166}}
 .border1,
 .border1-left,
 .border1-right,
@@ -334,78 +334,78 @@
   border-style: solid;
   border-width: 0;
 }
-/* line 176, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003176}}
+/* line 175, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003175}}
 .border1 {
   border-width: 1px;
 }
-/* line 177, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003177}}
+/* line 176, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003176}}
 .border1-left {
   border-left-width: 1px;
 }
-/* line 178, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003178}}
+/* line 177, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003177}}
 .border1-right {
   border-right-width: 1px;
 }
-/* line 179, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003179}}
+/* line 178, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003178}}
 .border1-top {
   border-top-width: 1px;
 }
-/* line 180, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003180}}
+/* line 179, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003179}}
 .border1-bottom {
   border-bottom-width: 1px;
 }
-/* line 182, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003182}}
+/* line 181, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003181}}
 .border2 {
   border-width: 2px;
 }
-/* line 183, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003183}}
+/* line 182, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003182}}
 .border2-left {
   border-left-width: 2px;
 }
-/* line 184, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003184}}
+/* line 183, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003183}}
 .border2-right {
   border-right-width: 2px;
 }
-/* line 185, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003185}}
+/* line 184, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003184}}
 .border2-top {
   border-top-width: 2px;
 }
-/* line 186, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003186}}
+/* line 185, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003185}}
 .border2-bottom {
   border-bottom-width: 2px;
 }
-/* line 188, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003188}}
+/* line 187, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003187}}
 .border3 {
   border-width: 3px;
 }
-/* line 189, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003189}}
+/* line 188, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003188}}
 .border3-left {
   border-left-width: 3px;
 }
-/* line 190, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003190}}
+/* line 189, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003189}}
 .border3-right {
   border-right-width: 3px;
 }
-/* line 191, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003191}}
+/* line 190, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003190}}
 .border3-top {
   border-top-width: 3px;
 }
-/* line 192, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003192}}
+/* line 191, /data/www/cz.passioncomm.yeti/css/variables-mixins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/variables-mixins\.less}line{font-family:\00003191}}
 .border3-bottom {
   border-bottom-width: 3px;
 }
@@ -431,7 +431,7 @@
 .navbar-passion .main-menu .navbar-nav > li > a {
   padding: 12px 27px 5px 27px;
   text-align: center;
-  color: #f7931e;
+  color: #ed6f23;
   line-height: 21px;
 }
 /* line 35, /data/www/cz.passioncomm.yeti/css/menu.less */
@@ -492,12 +492,12 @@
 /* line 67, /data/www/cz.passioncomm.yeti/css/menu.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000367}}
 .navbar-passion .navbar-header .navbar-toggle i {
-  color: #f7931e;
+  color: #ed6f23;
 }
 /* line 70, /data/www/cz.passioncomm.yeti/css/menu.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000370}}
 .navbar-passion .navbar-header .navbar-toggle:hover i {
-  color: #da7908;
+  color: #cc5711;
 }
 /* line 74, /data/www/cz.passioncomm.yeti/css/menu.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000374}}

@@ -30,16 +30,23 @@ require "inc-tophead.php";
 			 -->
 				<div class="info-block text-leaf double-height">
 					<div class="orange-leaf">
-						<div class="content standout">
-							<h2>Yetti Campaign</h2>
-							<div class="author">Benzina a. s.</div>
-							<a href="blog.php">Read More <i class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="blog.php">
+							<div class="content standout">
+								<h2>Yetti Campaign</h2>
+								<div class="author">Benzina a. s.</div>
+								<span class="link">Read More <i class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
-					<img src="images/yeti-mobile.png" data-at2x="images/yeti-mobile@2x.png" class="visible-xs" width="600" height="590" />
-					<img src="images/yeti-tablet.png" data-at2x="images/yeti-tablet@2x.png" class="visible-sm" width="600" height="590" />
-					<img src="images/yeti-desktop.png" data-at2x="images/yeti-desktop@2x.png" class="visible-md visible-lg" width="600" height="590" />
+					<img 
+						src="images/yeti-mobile.png" 
+						data-responsimg-mobile="images/yeti-mobile.png, images/yeti-mobile@2x.png" 
+						data-responsimg-tablet="images/yeti-tablet.png" 
+						data-responsimg-desktop="images/yeti-desktop.png, images/yeti-desktop@2x.png" 
+						class="hires" width="600" height="590" /> 
+<!-- 					<img src="images/yeti-tablet.png" data-at2x="images/yeti-tablet@2x.png" class="visible-sm" width="600" height="590" />  -->
+<!-- 					<img src="images/yeti-desktop.png" data-at2x="images/yeti-desktop@2x.png" class="visible-md visible-lg" width="600" height="590" /> -->
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-3">
@@ -52,12 +59,14 @@ require "inc-tophead.php";
 					</div>
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>Ruce TV ad</h2>
-							<div class="author">Fortuna a. s.</div>
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>Ruce TV ad</h2>
+								<div class="author">Fortuna a. s.</div>
+								<span class="link">Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block1@2x.png" />
@@ -91,39 +100,43 @@ require "inc-tophead.php";
 					</div>
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>Staropramen Alhemicar</h2>
-							<div class="author">Staropramen a. s.</div>
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>Staropramen Alhemicar</h2>
+								<div class="author">Staropramen a. s.</div>
+								<span class="link"> Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block2@2x.png" />
 				</div>
 			</div>
-			
+
 			<div class="col-sm-8 col-md-6">
 				<div class="info-block text-leaf">
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>How to Raise Conversion Rate by 30%</h2>
-							<div class="author">
-								<em>by</em> Lucy Morgan
-							</div>							
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>How to Raise Conversion Rate by 30%</h2>
+								<div class="author">
+									<em>by</em> Lucy Morgan
+								</div>
+								<span class="link">Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/blog@2x.png" />
 				</div>
 			</div>
-			
+
 			<div class="clearfix visible-sm visible-lg"></div>
-			
-			
+
+
 
 			<div class="col-sm-4 col-md-3 hidden-xs hidden-sm">
 				<div class="info-block text-leaf">
@@ -134,18 +147,20 @@ require "inc-tophead.php";
 					</div>
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>Staropramen Alhemicar</h2>
-							<div class="author">Staropramen a. s.</div>
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>Staropramen Alhemicar</h2>
+								<div class="author">Staropramen a. s.</div>
+								<span class="link">Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block2@2x.png" />
 				</div>
-			</div>			
-			
+			</div>
+
 			<div class="col-sm-4 col-md-3">
 				<div class="info-block full-orange-leaf">
 					<div class="orange-leaf">
@@ -165,14 +180,18 @@ require "inc-tophead.php";
 			<div class="col-sm-4 col-md-3">
 				<div class="info-block text-leaf">
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>Welcome Julia<br />our new designer</h2>
-							<div class="author">
-								<em>by</em> PassionComm
+						<a href="gallery.php">
+							<div class="content">
+								<h2>
+									Welcome Julia<br />our new designer
+								</h2>
+								<div class="author">
+									<em>by</em> PassionComm
+								</div>
+								<span class="link">View gallery <i
+									class="fa fa-angle-double-right"></i></span>
 							</div>
-							<a href="gallery.php">View gallery <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block2@2x.png" />
@@ -188,21 +207,23 @@ require "inc-tophead.php";
 					</div>
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>Staropramen Alhemicar</h2>
-							<div class="author">Staropramen a. s.</div>
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>Staropramen Alhemicar</h2>
+								<div class="author">Staropramen a. s.</div>
+								<span class="link">Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block1@2x.png" />
 				</div>
 			</div>
 
-						
+
 			<div class="clearfix visible-sm visible-lg visible-md"></div>
-			
+
 			<div class="col-sm-6 col-md-6">
 				<div class="info-block text-leaf">
 
@@ -213,18 +234,20 @@ require "inc-tophead.php";
 					</div>
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>The Art of Hard Rock event gallery</h2>
-							<div class="author">Hard Rock café</div>
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>The Art of Hard Rock event gallery</h2>
+								<div class="author">Hard Rock café</div>
+								<span class="link">Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block3@2x.png" />
 				</div>
 			</div>
-			
+
 			<div class="col-sm-6 col-md-6">
 				<div class="info-block text-leaf">
 
@@ -235,18 +258,20 @@ require "inc-tophead.php";
 					</div>
 
 					<div class="orange-leaf">
-						<div class="content">
-							<h2>The Art of Hard Rock event gallery</h2>
-							<div class="author">Hard Rock café</div>
-							<a href="video.php">Watch the Video <i
-								class="fa fa-angle-double-right"></i></a>
-						</div>
+						<a href="video.php">
+							<div class="content">
+								<h2>The Art of Hard Rock event gallery</h2>
+								<div class="author">Hard Rock café</div>
+								<span class="link">Watch the Video <i
+									class="fa fa-angle-double-right"></i></span>
+							</div>
+						</a>
 						<div class="shadow"></div>
 					</div>
 					<img src="images/block3@2x.png" />
 				</div>
 			</div>
-						
+
 		</div>
 	</div>
 	<!-- /container -->

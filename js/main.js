@@ -37,15 +37,13 @@ $(document).ready(function() {
     checkWidth();
     // Bind event listener
     $(window).resize(checkWidth);
-	
     
-    $('.info-block.text-leaf .orange-leaf').hover(
-		function (){
-	    	$(this).children('.content').addClass('active');
-	    },
-	    function (){
-	    	$(this).children('.content').removeClass('active');
-	    }
-    );
-        
+    $('.hires').responsImg({
+    	  breakpoints: {
+    	    mobile: 320,
+    	    tablet: 700,
+    	    desktop: 970
+    	  }
+    	});
+	
 });

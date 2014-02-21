@@ -110,7 +110,18 @@ body {
 			font-style: italic;
 			padding: 0 20px;
 		}
-
+		
+		.table-striped > tbody > tr:nth-child(odd) > td,
+		.table-striped > tbody > tr:nth-child(odd) > th {
+		  background-color: white;
+		  border: none;
+		}
+		.table-striped > tbody > tr:nth-child(even) > td,
+		.table-striped > tbody > tr:nth-child(even) > th {
+		  background-color: #f2f2f2;
+		  border: none;
+		}
+		
 		.table {
 			border-collapse: collapse;
 			tr {
@@ -120,10 +131,6 @@ body {
 
 			th {
 				background-color: @passionOranzova;
-			}
-
-			td {
-				background-color: white;
 			}
 		}
 	}	
@@ -141,14 +148,13 @@ body {
 		font-family: 'Open Sans', sans-serif;
 		.passion-rounded-border ();
 		
-		&.active {
+	}
+	a:hover {
+		.content {
 			color: @gradientColor;
 			background: white;
-			a {
-				color: @gradientColor ! important;
-				background: white;
-			}
 		}
+		text-decoration: none !important;
 	}
 	
 	.in-content-leaf & {
@@ -193,6 +199,9 @@ body {
 
 .loader-row {
 	margin-top: 35px;
+	.content {
+		cursor: pointer;
+	}
 }
 .in-content-leaf {
 	padding: @text-padding;
@@ -283,8 +292,8 @@ body {
 				font-weight: 600;
 				font-size: 17px;
 			}
-
-			a {
+			position: relative;
+			.link {
 				color: white;
 				text-decoration: underline;
 				font-weight: 300;
@@ -299,6 +308,14 @@ body {
 				}
 			}
 		}
+		a:hover {
+			.content {
+				.link {
+						color: @passionOranzova;
+						text-decoration: none;
+				}
+			}
+		}
 	}
 
 	&.text-leaf {
@@ -309,8 +326,14 @@ body {
 					.author {
 						margin: 0;
 					}
-					&:hover, &.active {
+					
+				}
+				a:hover {
+					.content {
 						.passion-gradient-passive();
+						.link {
+							color: @passionOranzova;
+						}
 					}
 				}
 			}
@@ -318,10 +341,12 @@ body {
 
 		.orange-leaf {
 			.leaf-absolute-pos ();
-			.content {
-				&:hover, .active {
-					.passion-gradient-active();
+			a:hover {
+				.content {
+					.passion-gradient-active();					
 				}
+			}
+			.content {
 				h2 {
 					font-size: 20px;
 					font-weight: 600;
@@ -1034,6 +1059,20 @@ body {
 				}					
 			}
 			
+			.play-button {
+				.video & {
+					top: 188px !important;
+				}
+				.index & {
+					//top: 70px !important;
+				}			
+				.blog & {
+					//top: 66px !important;
+				}
+
+			}
+		
+			
 			
 			@shadowWidth: 19px;
 			@shadowHeight: 10px;
@@ -1194,6 +1233,12 @@ body {
 		max-width: 685px;
 		.row {
 			margin: 0;
+		}
+	}
+	.blog {
+		.padding20-left {
+			padding-left: 20px;
+			padding-right: 20px;
 		}
 	}
 	.info-blocks {
