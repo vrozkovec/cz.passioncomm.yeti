@@ -89,7 +89,7 @@ require "inc-menu.php";
 
 
 
-							<h2>Project description</h2>
+							
 							<p class="lead">
 								Suspendisse auctor molestie orci <a href="#">vel viverra nibh
 									scelerisque</a> et fermentum. Donec libero mauris; varius id
