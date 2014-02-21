@@ -15,12 +15,13 @@
 			<div class="navbar-collapse collapse main-menu">
 				<ul class="nav navbar-nav">
 					<li class="active home">
-						<a href="index.php"><span class="icon-home hidden-xs"></span> 
+						<a href="#"><span class="icon-home hidden-xs"></span> 
 					<span class="visible-xs">Home</span></a></li>
-					<li><a href="video.php">Video</a></li>
-					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="blog.php">Blog <span class="badge">2</span></a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="#">People</a></li>
+					<li><a href="#">Philosophy</a></li>
+					<li><a href="#">Jobs <span class="badge">2</span></a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Blog</a></li>
 				</ul>
 			</div>
 			<!--/.navbar-collapse -->
