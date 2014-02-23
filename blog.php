@@ -63,7 +63,7 @@ require "inc-menu.php";
 				<div class="col-xs-12">
 					<div class="text-content">
 						<span class="shareinfo"> <span class="num">32</span>
-							<div>shares</div>
+							<span class="block">shares</span>
 						</span> <a href="#" class="social facebook"><i
 							class="fa fa-facebook"></i></a> <a href="#"
 							class="social twitter"><i class="fa fa-twitter"></i></a> <a
