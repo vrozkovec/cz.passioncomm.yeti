@@ -31,7 +31,7 @@
 					data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span> <span class="icon-bar"></span> 
-						<div class="menu-switch-ico"></div>
+						<span class="menu-switch-ico"></span>
 				</button>
 				<ul class="nav navbar-nav languages">
 					<li><a class="cz" href="#"><span>CZ</span></a></li>
