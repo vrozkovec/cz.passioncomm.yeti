@@ -511,19 +511,20 @@
   /* line 77, /data/www/cz.passioncomm.yeti/css/tophead.less */
   @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000377}}
   .tophead .container .logo {
-    background-position: center;
+    height: 120px !important;
+    background-position: center 15px !important;
   }
 }
 @media (max-width: 969px) {
-  /* line 87, /data/www/cz.passioncomm.yeti/css/tophead.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000387}}
+  /* line 88, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000388}}
   .tophead .container .slogan {
     font-size: 22px;
     line-height: 27px;
     margin-top: 48px;
   }
-  /* line 93, /data/www/cz.passioncomm.yeti/css/tophead.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000393}}
+  /* line 94, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\0000394}}
   .tophead .container .logo {
     background-image: url("img/logo.png");
     height: 90px;
@@ -541,18 +542,18 @@
   }
 }
 @media (min-width: 970px) {
-  /* line 106, /data/www/cz.passioncomm.yeti/css/tophead.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003106}}
+  /* line 107, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003107}}
   .tophead {
     margin-bottom: 30px;
   }
-  /* line 108, /data/www/cz.passioncomm.yeti/css/tophead.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003108}}
+  /* line 109, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003109}}
   .tophead a:hover {
     text-decoration: none;
   }
-  /* line 120, /data/www/cz.passioncomm.yeti/css/tophead.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003120}}
+  /* line 121, /data/www/cz.passioncomm.yeti/css/tophead.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/tophead\.less}line{font-family:\00003121}}
   .tophead .container .slogan {
     font-size: 28px;
     font-weight: 300;

@@ -883,6 +883,7 @@ footer {
 }
 
 @media (min-width: @passion-screen-tablet-min) and (max-width: @passion-screen-tablet-max) {
+	
 	.container {
 		max-width: 680px;
 		.video & {
@@ -990,14 +991,15 @@ footer {
 			padding-top: 33px;
 			padding-bottom: 23px;
 		}
-
+		
+		.padding20-left {
+			padding-left: 10px;
+		}
+		
 		.image-leaf {
 			.content {
 				height: 286px;
 			}
-		}
-
-		.padding20-left {
 		}
 
 		.header {
@@ -1007,7 +1009,7 @@ footer {
 
 			.in-content-leaf {
 				margin-top: 5px;
-				padding-right: 0;
+				padding-right: 10px;
 				.orange-leaf {
 					.content {
 						padding: 15px 10px 18px 32px;
@@ -1029,6 +1031,11 @@ footer {
 
 	}
 	
+	.load-more {
+		.in-content-leaf {
+			padding:  0 0 0 10px;
+		}
+	}
 	.screen-size-tablet {
 		float: none ! important;
 	}
@@ -1349,7 +1356,7 @@ footer {
 				position: relative;
 				.leaf-pos-reset ();
 				.content {
-					padding: 62px 20px 30px 20px;
+					padding: 35px 20px 30px 20px;
 				}
 			}
 
