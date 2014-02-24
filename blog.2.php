@@ -30,50 +30,49 @@ require "inc-menu.php";
 				</div>
 			</div>
 
-
-			<div class="row row-margin header">
-				<div class="col-xs-12 col-sm-12 col-md-8">
-					<div class="content-wrapper">
-						<div class="socialicons outside visible-md visible-lg">
-							<div class="wrapper">
-								<a href="#" class="social google"><span>Share on google</span></a>
-								<a href="#" class="social facebook"><span>Share on facebook</span></a>
-								<a href="#" class="social twitter"><span>Share on twitter</span></a>
-								<a href="#" class="social email"><span>Share via e-mail</span></a>
-								<a href="#" class="social addthis"><span>Share with addthis</span></a>
-							</div>
-						</div>
-
-						<div class="in-content-leaf">
-							<div class="orange-leaf">
-								<div class="content text-left">
-									<h1>
-										How to Raise Conversion<br />Rate by 30%
-									</h1>
-									<div class="author">Lucy Morgan</div>
-								</div>
-								<div class="shadow"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row row-margin socialicons inside visible-xs">
-				<div class="col-xs-12">
-					<div class="text-content">
-						<span class="shareinfo"> <span class="num">32</span> <span
-							class="block">shares</span>
-						</span> <a href="#" class="social facebook"><i
-							class="fa fa-facebook"></i></a> <a href="#"
-							class="social twitter"><i class="fa fa-twitter"></i></a> <a
-							href="#" class="social addthis"><i class="fa fa-plus"></i></a>
-					</div>
-				</div>
-			</div>
-
-
 			<div class="row row-margin">
 				<div class="col-xs-12 col-sm-12 col-md-8">
+					<div class="row row-margin header">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="content-wrapper">
+								<div class="socialicons outside visible-md visible-lg">
+									<div class="wrapper">
+										<a href="#" class="social google"><span>Share on google</span></a>
+										<a href="#" class="social facebook"><span>Share on facebook</span></a>
+										<a href="#" class="social twitter"><span>Share on twitter</span></a>
+										<a href="#" class="social email"><span>Share via e-mail</span></a>
+										<a href="#" class="social addthis"><span>Share with addthis</span></a>
+									</div>
+								</div>
+
+								<div class="in-content-leaf">
+									<div class="orange-leaf">
+										<div class="content text-left">
+											<h1>
+												How to Raise Conversion<br />Rate by 30%
+											</h1>
+											<div class="author">Lucy Morgan</div>
+										</div>
+										<div class="shadow"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row row-margin socialicons inside visible-xs">
+						<div class="col-xs-12">
+							<div class="text-content">
+								<span class="shareinfo"> <span class="num">32</span> <span
+									class="block">shares</span>
+								</span> <a href="#" class="social facebook"><i
+									class="fa fa-facebook"></i></a> <a href="#"
+									class="social twitter"><i class="fa fa-twitter"></i></a> <a
+									href="#" class="social addthis"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+
 					<div class="text-content">
 
 						<div class="content-wrapper">
@@ -241,8 +240,9 @@ require "inc-menu.php";
 									</div>
 									<img src="images/block1@2x.png" />
 								</div>
-							</a>
+						
 						</div>
+						</a>
 						<div class="clearfix"></div>
 					</div>
 				</div>

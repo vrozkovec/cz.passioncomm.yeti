@@ -29,24 +29,26 @@ require "inc-menu.php";
 		</div>
 		<div class="row row-margin">
 			<div class="col-xs-12">
-				<div class="info-block text-leaf header">
-					<div class="play-button">
-						<div class="text-center">
-							<a href="#"><i class="icon-play"></i></a>
-						</div>
-					</div>
-					<div class="orange-leaf">
-						<div class="orange-leaf-topshadow"></div>
-						<div class="content standout">
-							<div class="wrapper">
-								<h2>Staropramen Alhemicar</h2>
-								<div class="author">Staropramen a. s.</div>
+				<a href="#">
+					<div class="info-block text-leaf header">
+						<div class="play-button">
+							<div class="text-center">
+								<i class="icon-play"></i>
 							</div>
 						</div>
-						<div class="shadow"></div>
+						<div class="orange-leaf">
+							<div class="orange-leaf-topshadow"></div>
+							<div class="content standout">
+								<div class="wrapper">
+									<h2>Staropramen Alhemicar</h2>
+									<div class="author">Staropramen a. s.</div>
+								</div>
+							</div>
+							<div class="shadow"></div>
+						</div>
+						<img src="images/video@2x.png" />
 					</div>
-					<img src="images/video@2x.png" />
-				</div>
+				</a>
 			</div>
 		</div>
 
@@ -95,15 +97,15 @@ require "inc-menu.php";
 
 			<div class="row row-margin">
 				<div class="col-sm-3">
-					<div class="info-block text-leaf">
-						<div class="play-button">
-							<div class="text-center">
-								<a href="#"><i class="icon-play"></i></a>
+					<a href="video.php">
+						<div class="info-block text-leaf">
+							<div class="play-button">
+								<div class="text-center">
+									<i class="icon-play"></i>
+								</div>
 							</div>
-						</div>
 
-						<div class="orange-leaf">
-							<a href="video.php">
+							<div class="orange-leaf">
 								<div class="content">
 									<h2>Staropramen Alhemicar</h2>
 									<div class="author">Staropramen a. s.</div>
@@ -111,11 +113,11 @@ require "inc-menu.php";
 										class="fa fa-angle-double-right"></i>
 									</span>
 								</div>
-							</a>
-							<div class="shadow"></div>
+								<div class="shadow"></div>
+							</div>
+							<img src="images/block2@2x.png" />
 						</div>
-						<img src="images/block2@2x.png" />
-					</div>
+					</a>
 				</div>
 
 				<div class="col-sm-3">
@@ -135,9 +137,9 @@ require "inc-menu.php";
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="info-block text-leaf">
-						<div class="orange-leaf">
-							<a href="gallery.php">
+					<a href="gallery.php">
+						<div class="info-block text-leaf">
+							<div class="orange-leaf">
 								<div class="content">
 									<h2>Welcome Julia our new designer</h2>
 									<div class="author">
@@ -146,34 +148,34 @@ require "inc-menu.php";
 									<span class="link">View gallery <i
 										class="fa fa-angle-double-right"></i></span>
 								</div>
-							</a>
-							<div class="shadow"></div>
+								<div class="shadow"></div>
+							</div>
+							<img src="images/block2@2x.png" />
 						</div>
-						<img src="images/block2@2x.png" />
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-3">
-					<div class="info-block text-leaf">
+					<a href="video.php">
+						<div class="info-block text-leaf">
 
-						<div class="play-button">
-							<div class="text-center">
-								<a href="#"><i class="icon-play"></i></a>
+							<div class="play-button">
+								<div class="text-center">
+									<i class="icon-play"></i>
+								</div>
 							</div>
-						</div>
 
-						<div class="orange-leaf">
-							<a href="video.php">
+							<div class="orange-leaf">
 								<div class="content">
 									<h2>Staropramen Alhemicar</h2>
 									<div class="author">Staropramen a. s.</div>
 									<span class="link">Watch the Video <i
 										class="fa fa-angle-double-right"></i></span>
 								</div>
-							</a>
-							<div class="shadow"></div>
+								<div class="shadow"></div>
+							</div>
+							<img src="images/block1@2x.png" />
 						</div>
-						<img src="images/block1@2x.png" />
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>

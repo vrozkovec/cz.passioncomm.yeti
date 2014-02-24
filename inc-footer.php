@@ -26,10 +26,6 @@
 	
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/responsImg/jquery.responsImg.min.js"></script>
-<!-- 	<script src="js/retina-1.1.0.min.js"></script> -->
-
-
 
 	<script>
 		var _gaq = [ [ '_setAccount', 'UA-XXXXX-X' ], [ '_trackPageview' ] ];
