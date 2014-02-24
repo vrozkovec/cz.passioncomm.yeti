@@ -9,8 +9,8 @@
 	rel="stylesheet">
 	
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- <link rel="stylesheet" href="css/main.css"> -->
-<link rel="stylesheet" href="css/main.min.css">
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<link rel="stylesheet" href="css/style.min.css">
 
 <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>

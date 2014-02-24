@@ -20,12 +20,24 @@ $(document).ready(function() {
         	$('.play-button').css("top", "");
         }
         
+        console.log(window.devicePixelRatio);
+        
         if (lastUsedSize != getScreenSize()) {
 			var size = getScreenSize();
 			lastUsedSize = size;
 			
 			if(window.devicePixelRatio >= 1.2){
 				$(".hires").each(function(){
+					
+					var src2x = $(this).attr("data-src2x");
+					
+					
+					if (typeof src2x !== 'undefined' && src2x !== false) {
+						console.log(src2x);
+						$(this).attr("src", src2x);
+						return;
+					}
+					
 					//mobil
 					if (lastUsedSize == 0) {
 						$(this).attr("src", $(this).attr("data-mobile-src2x"));
@@ -36,12 +48,19 @@ $(document).ready(function() {
 					}
 					//desktop
 					if (lastUsedSize == 2) {
-						console.log($(this).attr("data-desktop-src2x"));
 						$(this).attr("src", $(this).attr("data-desktop-src2x"));
 					}
 				});
 			} else {
 				$(".hires").each(function(){
+
+					var src = $(this).attr("data-src");
+					
+					if (typeof src !== 'undefined' && src !== false) {
+						$(this).attr("src", src);
+						return;
+					}
+					
 					//mobil
 					if (lastUsedSize == 0) {
 						$(this).attr("src", $(this).attr("data-mobile-src"));
@@ -66,6 +85,9 @@ $(document).ready(function() {
     
     // Bind event listener
     $(window).resize(checkWidth);
+    
+    console.log($(window).innerWidth());
+
     
 });
 

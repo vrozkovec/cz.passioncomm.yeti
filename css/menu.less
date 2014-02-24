@@ -24,6 +24,7 @@
 	@menuLinkPadding: 12px 22px 5px 22px;
 	
 	.main-menu {
+		.retinaimg("menu-shadow", 1px, 20px);
 		.navbar-nav {
 			& > li {
 				& > a {
@@ -69,6 +70,9 @@
 			&:hover {
 				i { color: darken(@passionOranzova, 10%); }
 			}
+		}
+		.menu-switch-ico {
+			.retinaimg("menu-switch", 40px, 65px);
 		}
 
 		.navbar-toggle.collapsed {
@@ -124,6 +128,7 @@
 @media (min-width: @passion-screen-tablet-min) {
 	.navbar-passion {
 		.main-menu {
+			background-image: none;
 			.home {
 				font-size: 16px;
 			}
@@ -175,6 +180,7 @@
 			.navbar-nav {
 				& > li {
 					border-bottom: none;
+					z-index: 100;
 					& > a {
 						font-size: 14px;
 						padding-top: 5px;
@@ -188,7 +194,6 @@
 					}
 				}
 			}
-			.retinaimg("menu-shadow", 1px, 20px);
 			background-position: bottom;
 			background-repeat: repeat-x;
 		}
@@ -222,9 +227,9 @@
 					display: block;
 					width: 40px;
 					height: 55px;
-					.retinaimg("menu-switch", 40px, 65px);
 					background-position: bottom center;
 					background-repeat: no-repeat;
+					z-index:50; 
 				}
 			}
 		}

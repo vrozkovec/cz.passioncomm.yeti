@@ -426,16 +426,29 @@
 .navbar-passion .container {
   padding: 0;
 }
-/* line 29, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000329}}
+/* line 26, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000326}}
+.navbar-passion .main-menu {
+  background-image: url("img/menu-shadow.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
+  .navbar-passion .main-menu {
+    background-image: url("img/menu-shadow@2x.png");
+    background-size: 1px 20px;
+  }
+}
+/* line 30, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000330}}
 .navbar-passion .main-menu .navbar-nav > li > a {
   padding: 12px 22px 5px 22px;
   text-align: center;
   color: #ed6f23;
   line-height: 21px;
 }
-/* line 35, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000335}}
+/* line 36, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000336}}
 .navbar-passion .main-menu .navbar-nav > li > a .badge {
   vertical-align: middle;
   padding: 3px 5px;
@@ -451,19 +464,19 @@
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
   font-size: 12px;
 }
-/* line 48, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000348}}
+/* line 49, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000349}}
 .navbar-passion .main-menu .navbar-nav > li:hover,
 .navbar-passion .main-menu .navbar-nav > li:focus {
   border-bottom: solid 3px #e6e6e6;
 }
-/* line 52, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000352}}
+/* line 53, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000353}}
 .navbar-passion .main-menu .navbar-nav > li.active {
   border-bottom: solid 3px black;
 }
-/* line 60, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000360}}
+/* line 61, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000361}}
 .navbar-passion .navbar-header .navbar-toggle {
   margin-top: -20px;
   padding: 15px 9px 3px 9px;
@@ -484,23 +497,36 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 65, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000365}}
+/* line 66, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000366}}
 .navbar-passion .navbar-header .navbar-toggle .icon-bar {
   display: none;
 }
-/* line 67, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000367}}
+/* line 68, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000368}}
 .navbar-passion .navbar-header .navbar-toggle i {
   color: #ed6f23;
 }
-/* line 70, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000370}}
+/* line 71, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000371}}
 .navbar-passion .navbar-header .navbar-toggle:hover i {
   color: #cc5711;
 }
 /* line 74, /data/www/cz.passioncomm.yeti/css/menu.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000374}}
+.navbar-passion .navbar-header .menu-switch-ico {
+  background-image: url("img/menu-switch.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
+  .navbar-passion .navbar-header .menu-switch-ico {
+    background-image: url("img/menu-switch@2x.png");
+    background-size: 40px 65px;
+  }
+}
+/* line 78, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000378}}
 .navbar-passion .navbar-header .navbar-toggle.collapsed {
   margin-top: 12px;
   background-color: white;
@@ -521,24 +547,24 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 79, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000379}}
+/* line 83, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000383}}
 .navbar-passion .navbar-header .navbar-toggle.collapsed .icon-bar {
   background-color: black;
   display: block;
 }
-/* line 84, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000384}}
+/* line 88, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000388}}
 .navbar-passion .navbar-header .navbar-toggle.collapsed i {
   display: none;
 }
-/* line 90, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000390}}
+/* line 94, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000394}}
 .navbar-passion .navbar-header .languages > li.active > a {
   color: black;
 }
-/* line 93, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000393}}
+/* line 97, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\0000397}}
 .navbar-passion .navbar-header .languages a {
   margin-top: 0;
   display: inline-block;
@@ -551,8 +577,8 @@
   padding-right: 0;
   color: black;
 }
-/* line 104, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003104}}
+/* line 108, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003108}}
 .navbar-passion .navbar-header .languages a.active,
 .navbar-passion .navbar-header .languages a:hover,
 .navbar-passion .navbar-header .languages a:focus {
@@ -560,152 +586,141 @@
   font-weight: bold;
   border-bottom: solid 3px #e6e6e6;
 }
-/* line 110, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003110}}
+/* line 114, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003114}}
 .navbar-passion .navbar-header .languages a span {
   padding: 0 7px;
 }
-/* line 113, /data/www/cz.passioncomm.yeti/css/menu.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003113}}
+/* line 117, /data/www/cz.passioncomm.yeti/css/menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003117}}
 .navbar-passion .navbar-header .languages a.cz span {
   border-right: solid 1px #e6e6e6;
 }
 @media (min-width: 740px) {
-  /* line 127, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003127}}
+  /* line 130, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003130}}
+  .navbar-passion .main-menu {
+    background-image: none;
+  }
+  /* line 132, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003132}}
   .navbar-passion .main-menu .home {
     font-size: 16px;
   }
 }
 @media (max-width: 969px) {
-  /* line 140, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003140}}
+  /* line 145, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003145}}
   .navbar-passion .main-menu .navbar-nav > li > a {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (min-width: 740px) and (max-width: 969px) {
-  /* line 153, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003153}}
+  /* line 158, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003158}}
   .navbar-passion .container {
     padding: 0 15px;
   }
 }
 @media (max-width: 739px) {
-  /* line 164, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003164}}
+  /* line 169, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003169}}
   .languages-nav {
     display: none !important;
   }
-  /* line 167, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003167}}
+  /* line 172, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003172}}
   body {
     padding-top: 42px !important;
   }
-  /* line 171, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003171}}
+  /* line 176, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003176}}
   .navbar-passion {
     background: #e6e6e6;
     min-height: 42px;
   }
-  /* line 174, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003174}}
+  /* line 179, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003179}}
   .navbar-passion .main-menu {
-    background-image: url("img/menu-shadow.png");
     background-position: bottom;
     background-repeat: repeat-x;
   }
-  /* line 176, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003176}}
+  /* line 181, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003181}}
   .navbar-passion .main-menu .navbar-nav > li {
     border-bottom: none;
+    z-index: 100;
   }
-  /* line 178, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003178}}
+  /* line 184, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003184}}
   .navbar-passion .main-menu .navbar-nav > li > a {
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  /* line 183, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003183}}
+  /* line 189, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003189}}
   .navbar-passion .main-menu .navbar-nav > li.active,
   .navbar-passion .main-menu .navbar-nav > li:hover,
   .navbar-passion .main-menu .navbar-nav > li:focus {
     border-bottom: none;
   }
-  /* line 185, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003185}}
+  /* line 191, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003191}}
   .navbar-passion .main-menu .navbar-nav > li.active a,
   .navbar-passion .main-menu .navbar-nav > li:hover a,
   .navbar-passion .main-menu .navbar-nav > li:focus a {
     color: black;
   }
-  /* line 196, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003196}}
+  /* line 201, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003201}}
   .navbar-passion .navbar-header {
     background: white;
     padding: 0 5px 0 15px;
   }
-  /* line 199, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003199}}
+  /* line 204, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003204}}
   .navbar-passion .navbar-header .languages {
     margin: 0 0 0 11px;
   }
-  /* line 201, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003201}}
+  /* line 206, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003206}}
   .navbar-passion .navbar-header .languages a {
     line-height: 26px;
     padding: 9px 0 5px 0;
     font-size: 15px;
   }
-  /* line 206, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003206}}
+  /* line 211, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003211}}
   .navbar-passion .navbar-header .languages a span {
     padding: 0 7px;
   }
-  /* line 211, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003211}}
+  /* line 216, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003216}}
   .navbar-passion .navbar-header .navbar-toggle {
     margin-bottom: 0px;
     padding: 0;
   }
-  /* line 214, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003214}}
+  /* line 219, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003219}}
   .navbar-passion .navbar-header .navbar-toggle.collapsed {
     margin-bottom: 8px;
   }
-  /* line 216, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003216}}
+  /* line 221, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003221}}
   .navbar-passion .navbar-header .navbar-toggle.collapsed .menu-switch-ico {
     display: none;
   }
-  /* line 221, /data/www/cz.passioncomm.yeti/css/menu.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003221}}
+  /* line 226, /data/www/cz.passioncomm.yeti/css/menu.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/menu\.less}line{font-family:\00003226}}
   .navbar-passion .navbar-header .navbar-toggle .menu-switch-ico {
     display: block;
     width: 40px;
     height: 55px;
-    background-image: url("img/menu-switch.png");
     background-position: bottom center;
     background-repeat: no-repeat;
-  }
-}
-@media (max-width: 739px) and only screen and (-webkit-min-device-pixel-ratio: 2), (max-width: 739px) and only screen and (min--moz-device-pixel-ratio: 2), (max-width: 739px) and only screen and (-o-min-device-pixel-ratio: 2/1), (max-width: 739px) and only screen and (min-device-pixel-ratio: 2), (max-width: 739px) and only screen and (min-resolution: 192dpi), (max-width: 739px) and only screen and (min-resolution: 2dppx) {
-  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
-  .navbar-passion .main-menu {
-    background-image: url("img/menu-shadow@2x.png");
-    background-size: 1px 20px;
-  }
-}
-@media (max-width: 739px) and only screen and (-webkit-min-device-pixel-ratio: 2), (max-width: 739px) and only screen and (min--moz-device-pixel-ratio: 2), (max-width: 739px) and only screen and (-o-min-device-pixel-ratio: 2/1), (max-width: 739px) and only screen and (min-device-pixel-ratio: 2), (max-width: 739px) and only screen and (min-resolution: 192dpi), (max-width: 739px) and only screen and (min-resolution: 2dppx) {
-  /* line 366, /data/www/cz.passioncomm.yeti/css/bootstrap/less/mixins.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/www\/cz\.passioncomm\.yeti\/css\/bootstrap\/less\/mixins\.less}line{font-family:\00003366}}
-  .navbar-passion .navbar-header .navbar-toggle .menu-switch-ico {
-    background-image: url("img/menu-switch@2x.png");
-    background-size: 40px 65px;
+    z-index: 50;
   }
 }
 /*# sourceMappingURL=menu.map */

@@ -283,7 +283,7 @@ require "inc-tophead.php";
 	<!-- /container -->
 
 	<div class="container loader">
-		<img src="css/img/preloader.gif" /> Loading more...
+		<img src="css/img/preloader.gif" data-src="css/img/preloader.gif" data-src2x="css/img/preloader@2x.gif" class="hires" width="32" height="32" /> Loading more...
 	</div>
 	
 <?php

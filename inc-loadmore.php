@@ -6,8 +6,7 @@
 					<div class="orange-leaf">
 						<div class="content">
 							<div>
-								<img src="css/img/preloader-white.gif" class="active" /> <img
-									src="css/img/preloader.gif" class="pasive" />
+								<img src="css/img/preloader-white.gif" data-src="css/img/preloader-white.gif" data-src2x="css/img/preloader-white@2x.gif" class="hires" width="32" height="32" />
 							</div>
 							Load more work
 						</div>
