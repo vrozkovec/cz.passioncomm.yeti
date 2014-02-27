@@ -1,4 +1,3 @@
-
 /css/bootstrap-less-src - zdrojové soubory které byly použity pro vygenerování Bootstrapu
 /css/main.less - LESS soubor, který byl použitý k vygenerování hlavního CSS main.css a main.min.css
 /blog.php a /blog.2.php - různé umístění sekce Explore more work
@@ -19,7 +18,7 @@ Vložení responzivního retina obrázku
 	data-desktop-src2x="images/yeti-desktop@2x.png" 
 	class="hires"
 	width="600" height="590" />
-
+~~~~~~~~~~
 
 pro standardní rozlišení se využívají tyto atributy:
 * data-mobile-src
@@ -29,14 +28,16 @@ pro standardní rozlišení se využívají tyto atributy:
 * pro Retina rozlišení jejich 2x varianty
 
 2. způsob
-~~~~~~~~~~
-V případě, že je pro každé rozlišení stejný obrázek, pak lze obrázek vložit takto:
+---------
 
+V případě, že je pro každé rozlišení stejný obrázek, pak lze obrázek vložit takto:
+~~~~~~~~~~
 <img src="css/img/preloader.gif" 
 	data-src="css/img/preloader.gif" 
 	data-src2x="css/img/preloader@2x.gif" 
 	class="hires" 
 	width="32" height="32" />
+~~~~~~~~~~
 
 logika atributů data-src a data-src2x je shodná jako v předchozím případě.
 
